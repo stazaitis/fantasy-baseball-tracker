@@ -39,6 +39,7 @@ def get_player_stats_for_range(player_name):
             return 0
         player_id = search[0]['id']
         games = statsapi.player_stat_game_log(player_id, group='hitting', type='byDate')
+        print(f"📊 {player_name} games: {games}")  # <== Add this line
         points = 0
         for game in games:
             game_date = datetime.strptime(game['game_date'], '%Y-%m-%d').date()
@@ -79,7 +80,7 @@ def live_points():
         })
 
     return jsonify(results)
-    
+
 @app.route("/search")
 def search():
     return render_template("search.html")

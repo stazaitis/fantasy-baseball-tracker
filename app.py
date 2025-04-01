@@ -37,26 +37,25 @@ def get_player_stats_for_range(player_name):
         search = statsapi.lookup_player(player_name)
         if not search:
             return 0
-        player_id = search[0]['id']
 
-        logs = statsapi.get("person_game_log", {
+        player_id = search[0]['id']
+        today = datetime.now().date()
+
+        # Get full season logs (we'll filter them ourselves)
+        logs = statsapi.get("personGameStats", {
             "personId": player_id,
-            "season": 2025,
-            "gameType": "R",
-            "sportId": 1
+            "stats": "gameLog",
+            "season": today.year
         })
 
-        games = logs.get("stats", [])[0].get("splits", [])
         points = 0
-
-        for split in games:
-            game_date = datetime.strptime(split["date"], "%Y-%m-%d").date()
+        for game in logs["stats"][0]["splits"]:
+            game_date = datetime.strptime(game["date"], "%Y-%m-%d").date()
             if MATCHUP_START <= game_date <= MATCHUP_END:
-                stats = split.get("stat", {})
-                points += calculate_points(stats)
+                stat = game["stat"]
+                points += calculate_points(stat)
 
         return points
-
     except Exception as e:
         print(f"⚠️ Error for {player_name}: {e}")
         return 0

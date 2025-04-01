@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fantasy Search</title>
+  <style>
+    body { font-family: Arial; padding: 2rem; background: #111; color: #eee; }
+    input { padding: 0.5rem; width: 300px; font-size: 1rem; }
+    .result { margin-top: 1.5rem; background: #222; padding: 1rem; border-radius: 8px; }
+    .player { margin-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>🔎 Live Fantasy Search</h1>
+  <input type="text" id="search" placeholder="Search player or team..." oninput="searchPoints()"/>
+
+  <div id="results" class="result"></div>
+
+  <script>
+    let data = [];
+
+    async function fetchData() {
+      const res = await fetch("/api/live_points");
+      data = await res.json();
+    }
+
+    function searchPoints() {
+      const query = document.getElementById("search").value.toLowerCase();
+      const resultsDiv = document.getElementById("results");
+      resultsDiv.innerHTML = "";
+
+      if (!query) return;
+
+      data.forEach(team => {
+        if (team.team_name.toLowerCase().includes(query) || team.owner.displayName.toLowerCase().includes(query)) {
+          resultsDiv.innerHTML += `<div><strong>${team.team_name}</strong>: ${team.total} pts</div>`;
+        }
+
+        team.players.forEach(player => {
+          if (player.name.toLowerCase().includes(query)) {
+            resultsDiv.innerHTML += `
+              <div class="player">
+                <strong>${player.name}</strong> (${player.position}) – ${player.points} pts
+                <br><small>${team.team_name}</small>
+              </div>`;
+          }
+        });
+      });
+    }
+
+    fetchData();
+  </script>
+</body>
+</html>

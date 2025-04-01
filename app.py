@@ -79,6 +79,10 @@ def live_points():
         })
 
     return jsonify(results)
+    
+@app.route("/search")
+def search():
+    return render_template("search.html")
 
 @app.route("/api/test")
 def test():

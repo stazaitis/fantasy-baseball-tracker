@@ -7,7 +7,6 @@ __pycache__/
 *.pyc
 
 # Ignore auto-generated / sensitive JSON files
-teams.json
 all_rosters.json
 roster_stats_index.json
 espn_cookies.json

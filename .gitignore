@@ -1,0 +1,18 @@
+# Exclude local-only folders from GitHub / Render deployment
+archive/
+season_data/
+__pycache__/
+
+# Ignore compiled Python cache
+*.pyc
+
+# Ignore auto-generated / sensitive JSON files
+teams.json
+all_rosters.json
+roster_stats_index.json
+espn_cookies.json
+
+# Ignore matchup result folders
+matchups/
+matchup_data/
+updated_matchups/

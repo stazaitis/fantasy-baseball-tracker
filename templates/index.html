@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fantasy Tracker</title>
+  <style>
+    body { background: #111; color: #eee; font-family: sans-serif; padding: 20px; }
+    h1 { color: #00ff88; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #555; padding: 8px; text-align: left; }
+    th { background-color: #222; }
+  </style>
+</head>
+<body>
+  <h1>⚾ Live Fantasy Hitter Points</h1>
+  <div id="data"></div>
+
+  <script>
+    async function loadData() {
+      const res = await fetch('/api/live_points');
+      const teams = await res.json();
+
+      let html = '';
+      for (const team of teams) {
+        html += `<h2>${team.team_name} (${team.owner}) - Total: ${team.total}</h2>`;
+        html += '<table><tr><th>Player</th><th>Position</th><th>Points</th></tr>';
+        for (const p of team.players) {
+          html += `<tr><td>${p.name}</td><td>${p.position}</td><td>${p.points}</td></tr>`;
+        }
+        html += '</table>';
+      }
+      document.getElementById('data').innerHTML = html;
+    }
+
+    loadData();
+    setInterval(loadData, 60000); // refresh every 60s
+  </script>
+</body>
+</html>

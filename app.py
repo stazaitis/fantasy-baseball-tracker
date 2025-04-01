@@ -39,20 +39,17 @@ def get_player_stats_for_range(player_name):
             return 0
 
         player_id = search[0]['id']
-        today = datetime.now().date()
-
-        # Get full season logs (we'll filter them ourselves)
-        logs = statsapi.get("personGameStats", {
-            "personId": player_id,
-            "stats": "gameLog",
-            "season": today.year
+        gamelogs = statsapi.get("playergamelog", {
+            "playerId": player_id,
+            "season": datetime.now().year,
+            "gameType": "R"
         })
 
         points = 0
-        for game in logs["stats"][0]["splits"]:
-            game_date = datetime.strptime(game["date"], "%Y-%m-%d").date()
+        for game in gamelogs.get("gamelogs", []):
+            game_date = datetime.strptime(game["gameDate"], "%Y-%m-%d").date()
             if MATCHUP_START <= game_date <= MATCHUP_END:
-                stat = game["stat"]
+                stat = game["stats"]["batting"]
                 points += calculate_points(stat)
 
         return points

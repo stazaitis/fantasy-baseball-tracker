@@ -1,0 +1,9 @@
+
+services:
+  - type: cron
+    name: update-fantasy-rosters
+    schedule: "*/5 * * * *"
+    env: python
+    buildCommand: ""
+    startCommand: "python load_teams_from_espn.py"
+    autoDeploy: true

@@ -5,14 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fantasy Live Points</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #111; color: #0f0; padding: 20px; }
-        h1 { text-align: center; color: #0f0; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
-        th { background-color: #333; }
-        tr:nth-child(even) { background-color: #222; }
-        .team { font-size: 1.2em; font-weight: bold; color: #0f0; }
-        .owner { font-style: italic; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #111; 
+            color: #0f0; 
+            padding: 20px; 
+            margin: 0; 
+        }
+        h1 { 
+            text-align: center; 
+            color: #0f0; 
+            margin-bottom: 20px; 
+        }
+        .team { 
+            margin-bottom: 40px; 
+            padding-bottom: 10px; 
+            border-bottom: 2px solid #0f0;
+        }
+        .team-name { 
+            font-size: 1.5em; 
+            font-weight: bold; 
+            color: #0f0; 
+            margin-bottom: 10px;
+        }
+        .team-owner { 
+            font-style: italic; 
+            margin-bottom: 10px; 
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-bottom: 20px; 
+        }
+        th, td { 
+            padding: 10px; 
+            text-align: left; 
+            border-bottom: 1px solid #ddd; 
+        }
+        th { 
+            background-color: #333; 
+        }
+        tr:nth-child(even) { 
+            background-color: #222; 
+        }
+        .player { 
+            padding-left: 20px; 
+            font-size: 1em;
+        }
+        .team-total { 
+            font-size: 1.2em; 
+            margin-top: 10px;
+            color: #0f0; 
+        }
     </style>
 </head>
 <body>
@@ -29,34 +73,36 @@
             container.innerHTML = "";
 
             data.forEach(team => {
-                const table = document.createElement("table");
+                const teamDiv = document.createElement("div");
+                teamDiv.classList.add("team");
 
-                table.innerHTML = `
-                    <thead>
-                        <tr>
-                            <th colspan="4" class="team">${team.team_name} - ${team.total} pts</th>
-                        </tr>
-                        <tr>
-                            <th>Player</th>
-                            <th>Position</th>
-                            <th>Points</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+                teamDiv.innerHTML = `
+                    <div class="team-name">${team.team_name} - ${team.total} pts</div>
+                    <div class="team-owner"><strong>Owner:</strong> ${team.owner}</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Position</th>
+                                <th>Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                 `;
 
                 team.players.forEach(player => {
                     const playerRow = document.createElement("tr");
+                    playerRow.classList.add("player");
                     playerRow.innerHTML = `
                         <td>${player.name}</td>
                         <td>${player.position}</td>
                         <td>${player.points}</td>
                     `;
-                    table.appendChild(playerRow);
+                    teamDiv.appendChild(playerRow);
                 });
 
-                table.innerHTML += `</tbody>`;
-                container.appendChild(table);
+                teamDiv.innerHTML += `</tbody></table>`;
+                container.appendChild(teamDiv);
             });
         }
 

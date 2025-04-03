@@ -5,48 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fantasy Live Points</title>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            background: #111; 
-            color: #0f0; 
-            padding: 20px; 
-            margin: 0;
-        }
-        h1 { 
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .team { 
-            margin-bottom: 30px; 
-            border-bottom: 1px solid #0f0; 
-            padding-bottom: 20px;
-        }
-        h2 { 
-            margin-bottom: 10px; 
-            color: #8f8; 
-        }
-        .player { 
-            margin-left: 20px; 
-            font-size: 14px; 
-            line-height: 1.5; 
-        }
-        .player span { 
-            font-weight: bold; 
-        }
-        .team-info {
-            margin-top: 5px;
-            font-size: 16px;
-        }
-        .total-points {
-            font-size: 18px;
-            color: #ff0;
-        }
-        .owner {
-            color: #bbb;
-        }
+        body { font-family: Arial, sans-serif; background: #111; color: #0f0; padding: 20px; }
+        h1 { text-align: center; color: #0f0; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #333; }
+        tr:nth-child(even) { background-color: #222; }
+        .team { font-size: 1.2em; font-weight: bold; color: #0f0; }
+        .owner { font-style: italic; }
     </style>
 </head>
 <body>
+
     <h1>Fantasy Live Points</h1>
     <div id="scores"></div>
 
@@ -59,30 +29,40 @@
             container.innerHTML = "";
 
             data.forEach(team => {
-                const teamDiv = document.createElement("div");
-                teamDiv.classList.add("team");
+                const table = document.createElement("table");
 
-                teamDiv.innerHTML = `
-                    <h2>${team.team_name}</h2>
-                    <div class="team-info">
-                        <p class="owner"><strong>Owner:</strong> ${team.owner}</p>
-                        <p class="total-points"><strong>Total:</strong> ${team.total} pts</p>
-                    </div>
+                table.innerHTML = `
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="team">${team.team_name} - ${team.total} pts</th>
+                        </tr>
+                        <tr>
+                            <th>Player</th>
+                            <th>Position</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
                 `;
 
                 team.players.forEach(player => {
-                    const playerDiv = document.createElement("div");
-                    playerDiv.classList.add("player");
-                    playerDiv.innerHTML = `<span>${player.name} (${player.position}):</span> ${player.points} pts`;
-                    teamDiv.appendChild(playerDiv);
+                    const playerRow = document.createElement("tr");
+                    playerRow.innerHTML = `
+                        <td>${player.name}</td>
+                        <td>${player.position}</td>
+                        <td>${player.points}</td>
+                    `;
+                    table.appendChild(playerRow);
                 });
 
-                container.appendChild(teamDiv);
+                table.innerHTML += `</tbody>`;
+                container.appendChild(table);
             });
         }
 
         loadScores();
         setInterval(loadScores, 60000); // refresh every 60 seconds
     </script>
+
 </body>
 </html>

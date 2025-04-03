@@ -1,1 +1,17 @@
+name: Trigger Daily Roster Sync on Render
+
+on:
+  schedule:
+    - cron: "0 14 * * *"  # This will be dynamically updated daily to match first MLB game time minus 1 minute
+  workflow_dispatch:
+
+jobs:
+  trigger-render-deploy-hook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render Deploy Hook
+        run: |
+          curl -X POST "$RENDER_DEPLOY_HOOK"
+        env:
+          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
 

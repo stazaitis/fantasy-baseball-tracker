@@ -1,66 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fantasy Live Points</title>
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            background: #111; 
-            color: #0f0; 
-            padding: 20px; 
-            margin: 0; 
-        }
-        h1 { 
-            text-align: center; 
-            color: #0f0; 
-            margin-bottom: 20px; 
-        }
-        .team { 
-            margin-bottom: 40px; 
-            padding-bottom: 10px; 
-            border-bottom: 2px solid #0f0;
-        }
-        .team-name { 
-            font-size: 1.5em; 
-            font-weight: bold; 
-            color: #0f0; 
-            margin-bottom: 10px;
-        }
-        .team-owner { 
-            font-style: italic; 
-            margin-bottom: 10px; 
-        }
-        table { 
-            width: 100%; 
-            border-collapse: collapse; 
-            margin-bottom: 20px; 
-        }
-        th, td { 
-            padding: 10px; 
-            text-align: left; 
-            border-bottom: 1px solid #ddd; 
-        }
-        th { 
-            background-color: #333; 
-        }
-        tr:nth-child(even) { 
-            background-color: #222; 
-        }
-        .player { 
-            padding-left: 20px; 
-            font-size: 1em;
-        }
-        .team-total { 
-            font-size: 1.2em; 
-            margin-top: 10px;
-            color: #0f0; 
-        }
+        body { font-family: Arial, sans-serif; background: #111; color: #0f0; padding: 20px; }
+        h1 { text-align: center; font-size: 2em; color: #0f0; }
+        .team { margin-bottom: 30px; padding-bottom: 10px; }
+        .team-name { font-size: 1.5em; color: #0f0; }
+        .team-owner { font-weight: bold; }
+        .table-container { display: flex; flex-direction: column; margin-top: 10px; }
+        .team-header { display: flex; justify-content: space-between; padding: 5px 0; }
+        .team-header div { font-weight: bold; }
+        .player-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid #0f0; }
     </style>
 </head>
 <body>
-
     <h1>Fantasy Live Points</h1>
     <div id="scores"></div>
 
@@ -78,30 +32,26 @@
 
                 teamDiv.innerHTML = `
                     <div class="team-name">${team.team_name} - ${team.total} pts</div>
-                    <div class="team-owner"><strong>Owner:</strong> ${team.owner}</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Player</th>
-                                <th>Position</th>
-                                <th>Points</th>
-                            </tr>
-                        </thead>
-                        <tbody>
+                    <p class="team-owner">Owner: ${team.owner}</p>
+                    <div class="table-container">
+                        <div class="team-header">
+                            <div>Player</div>
+                            <div>Position</div>
+                            <div>Points</div>
+                        </div>
                 `;
 
                 team.players.forEach(player => {
-                    const playerRow = document.createElement("tr");
-                    playerRow.classList.add("player");
+                    const playerRow = document.createElement("div");
+                    playerRow.classList.add("player-row");
                     playerRow.innerHTML = `
-                        <td>${player.name}</td>
-                        <td>${player.position}</td>
-                        <td>${player.points}</td>
+                        <div>${player.name}</div>
+                        <div>${player.position}</div>
+                        <div>${player.points}</div>
                     `;
                     teamDiv.appendChild(playerRow);
                 });
 
-                teamDiv.innerHTML += `</tbody></table>`;
                 container.appendChild(teamDiv);
             });
         }
@@ -109,6 +59,5 @@
         loadScores();
         setInterval(loadScores, 60000); // refresh every 60 seconds
     </script>
-
 </body>
 </html>

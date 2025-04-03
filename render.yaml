@@ -1,8 +1,7 @@
-
 services:
   - type: cron
     name: update-fantasy-rosters
-    schedule: "*/5 * * * *"
+    schedule: "0 16 * * *"  # 4:00 PM UTC every day
     env: python
     buildCommand: ""
     startCommand: "python load_teams_from_espn.py"

@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fantasy Live Points</title>
     <style>
-        body { font-family: Arial; background: #111; color: #0f0; padding: 20px; }
-        .team { margin-bottom: 30px; border-bottom: 1px solid #0f0; padding-bottom: 10px; }
-        h2 { margin-bottom: 5px; }
-        .player { margin-left: 20px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #111; 
+            color: #0f0; 
+            padding: 20px; 
+            margin: 0;
+        }
+        h1 { 
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .team { 
+            margin-bottom: 30px; 
+            border-bottom: 1px solid #0f0; 
+            padding-bottom: 20px;
+        }
+        h2 { 
+            margin-bottom: 10px; 
+            color: #8f8; 
+        }
+        .player { 
+            margin-left: 20px; 
+            font-size: 14px; 
+            line-height: 1.5; 
+        }
+        .player span { 
+            font-weight: bold; 
+        }
+        .team-info {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        .total-points {
+            font-size: 18px;
+            color: #ff0;
+        }
+        .owner {
+            color: #bbb;
+        }
     </style>
 </head>
 <body>
@@ -26,14 +63,17 @@
                 teamDiv.classList.add("team");
 
                 teamDiv.innerHTML = `
-                    <h2>${team.team_name} - ${team.total} pts</h2>
-                    <p><strong>Owner:</strong> ${team.owner}</p>
+                    <h2>${team.team_name}</h2>
+                    <div class="team-info">
+                        <p class="owner"><strong>Owner:</strong> ${team.owner}</p>
+                        <p class="total-points"><strong>Total:</strong> ${team.total} pts</p>
+                    </div>
                 `;
 
                 team.players.forEach(player => {
                     const playerDiv = document.createElement("div");
                     playerDiv.classList.add("player");
-                    playerDiv.innerText = `${player.name} (${player.position}): ${player.points} pts`;
+                    playerDiv.innerHTML = `<span>${player.name} (${player.position}):</span> ${player.points} pts`;
                     teamDiv.appendChild(playerDiv);
                 });
 

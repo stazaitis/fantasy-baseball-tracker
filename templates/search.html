@@ -32,7 +32,9 @@
       if (!query) return;
 
       data.forEach(team => {
-        if (team.team_name.toLowerCase().includes(query) || team.owner.displayName.toLowerCase().includes(query)) {
+        const ownerName = (typeof team.owner === "string") ? team.owner : team.owner.displayName || "";
+        
+        if (team.team_name.toLowerCase().includes(query) || ownerName.toLowerCase().includes(query)) {
           resultsDiv.innerHTML += `<div><strong>${team.team_name}</strong>: ${team.total} pts</div>`;
         }
 

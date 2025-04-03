@@ -1,88 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Live Fantasy Points Tracker</title>
-  <style>
-    body {
-      background-color: #111;
-      color: #eee;
-      font-family: sans-serif;
-      padding: 2rem;
-    }
-    h1 {
-      color: #00ff90;
-      text-align: center;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 2rem;
-    }
-    th, td {
-      padding: 12px;
-      border: 1px solid #444;
-      text-align: left;
-    }
-    th {
-      background-color: #222;
-      color: #0f0;
-    }
-    .highlight {
-      color: #0ff;
-      font-weight: bold;
-    }
-  </style>
+    <title>Fantasy Live Points</title>
+    <style>
+        body { font-family: Arial; background: #111; color: #0f0; padding: 20px; }
+        .team { margin-bottom: 30px; border-bottom: 1px solid #0f0; padding-bottom: 10px; }
+        h2 { margin-bottom: 5px; }
+        .player { margin-left: 20px; }
+    </style>
 </head>
 <body>
-  <h1>⚾ Live Fantasy Points Tracker</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Team Name</th>
-        <th>Owner</th>
-        <th>Total Points</th>
-        <th>Top Scorer</th>
-        <th>Points</th>
-      </tr>
-    </thead>
-    <tbody id="fantasy-table"></tbody>
-  </table>
+    <h1>Fantasy Live Points</h1>
+    <div id="scores"></div>
 
-  <script>
-    console.log("🚀 Trying to fetch live points...");
-    async function fetchLivePoints() {
-      try {
-        const res = await fetch('/api/live_points');
-        const data = await res.json();
+    <script>
+        async function loadScores() {
+            const res = await fetch("/api/live_points");
+            const data = await res.json();
 
-        const tbody = document.getElementById('fantasy-table');
-        tbody.innerHTML = '';
+            const container = document.getElementById("scores");
+            container.innerHTML = "";
 
-        data.forEach(team => {
-          const topPlayer = team.players.reduce(
-            (best, p) => p.points > (best?.points || -Infinity) ? p : best,
-            null
-          );
+            data.forEach(team => {
+                const teamDiv = document.createElement("div");
+                teamDiv.classList.add("team");
 
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${team.team_name}</td>
-            <td>${team.owner}</td>
-            <td>${team.total}</td>
-            <td class="highlight">${topPlayer?.name || '—'}</td>
-            <td>${topPlayer ? topPlayer.points : '—'}</td>
-          `;
-          tbody.appendChild(row);
-        });
-      } catch (err) {
-        console.error('Error fetching live points:', err);
-      }
-    }
+                teamDiv.innerHTML = `
+                    <h2>${team.team_name} - ${team.total} pts</h2>
+                    <p><strong>Owner:</strong> ${team.owner}</p>
+                `;
 
-    fetchLivePoints();
-    setInterval(fetchLivePoints, 60000); // refresh every 60 seconds
-  </script>
+                team.players.forEach(player => {
+                    const playerDiv = document.createElement("div");
+                    playerDiv.classList.add("player");
+                    playerDiv.innerText = `${player.name} (${player.position}): ${player.points} pts`;
+                    teamDiv.appendChild(playerDiv);
+                });
+
+                container.appendChild(teamDiv);
+            });
+        }
+
+        loadScores();
+        setInterval(loadScores, 60000); // refresh every 60 seconds
+    </script>
 </body>
 </html>

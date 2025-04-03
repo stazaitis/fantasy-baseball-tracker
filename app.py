@@ -57,11 +57,17 @@ def get_player_stats_for_range(player_name):
         res = requests.get(url).json()
 
         stats_data = res.get("stats", [])
-        if not stats_data or "splits" not in stats_data[0] or not stats_data[0]["splits"]:
-            print(f"[INFO] No stats for {player_name} ({player_id})")
+        if not stats_data or not isinstance(stats_data, list) or len(stats_data) == 0:
+            print(f"⚠️ No game log data for {player_name}")
             return 0
 
-        game_logs = stats_data[0]["splits"]
+        first_stat_block = stats_data[0]
+        if not first_stat_block or "splits" not in first_stat_block:
+            print(f"⚠️ No splits in stats for {player_name}")
+            return 0
+
+        game_logs = first_stat_block["splits"]
+
         total_points = 0
 
         for game in game_logs:

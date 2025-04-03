@@ -3,14 +3,72 @@
 <head>
     <title>Fantasy Live Points</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f4f4f4; color: #333; padding: 20px; }
-        h1 { text-align: center; font-size: 2em; color: #333; margin-bottom: 30px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
-        th { background-color: #f2f2f2; color: #555; font-weight: bold; }
-        tr:hover { background-color: #f9f9f9; }
-        .team-header { font-size: 1.5em; margin-bottom: 10px; color: #333; }
-        .team-owner { font-style: italic; font-size: 1em; color: #666; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f2f2f2;
+            color: #333;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #222;
+        }
+
+        .team-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            padding: 25px;
+        }
+
+        .team-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #111;
+        }
+
+        .team-owner {
+            font-style: italic;
+            font-size: 0.95em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .total-points {
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f9f9f9;
+            color: #444;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
     </style>
 </head>
 <body>
@@ -27,11 +85,12 @@
 
             data.forEach(team => {
                 const teamDiv = document.createElement("div");
-                teamDiv.classList.add("team");
+                teamDiv.classList.add("team-card");
 
                 teamDiv.innerHTML = `
-                    <div class="team-header">${team.team_name} - ${team.total} pts</div>
-                    <p class="team-owner">Owner: ${team.owner}</p>
+                    <div class="team-name">${team.team_name}</div>
+                    <div class="team-owner">Owner: ${team.owner}</div>
+                    <div class="total-points">Total: ${team.total} pts</div>
                     <table>
                         <thead>
                             <tr>
@@ -40,7 +99,8 @@
                                 <th>Points</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody></tbody>
+                    </table>
                 `;
 
                 team.players.forEach(player => {
@@ -53,13 +113,12 @@
                     teamDiv.querySelector("tbody").appendChild(playerRow);
                 });
 
-                teamDiv.innerHTML += `</tbody></table>`;
                 container.appendChild(teamDiv);
             });
         }
 
         loadScores();
-        setInterval(loadScores, 60000); // refresh every 60 seconds
+        setInterval(loadScores, 60000); // Refresh every 60 seconds
     </script>
 </body>
 </html>

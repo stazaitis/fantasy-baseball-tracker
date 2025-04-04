@@ -1,7 +1,8 @@
+from datetime import datetime
 import requests
 import json
 
-# Replace with your actual values
+# ESPN credentials
 ESPN_LEAGUE_ID = 121956
 SWID = "{213A1465-139E-4467-BA14-65139EB467BF}"
 ESPN_S2 = "AECRHvmlDE0YOe8SH9g0YHWl570aqzPKAsa1KRQHXy2lEnwRrKlc%2BjBOTq8C4tZS97UL3dKK8Q8XgfqqrJ8o%2BgdohO5boY82RE8KQC2yHYRQ186r52nDmWlrEsMGL4RwJFHoNO4uP%2BMde8q7JOqRt0ttUtnEgdjisvvnLjmqgjsh0gxyIs5C%2B3LkWNi9v4Vcr1BtRsVGJGguKCSNlcGv8ZCmnr57Hs50OUbUMf900H84vpg7o8OiV2blW20X5Rn37zJn3JrllDKPLyFJqu5H%2FycJRCD%2FVYdOVcFs3wA72CW5CQ%3D%3D"
@@ -9,11 +10,11 @@ ESPN_S2 = "AECRHvmlDE0YOe8SH9g0YHWl570aqzPKAsa1KRQHXy2lEnwRrKlc%2BjBOTq8C4tZS97U
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "x-fantasy-filter": "{}",
-    "Cookie": f"espn_s2={ESPN_S2}; SWID={SWID}"
+    "Cookie": f"espn_s2={ESPN_S2}; SWID={SWID};"
 }
 
 def fetch_teams():
-    url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{ESPN_LEAGUE_ID}?view=mMatchup&view=mRoster&view=mTeam"
+    url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{ESPN_LEAGUE_ID}?view=mMatchup&view=mRoster&view=mTeam&view=mRosterSettings"
     res = requests.get(url, headers=HEADERS)
 
     try:
@@ -43,9 +44,14 @@ def fetch_teams():
             position = player_data["defaultPositionId"]
             status = "starter" if player["lineupSlotId"] < 20 else "bench"
 
-            # Get acquiredDate in YYYY-MM-DD format
-            acquired_date = player.get("acquisitionDate", "")
-            acquired_date = acquired_date[:10] if isinstance(acquired_date, str) else None
+            acquired_timestamp = player.get("acquisitionDate")
+            if acquired_timestamp:
+                try:
+                    acquired_date = datetime.fromtimestamp(acquired_timestamp / 1000).strftime("%Y-%m-%d")
+                except:
+                    acquired_date = None
+            else:
+                acquired_date = None
 
             team_info["players"].append({
                 "name": player_name,

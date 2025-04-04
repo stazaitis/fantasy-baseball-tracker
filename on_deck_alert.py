@@ -7,7 +7,7 @@ from datetime import datetime
 load_dotenv()
 
 # Retrieve Discord webhook URL from the environment variable
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks/1357496918728773765/daACAYwsiKOIxdY8EGuYV8-zz93nwZmPedMSXzNJQXCJPMz6qD06pCN2-irjTgo_gpIE")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # List of Fantasy Hitters
 FANTASY_HITTERS = [

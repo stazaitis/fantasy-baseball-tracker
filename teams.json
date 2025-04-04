@@ -6,132 +6,158 @@
       {
         "name": "Shohei Ohtani",
         "position": 10,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Framber Valdez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Rafael Devers",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Corey Seager",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jose Altuve",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Yainer Diaz",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bailey Ober",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tyler Glasnow",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "James Wood",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jordan Westburg",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jack Flaherty",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jared Jones",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Randy Arozarena",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bo Bichette",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Willi Castro",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Spencer Arrighetti",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Byron Buxton",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ryan Mountcastle",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nick Lodolo",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kyle Finnegan",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Michael Conforto",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kumar Rocker",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jeffrey Springs",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Drew Rasmussen",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jordan Hicks",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ben Rice",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -142,142 +168,170 @@
       {
         "name": "Aaron Judge",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Dylan Cease",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Marcus Semien",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Manny Machado",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Max Fried",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Josh Naylor",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brendan Donovan",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Salvador Perez",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Cody Bellinger",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Seiya Suzuki",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Cristopher Sanchez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ryan Pressly",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Matt Chapman",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Justin Martinez",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nick Castellanos",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "JJ Bleday",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Dansby Swanson",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Sean Manaea",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ranger Suarez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brady Singer",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Carlos Santana",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Landen Roupp",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Orion Kerkering",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Clarke Schmidt",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Charlie Morton",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jameson Taillon",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jake Irvin",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Anthony Banda",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -288,127 +342,152 @@
       {
         "name": "Tarik Skubal",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Fernando Tatis Jr.",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Chris Sale",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Julio Rodriguez",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Pete Alonso",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Shota Imanaga",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jazz Chisholm Jr.",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jacob deGrom",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "CJ Abrams",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Oneil Cruz",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tanner Scott",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Mike Trout",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jonathan India",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jackson Holliday",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jasson Dominguez",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Shea Langeliers",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Pete Fairbanks",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Matt Shaw",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Luke Weaver",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Cade Smith",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Clay Holmes",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jesus Luzardo",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kris Bubic",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kyle Manzardo",
         "position": 10,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tylor Megill",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -419,137 +498,164 @@
       {
         "name": "Mookie Betts",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Francisco Lindor",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Luis Arraez",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Aaron Nola",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Devin Williams",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bryce Miller",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nolan Arenado",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Willson Contreras",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Xander Bogaerts",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brandon Pfaadt",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Marcell Ozuna",
         "position": 10,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Carlos Rodon",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tommy Edman",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Adolis Garcia",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "A.J. Puk",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "MacKenzie Gore",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nestor Cortes",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Lars Nootbaar",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kirby Yates",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Colton Cowser",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Mike Yastrzemski",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Rhys Hoskins",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jason Foley",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kenley Jansen",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Isiah Kiner-Falefa",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Camilo Doval",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Edmundo Sosa",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -560,137 +666,164 @@
       {
         "name": "Zack Wheeler",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Corbin Burnes",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Blake Snell",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Matt Olson",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bryan Reynolds",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Christian Walker",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Cal Raleigh",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Willy Adames",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jeremy Pena",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jhoan Duran",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Maikel Garcia",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Spencer Steer",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kodai Senga",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tanner Houck",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ronel Blanco",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kerry Carpenter",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brice Turang",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Chad Green",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Garrett Mitchell",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Merrill Kelly",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Luis Severino",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "J.T. Realmuto",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Parker Meadows",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Luis Gil",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Matt Vierling",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Victor Robles",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ke'Bryan Hayes",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -701,142 +834,170 @@
       {
         "name": "Juan Soto",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Logan Gilbert",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Freddie Freeman",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Pablo Lopez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jarren Duran",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Freddy Peralta",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Vinnie Pasquantino",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Zac Gallen",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Felix Bautista",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Junior Caminero",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jake Cronenworth",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Carlos Correa",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Seth Lugo",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jose Berrios",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brenton Doyle",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jason Adam",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Anthony Volpe",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Heliot Ramos",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Max Scherzer",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Carlos Estevez",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Paul Goldschmidt",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kristian Campbell",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brayan Bello",
         "position": 1,
-        "status": "starter"
-      },
-      {
-        "name": "Yu Darvish",
-        "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Eduardo Rodriguez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Alex Vesia",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Hunter Goodman",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Taijuan Walker",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
+      },
+      {
+        "name": "Pete Crow-Armstrong",
+        "position": 8,
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -847,137 +1008,164 @@
       {
         "name": "Bobby Witt Jr.",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ketel Marte",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bryce Harper",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Austin Riley",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Logan Webb",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ozzie Albies",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Justin Steele",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Spencer Schwellenbach",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Spencer Strider",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Roki Sasaki",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Taylor Ward",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "George Kirby",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Triston Casas",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Dylan Crews",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Zach Eflin",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nathan Eovaldi",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Lucas Erceg",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jorge Soler",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Austin Wells",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Erick Fedde",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Walker Buehler",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tyler O'Neill",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Justin Slaten",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ben Joyce",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jose Alvarado",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tyler Soderstrom",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Roman Anthony",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -988,142 +1176,170 @@
       {
         "name": "Gunnar Henderson",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Paul Skenes",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Steven Kwan",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jackson Merrill",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Luis Castillo",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Mason Miller",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Gleyber Torres",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tanner Bibee",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Robert Suarez",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brent Rooker",
         "position": 10,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Riley Greene",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Teoscar Hernandez",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Gabriel Moreno",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Matt McLain",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Mitch Keller",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nick Pivetta",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Sal Frelick",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Chris Bassitt",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Eugenio Suarez",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Colt Keith",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Connor Norby",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ezequiel Tovar",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Michael Busch",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Reese Olson",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Cam Smith",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Casey Mize",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jack Leiter",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Otto Lopez",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -1134,142 +1350,170 @@
       {
         "name": "Vladimir Guerrero Jr.",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Elly De La Cruz",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Alex Bregman",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jackson Chourio",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Yoshinobu Yamamoto",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Joe Ryan",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Michael Harris II",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kyle Schwarber",
         "position": 10,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Hunter Brown",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Lawrence Butler",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bryan Woo",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Masyn Winn",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ryan Pepiot",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Shane McClanahan",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jake Burger",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Luis Garcia Jr.",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Gavin Williams",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jackson Jobe",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Shane Baz",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ceddanne Rafaela",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ivan Herrera",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Chris Martin",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Eury Perez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Shane Bieber",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Dustin May",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jung Hoo Lee",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Max Meyer",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Blake Treinen",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -1280,137 +1524,164 @@
       {
         "name": "Kyle Tucker",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Garrett Crochet",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Adley Rutschman",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Josh Hader",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Michael King",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Wyatt Langford",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Isaac Paredes",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Hunter Greene",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ian Happ",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brandon Nimmo",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jeff Hoffman",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nico Hoerner",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bowden Francis",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "George Springer",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Tyler Stephenson",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Reynaldo Lopez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Max Muncy",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Grayson Rodriguez",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Christopher Morel",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Griffin Jax",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Spencer Horwitz",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "J.P. Crawford",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ryan Jeffers",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Daulton Varsho",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Zach Neto",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Christian Encarnacion-Strand",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Josh Jung",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -1421,132 +1692,158 @@
       {
         "name": "Jose Ramirez",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Cole Ragans",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Emmanuel Clase",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Edwin Diaz",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Trea Turner",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Will Smith",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Sonny Gray",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Alec Bohm",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Yandy Diaz",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Keibert Ruiz",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Yusei Kikuchi",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Andres Gimenez",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Lourdes Gurriel Jr.",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Alec Burleson",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Cedric Mullins",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Trevor Megill",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jake McCarthy",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brandon Woodruff",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Michael Wacha",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Brandon Lowe",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Robbie Ray",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Justin Verlander",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Grant Holmes",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Wilyer Abreu",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kyle Teel",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Zack Littell",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   },
@@ -1557,142 +1854,170 @@
       {
         "name": "Yordan Alvarez",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Corbin Carroll",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "William Contreras",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Anthony Santander",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ronald Acuna Jr.",
         "position": 9,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ryan Helsley",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Raisel Iglesias",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Ryan Walker",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Andres Munoz",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kevin Gausman",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Christian Yelich",
         "position": 7,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Sandy Alcantara",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Bryson Stott",
         "position": 4,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Alexis Diaz",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Alejandro Kirk",
         "position": 2,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Taj Bradley",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nathaniel Lowe",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Nick Martinez",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Royce Lewis",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Luis Rengifo",
         "position": 5,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Xavier Edwards",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jacob Wilson",
         "position": 6,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Victor Scott II",
         "position": 8,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Aroldis Chapman",
         "position": 11,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Jose Soriano",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Kyle Freeland",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Spencer Torkelson",
         "position": 3,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       },
       {
         "name": "Marcus Stroman",
         "position": 1,
-        "status": "starter"
+        "status": "starter",
+        "acquiredDate": null
       }
     ]
   }

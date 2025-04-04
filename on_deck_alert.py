@@ -10,7 +10,7 @@ FANTASY_HITTERS = [
     # Add your fantasy hitters here (update with full league if needed)
     "Aaron Judge", "Shohei Ohtani", "Mike Trout", "Juan Soto",
     "Rafael Devers", "Jose Altuve", "Luis Robert Jr.", "Corey Seager",
-    "Joey Ortiz"  # Added Joey Ortiz
+    "Matt McLain"  
 ]
 
 def get_on_deck_hitters():

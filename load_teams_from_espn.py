@@ -13,7 +13,7 @@ HEADERS = {
 }
 
 def fetch_teams():
-    url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{ESPN_LEAGUE_ID}?view=mMatchup&view=mRoster&view=mTeam"
+    url = f"https://fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{ESPN_LEAGUE_ID}?view=mMatchup&view=mRoster&view=mTeam"
     res = requests.get(url, headers=HEADERS)
 
     try:
@@ -26,8 +26,14 @@ def fetch_teams():
 
     teams = []
     for team in data["teams"]:
+        location = team.get("location", "")
+        nickname = team.get("nickname", "")
+        abbrev = team.get("abbrev", "Unknown")
+
+        team_name = f"{location} {nickname}".strip() or abbrev
+
         team_info = {
-            "team_name": team["location"] + " " + team["nickname"],
+            "team_name": team_name,
             "owner": team["owners"] and team["owners"][0],
             "players": []
         }

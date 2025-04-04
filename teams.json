@@ -7,157 +7,157 @@
         "name": "Shohei Ohtani",
         "position": 10,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Framber Valdez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Rafael Devers",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Corey Seager",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Jose Altuve",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Yainer Diaz",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Bailey Ober",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Tyler Glasnow",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "James Wood",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jordan Westburg",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jack Flaherty",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jared Jones",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Randy Arozarena",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Bo Bichette",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Willi Castro",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Spencer Arrighetti",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Byron Buxton",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ryan Mountcastle",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nick Lodolo",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kyle Finnegan",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Michael Conforto",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kumar Rocker",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jeffrey Springs",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-27"
+        "acquiredDateTime": "2025-03-27T10:47:45.142000Z"
       },
       {
         "name": "Drew Rasmussen",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-04-01"
+        "acquiredDateTime": "2025-04-01T10:53:48.724000Z"
       },
       {
         "name": "Jordan Hicks",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-02T11:12:48.441000Z"
       },
       {
         "name": "Ben Rice",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-03T00:42:41.627000Z"
       }
     ]
   },
@@ -169,169 +169,169 @@
         "name": "Aaron Judge",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Dylan Cease",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Marcus Semien",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Manny Machado",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Max Fried",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Josh Naylor",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Brendan Donovan",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Salvador Perez",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Cody Bellinger",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Seiya Suzuki",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Cristopher Sanchez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ryan Pressly",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Matt Chapman",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Justin Martinez",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nick Castellanos",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "JJ Bleday",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Dansby Swanson",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Sean Manaea",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ranger Suarez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brady Singer",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Carlos Santana",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Landen Roupp",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Orion Kerkering",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Clarke Schmidt",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Charlie Morton",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-18"
+        "acquiredDateTime": "2025-03-18T07:08:42.812000Z"
       },
       {
         "name": "Jameson Taillon",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-28"
+        "acquiredDateTime": "2025-03-28T13:35:07.892000Z"
       },
       {
         "name": "Jake Irvin",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-28"
+        "acquiredDateTime": "2025-03-28T13:36:19.630000Z"
       },
       {
         "name": "Anthony Banda",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-02T13:47:16.689000Z"
       }
     ]
   },
@@ -343,151 +343,151 @@
         "name": "Tarik Skubal",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Fernando Tatis Jr.",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Chris Sale",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Julio Rodriguez",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Pete Alonso",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Shota Imanaga",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Jazz Chisholm Jr.",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Jacob deGrom",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "CJ Abrams",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Oneil Cruz",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Tanner Scott",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Mike Trout",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jonathan India",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jackson Holliday",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jasson Dominguez",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Shea Langeliers",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Pete Fairbanks",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Matt Shaw",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Luke Weaver",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Cade Smith",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Clay Holmes",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jesus Luzardo",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kris Bubic",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-30"
+        "acquiredDateTime": "2025-03-30T21:57:07.302000Z"
       },
       {
         "name": "Kyle Manzardo",
         "position": 10,
         "status": "starter",
-        "acquiredDate": "2025-03-31"
+        "acquiredDateTime": "2025-04-01T01:24:29.233000Z"
       },
       {
         "name": "Tylor Megill",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-04-01"
+        "acquiredDateTime": "2025-04-02T02:21:05.202000Z"
       }
     ]
   },
@@ -499,163 +499,163 @@
         "name": "Mookie Betts",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Francisco Lindor",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Luis Arraez",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Aaron Nola",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Devin Williams",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Bryce Miller",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Nolan Arenado",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Willson Contreras",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Xander Bogaerts",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brandon Pfaadt",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Marcell Ozuna",
         "position": 10,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Carlos Rodon",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Tommy Edman",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Adolis Garcia",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "A.J. Puk",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "MacKenzie Gore",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nestor Cortes",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Lars Nootbaar",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kirby Yates",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Colton Cowser",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Mike Yastrzemski",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Rhys Hoskins",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jason Foley",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kenley Jansen",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Isiah Kiner-Falefa",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-04-01"
+        "acquiredDateTime": "2025-04-01T18:26:55.236000Z"
       },
       {
         "name": "Camilo Doval",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-04-01"
+        "acquiredDateTime": "2025-04-01T18:28:15.467000Z"
       },
       {
         "name": "Edmundo Sosa",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-03T01:19:51.941000Z"
       }
     ]
   },
@@ -667,163 +667,163 @@
         "name": "Zack Wheeler",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Corbin Burnes",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Blake Snell",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Matt Olson",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Bryan Reynolds",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Christian Walker",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Cal Raleigh",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Willy Adames",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jeremy Pena",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jhoan Duran",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Maikel Garcia",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Spencer Steer",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kodai Senga",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Tanner Houck",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ronel Blanco",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kerry Carpenter",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brice Turang",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Chad Green",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Garrett Mitchell",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Merrill Kelly",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Luis Severino",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "J.T. Realmuto",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Parker Meadows",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Luis Gil",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Matt Vierling",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Victor Robles",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-27"
+        "acquiredDateTime": "2025-03-27T11:02:53.578000Z"
       },
       {
         "name": "Ke'Bryan Hayes",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-27"
+        "acquiredDateTime": "2025-03-27T16:20:30.500000Z"
       }
     ]
   },
@@ -835,169 +835,169 @@
         "name": "Juan Soto",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Logan Gilbert",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Freddie Freeman",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Pablo Lopez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Jarren Duran",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Freddy Peralta",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Vinnie Pasquantino",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Zac Gallen",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Felix Bautista",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Junior Caminero",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jake Cronenworth",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Carlos Correa",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Seth Lugo",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jose Berrios",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brenton Doyle",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jason Adam",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Anthony Volpe",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Heliot Ramos",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Max Scherzer",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Carlos Estevez",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Paul Goldschmidt",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kristian Campbell",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brayan Bello",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Eduardo Rodriguez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-30"
+        "acquiredDateTime": "2025-03-30T13:33:27.576000Z"
       },
       {
         "name": "Alex Vesia",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-04-01"
+        "acquiredDateTime": "2025-04-02T02:26:03.692000Z"
       },
       {
         "name": "Hunter Goodman",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-02T12:18:29.749000Z"
       },
       {
         "name": "Taijuan Walker",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-02T23:48:29.954000Z"
       },
       {
         "name": "Pete Crow-Armstrong",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-04-03"
+        "acquiredDateTime": "2025-04-04T02:30:17.925000Z"
       }
     ]
   },
@@ -1009,163 +1009,163 @@
         "name": "Bobby Witt Jr.",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Ketel Marte",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Bryce Harper",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Austin Riley",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Logan Webb",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Ozzie Albies",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Justin Steele",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Spencer Schwellenbach",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Spencer Strider",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Roki Sasaki",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Taylor Ward",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "George Kirby",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Triston Casas",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Dylan Crews",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Zach Eflin",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nathan Eovaldi",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Lucas Erceg",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jorge Soler",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Austin Wells",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Erick Fedde",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Walker Buehler",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Tyler O'Neill",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Justin Slaten",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ben Joyce",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-18"
+        "acquiredDateTime": "2025-03-18T07:08:42.813000Z"
       },
       {
         "name": "Jose Alvarado",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-27"
+        "acquiredDateTime": "2025-03-27T16:37:17.997000Z"
       },
       {
         "name": "Tyler Soderstrom",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-31"
+        "acquiredDateTime": "2025-03-31T05:42:24.847000Z"
       },
       {
         "name": "Roman Anthony",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-31"
+        "acquiredDateTime": "2025-03-31T08:24:19.525000Z"
       }
     ]
   },
@@ -1177,169 +1177,169 @@
         "name": "Gunnar Henderson",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Paul Skenes",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Steven Kwan",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Jackson Merrill",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Luis Castillo",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Mason Miller",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Gleyber Torres",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Tanner Bibee",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Robert Suarez",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brent Rooker",
         "position": 10,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Riley Greene",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Teoscar Hernandez",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Gabriel Moreno",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Matt McLain",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Mitch Keller",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nick Pivetta",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Sal Frelick",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Chris Bassitt",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Eugenio Suarez",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Colt Keith",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Connor Norby",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ezequiel Tovar",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Michael Busch",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Reese Olson",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Cam Smith",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-26"
+        "acquiredDateTime": "2025-03-26T17:59:22.587000Z"
       },
       {
         "name": "Casey Mize",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-26"
+        "acquiredDateTime": "2025-03-26T18:00:59.542000Z"
       },
       {
         "name": "Jack Leiter",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-26"
+        "acquiredDateTime": "2025-03-26T18:01:56.453000Z"
       },
       {
         "name": "Otto Lopez",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-04-01"
+        "acquiredDateTime": "2025-04-01T12:43:55.401000Z"
       }
     ]
   },
@@ -1351,169 +1351,169 @@
         "name": "Vladimir Guerrero Jr.",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Elly De La Cruz",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Alex Bregman",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Jackson Chourio",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Yoshinobu Yamamoto",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Joe Ryan",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Michael Harris II",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Kyle Schwarber",
         "position": 10,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Hunter Brown",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Lawrence Butler",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Bryan Woo",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Masyn Winn",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ryan Pepiot",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Shane McClanahan",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jake Burger",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Luis Garcia Jr.",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Gavin Williams",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jackson Jobe",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Shane Baz",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ceddanne Rafaela",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ivan Herrera",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Chris Martin",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Eury Perez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-18"
+        "acquiredDateTime": "2025-03-18T15:20:45.557000Z"
       },
       {
         "name": "Shane Bieber",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-18"
+        "acquiredDateTime": "2025-03-18T15:27:37.216000Z"
       },
       {
         "name": "Dustin May",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-18"
+        "acquiredDateTime": "2025-03-18T18:36:46.280000Z"
       },
       {
         "name": "Jung Hoo Lee",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-19"
+        "acquiredDateTime": "2025-03-19T07:08:13.855000Z"
       },
       {
         "name": "Max Meyer",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-29"
+        "acquiredDateTime": "2025-03-29T19:33:01.098000Z"
       },
       {
         "name": "Blake Treinen",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-31"
+        "acquiredDateTime": "2025-03-31T16:31:00.659000Z"
       }
     ]
   },
@@ -1525,163 +1525,163 @@
         "name": "Kyle Tucker",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Garrett Crochet",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Adley Rutschman",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Josh Hader",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Michael King",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Wyatt Langford",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Isaac Paredes",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Hunter Greene",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ian Happ",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brandon Nimmo",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jeff Hoffman",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nico Hoerner",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Bowden Francis",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "George Springer",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Tyler Stephenson",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Reynaldo Lopez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Max Muncy",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Grayson Rodriguez",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Christopher Morel",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Griffin Jax",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Spencer Horwitz",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "J.P. Crawford",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Ryan Jeffers",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Daulton Varsho",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Zach Neto",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Christian Encarnacion-Strand",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-27"
+        "acquiredDateTime": "2025-03-27T15:17:24.603000Z"
       },
       {
         "name": "Josh Jung",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-27"
+        "acquiredDateTime": "2025-03-27T15:18:23.349000Z"
       }
     ]
   },
@@ -1693,157 +1693,157 @@
         "name": "Jose Ramirez",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Cole Ragans",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Emmanuel Clase",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Edwin Diaz",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Trea Turner",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Will Smith",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Sonny Gray",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Alec Bohm",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Yandy Diaz",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Keibert Ruiz",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Yusei Kikuchi",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Andres Gimenez",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Lourdes Gurriel Jr.",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Alec Burleson",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Cedric Mullins",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Trevor Megill",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jake McCarthy",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brandon Woodruff",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Michael Wacha",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Brandon Lowe",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Robbie Ray",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Justin Verlander",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-18"
+        "acquiredDateTime": "2025-03-18T07:08:42.814000Z"
       },
       {
         "name": "Grant Holmes",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-22"
+        "acquiredDateTime": "2025-03-22T14:16:02.833000Z"
       },
       {
         "name": "Wilyer Abreu",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-28"
+        "acquiredDateTime": "2025-03-28T21:16:56.777000Z"
       },
       {
         "name": "Kyle Teel",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-29"
+        "acquiredDateTime": "2025-03-29T15:09:36.994000Z"
       },
       {
         "name": "Zack Littell",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-02T20:27:30.932000Z"
       }
     ]
   },
@@ -1855,169 +1855,169 @@
         "name": "Yordan Alvarez",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Corbin Carroll",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "William Contreras",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Anthony Santander",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Ronald Acuna Jr.",
         "position": 9,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Ryan Helsley",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Raisel Iglesias",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
       },
       {
         "name": "Ryan Walker",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Andres Munoz",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Kevin Gausman",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Christian Yelich",
         "position": 7,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Sandy Alcantara",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Bryson Stott",
         "position": 4,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Alexis Diaz",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Alejandro Kirk",
         "position": 2,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Taj Bradley",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nathaniel Lowe",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Nick Martinez",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Royce Lewis",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Luis Rengifo",
         "position": 5,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Xavier Edwards",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-16"
+        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
       },
       {
         "name": "Jacob Wilson",
         "position": 6,
         "status": "starter",
-        "acquiredDate": "2025-03-24"
+        "acquiredDateTime": "2025-03-24T14:27:18.070000Z"
       },
       {
         "name": "Victor Scott II",
         "position": 8,
         "status": "starter",
-        "acquiredDate": "2025-03-24"
+        "acquiredDateTime": "2025-03-24T14:31:35.417000Z"
       },
       {
         "name": "Aroldis Chapman",
         "position": 11,
         "status": "starter",
-        "acquiredDate": "2025-03-24"
+        "acquiredDateTime": "2025-03-24T14:34:34.011000Z"
       },
       {
         "name": "Jose Soriano",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-03-26"
+        "acquiredDateTime": "2025-03-27T02:43:00.918000Z"
       },
       {
         "name": "Kyle Freeland",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-04-01"
+        "acquiredDateTime": "2025-04-02T01:49:43.493000Z"
       },
       {
         "name": "Spencer Torkelson",
         "position": 3,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-02T13:41:21.742000Z"
       },
       {
         "name": "Marcus Stroman",
         "position": 1,
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDateTime": "2025-04-03T02:01:50.546000Z"
       }
     ]
   }

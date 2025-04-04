@@ -1,2105 +1,1698 @@
 [
   {
-    "owner": {
-      "displayName": "Braltland82",
-      "firstName": "Brett",
-      "id": "{0D64EED8-94DE-4490-A4EE-D894DE749028}",
-      "lastName": "Altland",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "d5209ad3-fe93-3364-875a-4df4fbf7225e",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "77d6cdef-f1bf-3924-8a32-6208233e1f60",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "2600478d-da93-30ea-9978-7e9fbb9b3bf0",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "882f9ce2-8096-3645-b5c9-82f26fe56fd8",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "0647179b-ef3b-3508-b561-12d6223d0ce5",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "ef22de96-7d81-3243-9ffb-ee1d12def92d",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "b9e3cccd-60e4-3272-8074-c99ebc98de56",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "68f600ce-9191-3743-a256-7a18b149f886",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "27be5a3a-511c-3887-bcbd-b380c546d82a",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "c6ebb0d6-9e3b-3190-8192-59fe023d2963",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "62e95b90-4438-3a26-b02d-411d052729d5",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Bailey Ober Sh!t the Bednar",
+    "team_name": "ALTL",
+    "owner": "{0D64EED8-94DE-4490-A4EE-D894DE749028}",
     "players": [
       {
         "name": "Shohei Ohtani",
-        "position": "CF"
+        "position": 10,
+        "status": "starter"
       },
       {
         "name": "Framber Valdez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Rafael Devers",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Corey Seager",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Jose Altuve",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Yainer Diaz",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Bailey Ober",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Tyler Glasnow",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "James Wood",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Jordan Westburg",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Jack Flaherty",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jared Jones",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Randy Arozarena",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Bo Bichette",
-        "position": "OF"
-      },
-      {
-        "name": "David Bednar",
-        "position": "RF"
-      },
-      {
-        "name": "Luis Robert Jr.",
-        "position": "1B/3B"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Willi Castro",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Spencer Arrighetti",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Byron Buxton",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Ryan Mountcastle",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Nick Lodolo",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Kyle Finnegan",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Michael Conforto",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Kumar Rocker",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jeffrey Springs",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
-        "name": "Chris Paddack",
-        "position": "C"
+        "name": "Drew Rasmussen",
+        "position": 11,
+        "status": "starter"
+      },
+      {
+        "name": "Jordan Hicks",
+        "position": 1,
+        "status": "starter"
+      },
+      {
+        "name": "Ben Rice",
+        "position": 3,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "mg0920",
-      "firstName": "Michael",
-      "id": "{9210985D-BA1F-4FC1-9C4A-81BC3EA5AE63}",
-      "lastName": "Griffin",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "155ad2da-2711-3738-b785-4327551acc2c",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "b7f5ba28-fd58-36c9-93ef-46caf3553992",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "2fbc41cb-223f-30d2-a85d-8c9852a86a29",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "5571508c-3525-3985-a63f-32c67c24ef3f",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "3b4ed7c2-8469-33cb-8f6f-f5c2094f6193",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "8929caf5-a524-3af3-a57f-66f2f05501b8",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "7ebda79c-3f7f-3f99-b1e8-175c05a6b0e0",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "6bea8238-3031-32a3-bd0b-e5722641e7fc",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "2cfacc06-89a7-3bf3-b4bd-fc4275c66f0c",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "fecb8523-b48e-30e6-8d9f-ee53b151379c",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "ba5d0dfb-5ab3-36dc-b39f-e891b6362b93",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Judge's Jury",
+    "team_name": "GRIF",
+    "owner": "{9210985D-BA1F-4FC1-9C4A-81BC3EA5AE63}",
     "players": [
       {
         "name": "Aaron Judge",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Dylan Cease",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Marcus Semien",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Manny Machado",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Max Fried",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Josh Naylor",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Brendan Donovan",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Salvador Perez",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Cody Bellinger",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Seiya Suzuki",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Cristopher Sanchez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Ryan Pressly",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Matt Chapman",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Justin Martinez",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Nick Castellanos",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "JJ Bleday",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Dansby Swanson",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Sean Manaea",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Ranger Suarez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Brady Singer",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Carlos Santana",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Landen Roupp",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Orion Kerkering",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Clarke Schmidt",
-        "position": "C"
-      },
-      {
-        "name": "Mauricio Dubon",
-        "position": "2B/SS"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Charlie Morton",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jameson Taillon",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jake Irvin",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
+      },
+      {
+        "name": "Anthony Banda",
+        "position": 11,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "csager24",
-      "firstName": "Connor",
-      "id": "{878A7B95-376F-4648-8A7B-95376F364842}",
-      "lastName": "Sager",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "531a5cfb-0081-3ac0-94f5-41968e3a48d3",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "83910df0-33b7-3313-b6ec-bab25366c01e",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "e636e938-582d-365a-a209-7159e8581682",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "ce7aa500-4c16-3788-b882-43825f004f71",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "7e4bb683-d9ad-39d8-9e19-f98c9ed63b84",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "ac695fbd-b99e-32af-bf66-16ff6a29a73a",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "f522bf84-676f-3197-b4ed-491c419cf978",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "d33148ed-4197-3f11-8f0d-e00a16841189",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "8e9ab823-04b7-385c-93a6-9fe35db6e4b9",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "a64e29cd-507d-3434-8733-f61c4b87077b",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "b5815a79-d05b-37da-982b-5285de7c4f59",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Defiant Jazz",
+    "team_name": "CONR",
+    "owner": "{878A7B95-376F-4648-8A7B-95376F364842}",
     "players": [
       {
         "name": "Tarik Skubal",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Fernando Tatis Jr.",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Chris Sale",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Julio Rodriguez",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Pete Alonso",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Shota Imanaga",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jazz Chisholm Jr.",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Jacob deGrom",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "CJ Abrams",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Oneil Cruz",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Tanner Scott",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Mike Trout",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Jonathan India",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Jackson Holliday",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Jasson Dominguez",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Shea Langeliers",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Pete Fairbanks",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Matt Shaw",
-        "position": "SS"
-      },
-      {
-        "name": "Pete Crow-Armstrong",
-        "position": "1B/3B"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Luke Weaver",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Cade Smith",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Clay Holmes",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Jesus Luzardo",
-        "position": "C"
-      },
-      {
-        "name": "Jordan Romano",
-        "position": "RF"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Kris Bubic",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
+      },
+      {
+        "name": "Kyle Manzardo",
+        "position": 10,
+        "status": "starter"
+      },
+      {
+        "name": "Tylor Megill",
+        "position": 1,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "ESPNFAN8145515657",
-      "firstName": "Doug",
-      "id": "{4C6D942C-0765-4741-936B-8906D4408AFF}",
-      "lastName": "Watford",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "ae7949f9-5c7e-3cfe-849b-970b1c7ee634",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "4b6b9636-3abc-37d1-af11-aee4fedf85e3",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "fe80cbaa-f66c-36bf-824c-253fcc8e1038",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "94a154c5-5cc2-35c7-8af2-da3485f035e1",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "552ab6d3-4a00-3ee2-b825-a9c142bbc5d5",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "3684e96c-e1d4-3263-b02b-b91375aee335",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "2b6f3cdd-db16-30eb-974c-23542411ff9e",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "cb2e7552-807b-3c16-9be9-b0226bcba5a6",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "d1d599f3-dcc5-3c87-bca8-37961880ecd4",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "58b370d9-76e3-3ce2-b203-eb6fb9fcf276",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "69fc517b-bf7a-37ce-aea2-946272b7fc4b",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Team Watford",
+    "team_name": "WATf",
+    "owner": "{4C6D942C-0765-4741-936B-8906D4408AFF}",
     "players": [
       {
         "name": "Mookie Betts",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Francisco Lindor",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Luis Arraez",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Aaron Nola",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Devin Williams",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Bryce Miller",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Nolan Arenado",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Willson Contreras",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Xander Bogaerts",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Brandon Pfaadt",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Marcell Ozuna",
-        "position": "CF"
+        "position": 10,
+        "status": "starter"
       },
       {
         "name": "Carlos Rodon",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Tommy Edman",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Adolis Garcia",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "A.J. Puk",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "MacKenzie Gore",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Nestor Cortes",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Lars Nootbaar",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Kirby Yates",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Colton Cowser",
-        "position": "2B/SS"
-      },
-      {
-        "name": "Lane Thomas",
-        "position": "LF"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Mike Yastrzemski",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Rhys Hoskins",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Jason Foley",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Kenley Jansen",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
+      },
+      {
+        "name": "Isiah Kiner-Falefa",
+        "position": 4,
+        "status": "starter"
+      },
+      {
+        "name": "Camilo Doval",
+        "position": 11,
+        "status": "starter"
+      },
+      {
+        "name": "Edmundo Sosa",
+        "position": 6,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "mcrosenthal12",
-      "firstName": "McKenzie",
-      "id": "{8A666E5C-6035-4778-8E65-07AD72C38789}",
-      "lastName": "Rosenthal",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "3a1dfec1-8355-37fc-84fe-ec7bcff3d380",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "7ee05ec4-7c39-36ac-b3e3-159b983c437d",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "993903f5-4e7f-3cae-b98d-714884bef4a6",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "bfda5d68-bc5c-3133-8028-343db131ae6c",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "d9b4a03f-b3f3-3cf4-820c-420bffee73e0",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "31fef0ea-c150-39c6-8a8f-8825bde8aaa7",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "6da81a63-f3ea-34e9-841c-f024f76b7bf6",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "e68347d8-4a10-3e80-aa90-c5dca6ffe1d4",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "b9b6913e-8a90-3da7-ae36-651ca15fd83f",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "1585b745-e988-3472-8fe1-5c1e5794e1a5",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "3dbc6d28-2e3e-333a-86f2-c0076cb3059f",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Willy or Won't He?",
+    "team_name": "McK",
+    "owner": "{8A666E5C-6035-4778-8E65-07AD72C38789}",
     "players": [
       {
         "name": "Zack Wheeler",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Corbin Burnes",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Blake Snell",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Matt Olson",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Bryan Reynolds",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Christian Walker",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Cal Raleigh",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Willy Adames",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Jeremy Pena",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Jhoan Duran",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Maikel Garcia",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Spencer Steer",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Kodai Senga",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Tanner Houck",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Ronel Blanco",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Kerry Carpenter",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Brice Turang",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Chad Green",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Garrett Mitchell",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Merrill Kelly",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Luis Severino",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "J.T. Realmuto",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Parker Meadows",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Luis Gil",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Matt Vierling",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Victor Robles",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Ke'Bryan Hayes",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "Ben Johnston96",
-      "firstName": "Ben",
-      "id": "{F4E5F64D-602C-42E7-9B09-4BB62C22553E}",
-      "lastName": "Johnston",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "ba7d4322-743a-393f-acab-c9c30095742c",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "ce008f9a-f742-39c2-bd19-162743f15cde",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "df4c9f27-29b1-3cb7-b724-4d25e9a7a99e",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "999fe9a1-ad8b-3359-985c-2e0a10be234c",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "6c142ec4-a070-3019-bb65-44eca33e7bba",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "c5b89d4e-8af0-30f8-9da4-7d61840f0e9b",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "6c112abb-11c6-3ea2-90c1-1aa9656f7adb",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "1d0ce3d7-e068-3af4-8feb-9b27a1cbf120",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "6ff86ab4-32f4-3f67-aa88-1d3c2dce8166",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "cd2ae017-6365-30b8-8118-ea69f0a2e4d9",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "5b322f22-1ffa-3052-8739-dd323e28fcbd",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Brad Keller All Stars",
+    "team_name": "Ben",
+    "owner": "{F4E5F64D-602C-42E7-9B09-4BB62C22553E}",
     "players": [
       {
         "name": "Juan Soto",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Logan Gilbert",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Freddie Freeman",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Pablo Lopez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jarren Duran",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Freddy Peralta",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Vinnie Pasquantino",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Zac Gallen",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Felix Bautista",
-        "position": "RF"
-      },
-      {
-        "name": "Jurickson Profar",
-        "position": "2B/SS"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Junior Caminero",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Jake Cronenworth",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Carlos Correa",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Seth Lugo",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jose Berrios",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Brenton Doyle",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Jason Adam",
-        "position": "RF"
-      },
-      {
-        "name": "Logan O'Hoppe",
-        "position": "1B"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Anthony Volpe",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Heliot Ramos",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Max Scherzer",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Carlos Estevez",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Paul Goldschmidt",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Kristian Campbell",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Brayan Bello",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Yu Darvish",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Eduardo Rodriguez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
-        "name": "Miles Mikolas",
-        "position": "C"
+        "name": "Alex Vesia",
+        "position": 11,
+        "status": "starter"
+      },
+      {
+        "name": "Hunter Goodman",
+        "position": 9,
+        "status": "starter"
+      },
+      {
+        "name": "Taijuan Walker",
+        "position": 1,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "ESPNfan6992455731",
-      "firstName": "Kiryu",
-      "id": "{9A595386-026D-4632-BD37-F21E6DEEB9B4}",
-      "lastName": "Kawahata",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "a9afd77b-ee5b-39cf-9979-9e4a8d142d9a",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "e0b0a32f-f4a5-3854-ab0f-065c259ad45c",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "5965c209-342f-36c4-8637-ee74263242aa",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "fd9cb2bd-e22d-33bf-b5dc-8b26d04027e9",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "5792ea27-40d7-3e9a-aaa1-acd261ae3de2",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "b07d752b-7afd-37a8-8c84-70852981542b",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "5f718672-38b2-3f3a-b8cb-cff8be0912a4",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "dfd9009e-602b-3fde-8c11-2e58eb970b17",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "7dd84f63-7b8b-3900-958a-a2015a1912b1",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "2ba199fa-8039-3f75-a2b6-660719ca71f9",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "16d4eb65-06c6-34b6-973a-5c4328cfbccc",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Spare Some Kikuchi Ma'am?",
+    "team_name": "Kuch",
+    "owner": "{9A595386-026D-4632-BD37-F21E6DEEB9B4}",
     "players": [
       {
         "name": "Bobby Witt Jr.",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Ketel Marte",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Bryce Harper",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Austin Riley",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Logan Webb",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Ozzie Albies",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Justin Steele",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Spencer Schwellenbach",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Spencer Strider",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Roki Sasaki",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Taylor Ward",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "George Kirby",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Triston Casas",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Dylan Crews",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Zach Eflin",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Nathan Eovaldi",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Lucas Erceg",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Jorge Soler",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Austin Wells",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Erick Fedde",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Walker Buehler",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Tyler O'Neill",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Justin Slaten",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Ben Joyce",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Jose Alvarado",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Tyler Soderstrom",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Roman Anthony",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "lionsaregraet2",
-      "firstName": "Joe",
-      "id": "{061FDB07-3B5C-4868-ADC9-A25F5D82B25A}",
-      "lastName": "Kaverman",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "ee558de8-386b-31e4-a567-d530972ddbac",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "caac1e5c-92da-36b1-a1eb-f81388a9ce15",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "51741881-b089-35c8-ba27-005324ddee10",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "5e7e2f70-1809-3cb8-a740-28f10d7c4e35",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "bde6e27b-3cb9-3316-ab06-107d0cccec91",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "1a38b5f7-e4da-3cd0-a3fa-56987fb00676",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "72b43349-fe72-3c1e-bd6f-2b5572cffd96",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "70230933-51e6-3f1e-8f92-5b2df730e96b",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "a1760667-5cb4-3c59-82c6-f91045093259",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "872324bb-20cd-3baa-a420-5db9c26a04d8",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "4b37af15-ba4f-3786-aede-6ecf3bdceed0",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Kwan Base Machine",
+    "team_name": "KBM",
+    "owner": "{061FDB07-3B5C-4868-ADC9-A25F5D82B25A}",
     "players": [
       {
         "name": "Gunnar Henderson",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Paul Skenes",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Steven Kwan",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Jackson Merrill",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Luis Castillo",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Mason Miller",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Gleyber Torres",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Tanner Bibee",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Robert Suarez",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Brent Rooker",
-        "position": "CF"
+        "position": 10,
+        "status": "starter"
       },
       {
         "name": "Riley Greene",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Teoscar Hernandez",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Gabriel Moreno",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Matt McLain",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Mitch Keller",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Nick Pivetta",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Sal Frelick",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Chris Bassitt",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Eugenio Suarez",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Colt Keith",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Connor Norby",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Ezequiel Tovar",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Michael Busch",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Reese Olson",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Cam Smith",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Casey Mize",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jack Leiter",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
+      },
+      {
+        "name": "Otto Lopez",
+        "position": 4,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "Stazaitiz",
-      "firstName": "Stephen ",
-      "id": "{213A1465-139E-4467-BA14-65139EB467BF}",
-      "lastName": "Stasaitis",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "3a19dd0e-4a40-36d8-9fc5-a6820ef81135",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "0a83cadf-f95c-30c0-ad96-d24f75dbd95c",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "8a97263a-b588-3ec8-b2ca-3169617f3f03",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "2154220f-1fea-3f85-8628-78f5dd878184",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "5439573b-d6dc-308a-88a5-2884d8a25228",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "57e70a93-958a-37a1-99ef-c951176cf30f",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "d1378b79-ce94-3abe-8b0f-a0d78293bb1d",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "f5641220-815a-3b0c-8001-038c7910c503",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "fd130ce8-cace-3df6-9bab-521548d87aba",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "be46d341-08c1-36e2-ad89-1d804072a5d6",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "75437873-8bef-37f9-8c4f-ee2596c2a3f9",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "De La Cruzifixion",
+    "team_name": "STAZ",
+    "owner": "{213A1465-139E-4467-BA14-65139EB467BF}",
     "players": [
       {
         "name": "Vladimir Guerrero Jr.",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Elly De La Cruz",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Alex Bregman",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Jackson Chourio",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Yoshinobu Yamamoto",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Joe Ryan",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Michael Harris II",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Kyle Schwarber",
-        "position": "CF"
+        "position": 10,
+        "status": "starter"
       },
       {
         "name": "Hunter Brown",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Lawrence Butler",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Bryan Woo",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Masyn Winn",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Ryan Pepiot",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Shane McClanahan",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jake Burger",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Luis Garcia Jr.",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Gavin Williams",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jackson Jobe",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Shane Baz",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Ceddanne Rafaela",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Ivan Herrera",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Chris Martin",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Eury Perez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Shane Bieber",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Dustin May",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Jung Hoo Lee",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Max Meyer",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Blake Treinen",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "Nick Solis",
-      "firstName": "Nick",
-      "id": "{7A461130-25B5-43BB-B981-011713318A3F}",
-      "lastName": "Solis",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "9807c21d-cd4e-35f6-866d-4d5cb9a51b10",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "50380e2b-b3b3-34db-97b8-e4430cd48556",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "a8b89fc3-a352-30ef-a9dc-cb1865379f03",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "126e1c4d-bcd6-3b23-b383-a8ed74441a82",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "72bbe962-2084-3b3c-b77f-c5ca5d8d26ae",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "3a95a9d6-3b78-31de-9d4c-c8056e4a9028",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "30ed4219-23e1-3eda-b848-d2eb9693491a",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "c3866b77-2b0a-36cd-a7a3-093e95ad96cb",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "1302eedd-682e-3ff7-823c-2802d7383e82",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "3cb230aa-84c5-37a6-8a44-3ef229133cb4",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "babb48d0-623b-36e2-9754-263f974f3074",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Breggy Bomb Swamp Sauce",
+    "team_name": "MBT",
+    "owner": "{7A461130-25B5-43BB-B981-011713318A3F}",
     "players": [
       {
         "name": "Kyle Tucker",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Garrett Crochet",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Adley Rutschman",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Josh Hader",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Michael King",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Wyatt Langford",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Isaac Paredes",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Hunter Greene",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Ian Happ",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Brandon Nimmo",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Jeff Hoffman",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Nico Hoerner",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Bowden Francis",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "George Springer",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Tyler Stephenson",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Reynaldo Lopez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Max Muncy",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Grayson Rodriguez",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Christopher Morel",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Griffin Jax",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Spencer Horwitz",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "J.P. Crawford",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Ryan Jeffers",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Daulton Varsho",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Zach Neto",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Christian Encarnacion-Strand",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Josh Jung",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "nickconley7",
-      "firstName": "nick",
-      "id": "{8D4BCAC7-5F85-473D-8BCA-C75F85573DF5}",
-      "lastName": "conley",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "bfe08530-150e-3681-b367-3ed4e1e13b7c",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "cdff005e-fd19-3dfc-94ca-d20a419eef87",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "1fb8cb71-8c8c-3994-a178-bcaed89e3256",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "8c9f5cd4-3fe0-37f4-90ab-18e4f1c866a7",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "4b2a1f5f-9471-30ad-88f8-5e891e88b1e4",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "96ea2145-9935-3124-a00b-38844ebc8e91",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "84be45a4-0d51-36fc-ad48-6158e8514612",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "a19babe6-bf6f-3c7a-bbce-1dcfe2bcdcf2",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "06566945-36ea-3f84-be16-13d814362fd7",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "74864c1f-be1a-3983-b8ab-55cdeaafced3",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "43650b12-1e7c-3e2d-801d-28e3184df0f6",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Shawty Got Lowe ",
+    "team_name": "NNT",
+    "owner": "{8D4BCAC7-5F85-473D-8BCA-C75F85573DF5}",
     "players": [
       {
         "name": "Jose Ramirez",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Cole Ragans",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Emmanuel Clase",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Edwin Diaz",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Trea Turner",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Will Smith",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Sonny Gray",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Alec Bohm",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Yandy Diaz",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Keibert Ruiz",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Yusei Kikuchi",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Andres Gimenez",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Lourdes Gurriel Jr.",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Alec Burleson",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Cedric Mullins",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Trevor Megill",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Jake McCarthy",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Brandon Woodruff",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Michael Wacha",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Brandon Lowe",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Robbie Ray",
-        "position": "C"
-      },
-      {
-        "name": "Mark Vientos",
-        "position": "SS"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Justin Verlander",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Grant Holmes",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Wilyer Abreu",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Kyle Teel",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
+      },
+      {
+        "name": "Zack Littell",
+        "position": 1,
+        "status": "starter"
       }
     ]
   },
   {
-    "owner": {
-      "displayName": "espnfan8373062494",
-      "firstName": "Trevor",
-      "id": "{818F4A61-9B7E-4008-9185-630E6581D8BE}",
-      "lastName": "Violette",
-      "notificationSettings": [
-        {
-          "enabled": true,
-          "id": "2472b8bf-29bf-39c1-b001-f524ebcd9597",
-          "type": "TEAM_PLAYER_INJURY"
-        },
-        {
-          "enabled": true,
-          "id": "ed0511e6-5b1b-31bb-8f79-42b6b91bd3c2",
-          "type": "TEAM_PLAYER_AVAILABILITY"
-        },
-        {
-          "enabled": true,
-          "id": "80ea79ba-9ffc-320e-adcf-f891fca44ec6",
-          "type": "TEAM_PLAYER_NEWS"
-        },
-        {
-          "enabled": true,
-          "id": "10a0317a-37d8-3e7d-a16f-1647793522e7",
-          "type": "TEAM_TRADE_OFFER"
-        },
-        {
-          "enabled": true,
-          "id": "02d0d005-8130-3614-be26-2e666df8f0b3",
-          "type": "TEAM_LINEUP"
-        },
-        {
-          "enabled": true,
-          "id": "bc757e0c-a581-3f84-abf4-4c38e531760b",
-          "type": "DRAFT"
-        },
-        {
-          "enabled": true,
-          "id": "1382a138-1edb-30f3-8069-3b8071e91f9c",
-          "type": "TEAM_MATCHUP_SCORE"
-        },
-        {
-          "enabled": true,
-          "id": "119fe7cc-0d28-3787-9d35-8ab5e6af232d",
-          "type": "KEY_STAT_UPDATE"
-        },
-        {
-          "enabled": true,
-          "id": "18657069-3ef4-35d3-9de1-b0f2684e6ae0",
-          "type": "ADD_DROP"
-        },
-        {
-          "enabled": true,
-          "id": "3ce240c3-343d-3a04-b1ec-ac903f18e5b4",
-          "type": "WEEKLY_RECAP"
-        },
-        {
-          "enabled": true,
-          "id": "cf9b8832-b7d8-31fd-9481-21a25e226a05",
-          "type": "WAIVERS"
-        }
-      ]
-    },
-    "team_name": "Bad News Bears",
+    "team_name": "HELP",
+    "owner": "{818F4A61-9B7E-4008-9185-630E6581D8BE}",
     "players": [
       {
         "name": "Yordan Alvarez",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Corbin Carroll",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "William Contreras",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Anthony Santander",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Ronald Acuna Jr.",
-        "position": "LF"
+        "position": 9,
+        "status": "starter"
       },
       {
         "name": "Ryan Helsley",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Raisel Iglesias",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Ryan Walker",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Andres Munoz",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Kevin Gausman",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Christian Yelich",
-        "position": "2B/SS"
+        "position": 7,
+        "status": "starter"
       },
       {
         "name": "Sandy Alcantara",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Bryson Stott",
-        "position": "3B"
+        "position": 4,
+        "status": "starter"
       },
       {
         "name": "Alexis Diaz",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Alejandro Kirk",
-        "position": "1B"
+        "position": 2,
+        "status": "starter"
       },
       {
         "name": "Taj Bradley",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
         "name": "Nathaniel Lowe",
-        "position": "2B"
+        "position": 3,
+        "status": "starter"
       },
       {
         "name": "Nick Martinez",
-        "position": "RF"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Royce Lewis",
-        "position": "SS"
-      },
-      {
-        "name": "Joey Ortiz",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Luis Rengifo",
-        "position": "SS"
+        "position": 5,
+        "status": "starter"
       },
       {
         "name": "Xavier Edwards",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Jacob Wilson",
-        "position": "OF"
+        "position": 6,
+        "status": "starter"
       },
       {
         "name": "Victor Scott II",
-        "position": "1B/3B"
+        "position": 8,
+        "status": "starter"
       },
       {
         "name": "Aroldis Chapman",
-        "position": "RF"
-      },
-      {
-        "name": "Sean Burke",
-        "position": "C"
+        "position": 11,
+        "status": "starter"
       },
       {
         "name": "Jose Soriano",
-        "position": "C"
+        "position": 1,
+        "status": "starter"
       },
       {
-        "name": "David Peterson",
-        "position": "C"
+        "name": "Kyle Freeland",
+        "position": 1,
+        "status": "starter"
+      },
+      {
+        "name": "Spencer Torkelson",
+        "position": 3,
+        "status": "starter"
+      },
+      {
+        "name": "Marcus Stroman",
+        "position": 1,
+        "status": "starter"
       }
     ]
   }

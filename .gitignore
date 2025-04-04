@@ -15,3 +15,5 @@ espn_cookies.json
 matchups/
 matchup_data/
 updated_matchups/
+
+.env

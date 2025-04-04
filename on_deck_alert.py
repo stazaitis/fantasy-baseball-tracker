@@ -7,10 +7,12 @@ load_dotenv()
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 FANTASY_HITTERS = [
-    # Add your fantasy hitters here (update with full league if needed)
     "Aaron Judge", "Shohei Ohtani", "Mike Trout", "Juan Soto",
     "Rafael Devers", "Jose Altuve", "Luis Robert Jr.", "Corey Seager",
-    "Matt McLain"  
+    "TJ Friedl", "Matt McLain", "Elly De La Cruz", "Christian Encarnacion-Strand",
+    "Jeimer Candelario", "Blake Dunn", "Gavin Lux", "Spencer Steer", "Santiago Espinal",
+    "Jose Trevino", "Jackson Chourio", "Christian Yelich", "William Contreras",
+    "Rhys Hoskins", "Sal Frelick", "Vinny Capra", "Isaac Collins", "Joey Ortiz", "Brice Turang"
 ]
 
 def get_on_deck_hitters():

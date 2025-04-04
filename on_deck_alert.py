@@ -5,11 +5,12 @@ from datetime import datetime
 
 load_dotenv()
 
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1357496918728773765/daACAYwsiKOIxdY8EGuYV8-zz93nwZmPedMSXzNJQXCJPMz6qD06pCN2-irjTgo_gpIE")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 FANTASY_HITTERS = [
     # Add your fantasy hitters here (update with full league if needed)
     "Aaron Judge", "Shohei Ohtani", "Mike Trout", "Juan Soto",
-    "Rafael Devers", "Jose Altuve", "Luis Robert Jr.", "Corey Seager"
+    "Rafael Devers", "Jose Altuve", "Luis Robert Jr.", "Corey Seager",
+    "Joey Ortiz"  # Added Joey Ortiz
 ]
 
 def get_on_deck_hitters():

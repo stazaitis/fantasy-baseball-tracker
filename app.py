@@ -55,7 +55,7 @@ def get_player_id(player_name):
         print(f"❌ Error getting ID for {player_name}")
         return None
 
-def get_player_stats_for_range(player_name):
+def get_player_stats_for_range(player_name, player_added_date=None):
     player_id = get_player_id(player_name)
     if not player_id:
         print(f"⚠️ No ID found for {player_name}")
@@ -78,7 +78,13 @@ def get_player_stats_for_range(player_name):
         for game in game_logs:
             try:
                 game_date = datetime.strptime(game["date"], "%Y-%m-%d").date()
+                
+                # Skip games outside the matchup range
                 if not (MATCHUP_START <= game_date <= MATCHUP_END):
+                    continue
+
+                # If player is added after the game started, do not count points for this day
+                if player_added_date and game_date >= player_added_date:
                     continue
 
                 stat = game["stat"]
@@ -186,7 +192,7 @@ def live_points():
             if p.get("status", "").lower() == "bench":
                 continue  # ✅ Exclude bench players
 
-            points = get_player_stats_for_range(p["name"])
+            points = get_player_stats_for_range(p["name"], player_added_date=p.get("player_added_date"))
             players_with_points.append({
                 "name": p["name"],
                 "position": p["position"],

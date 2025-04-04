@@ -13,7 +13,7 @@ HEADERS = {
 }
 
 def fetch_teams():
-    url = f"https://fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{ESPN_LEAGUE_ID}?view=mMatchup&view=mRoster&view=mTeam"
+    url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{ESPN_LEAGUE_ID}?view=mMatchup&view=mRoster&view=mTeam"
     res = requests.get(url, headers=HEADERS)
 
     try:

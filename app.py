@@ -17,6 +17,12 @@ FANTASY_HITTERS = [
     "Rafael Devers", "Jose Altuve", "Luis Robert Jr.", "Corey Seager", "Matt McLain"
 ]
 
+# Position ID to name mapping
+POSITION_MAP = {
+    1: "P", 2: "C", 3: "1B", 4: "2B", 5: "3B", 6: "SS", 7: "LF",
+    8: "CF", 9: "RF", 10: "DH", 11: "RP", 12: "SP"
+}
+
 # Custom fantasy scoring system
 SCORING = {
     "H": 0.5, "R": 1, "TB": 1, "RBI": 1, "BB": 1, "SO": -1, "SB": 1,
@@ -27,7 +33,6 @@ SCORING = {
 # Matchup 2 (March 31 – April 6)
 MATCHUP_START = date(2025, 3, 31)
 MATCHUP_END = date(2025, 4, 6)
-
 
 def get_first_game_start_datetime(game_date):
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={game_date.isoformat()}"
@@ -42,7 +47,6 @@ def get_first_game_start_datetime(game_date):
     except:
         return None
 
-
 def get_player_id(player_name):
     url = f"https://statsapi.mlb.com/api/v1/people/search?names={player_name}"
     try:
@@ -51,7 +55,6 @@ def get_player_id(player_name):
     except:
         print(f"❌ Error getting ID for {player_name}")
         return None
-
 
 def get_player_stats_for_range(player_name, acquired_datetime=None):
     player_id = get_player_id(player_name)
@@ -122,21 +125,17 @@ def get_player_stats_for_range(player_name, acquired_datetime=None):
         print(f"❌ Error fetching stats for {player_name}: {e}")
         return 0
 
-
 @app.route("/")
 def home():
     return redirect("/fantasy")
-
 
 @app.route("/fantasy")
 def fantasy_page():
     return render_template("fantasy.html")
 
-
 @app.route("/search")
 def search_page():
     return render_template("search.html")
-
 
 @app.route("/api/live_points")
 def live_points():
@@ -163,7 +162,7 @@ def live_points():
             points = get_player_stats_for_range(p["name"], acquired_dt)
             players_with_points.append({
                 "name": p["name"],
-                "position": p["position"],
+                "position": POSITION_MAP.get(p["position"], p["position"]),
                 "points": round(points, 1)
             })
             team_total += points
@@ -176,7 +175,6 @@ def live_points():
         })
 
     return jsonify(results)
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

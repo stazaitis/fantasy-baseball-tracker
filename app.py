@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, redirect
 import json
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -17,47 +17,27 @@ FANTASY_HITTERS = [
     "Rafael Devers", "Jose Altuve", "Luis Robert Jr.", "Corey Seager", "Matt McLain"
 ]
 
-# Your custom fantasy scoring system
+# Custom fantasy scoring system
 SCORING = {
-    "H": 0.5,
-    "R": 1,
-    "TB": 1,
-    "RBI": 1,
-    "BB": 1,
-    "SO": -1,
-    "SB": 1,
-    "OUTS": 1,
-    "H_ALLOWED": -1,
-    "ER": -2,
-    "BB_ISSUED": -1,
-    "K": 1,
-    "QS": 3,
-    "CG": 3,
-    "NH": 7,
-    "PG": 10,
-    "W": 5,
-    "L": -5,
-    "SV": 5,
-    "HD": 3,
+    "H": 0.5, "R": 1, "TB": 1, "RBI": 1, "BB": 1, "SO": -1, "SB": 1,
+    "OUTS": 1, "H_ALLOWED": -1, "ER": -2, "BB_ISSUED": -1, "K": 1,
+    "QS": 3, "CG": 3, "NH": 7, "PG": 10, "W": 5, "L": -5, "SV": 5, "HD": 3
 }
 
 # Matchup 2 (March 31 – April 6)
 MATCHUP_START = date(2025, 3, 31)
 MATCHUP_END = date(2025, 4, 6)
 
-
 def get_player_id(player_name):
     url = f"https://statsapi.mlb.com/api/v1/people/search?names={player_name}"
     try:
         res = requests.get(url).json()
-        people = res.get("people", [])
-        return people[0]["id"] if people else None
+        return res.get("people", [{}])[0].get("id")
     except:
         print(f"❌ Error getting ID for {player_name}")
         return None
 
-
-def get_player_stats_for_range(player_name, acquired_date_str=None):
+def get_player_stats_for_range(player_name, acquired_datetime=None):
     player_id = get_player_id(player_name)
     if not player_id:
         print(f"⚠️ No ID found for {player_name}")
@@ -69,34 +49,26 @@ def get_player_stats_for_range(player_name, acquired_date_str=None):
 
     try:
         res = requests.get(url).json()
-        stats_data = res.get("stats", [])
-        if not stats_data:
-            print(f"⚠️ No stats data for {player_name}")
-            return 0
-
-        game_logs = stats_data[0].get("splits", [])
+        game_logs = res.get("stats", [{}])[0].get("splits", [])
         total_points = 0
-
-        acquired_date = datetime.strptime(acquired_date_str, "%Y-%m-%d").date() if acquired_date_str else MATCHUP_START
 
         for game in game_logs:
             try:
                 game_date = datetime.strptime(game["date"], "%Y-%m-%d").date()
                 if not (MATCHUP_START <= game_date <= MATCHUP_END):
                     continue
-                if game_date < acquired_date:
-                    continue
+
+                if acquired_datetime:
+                    game_datetime = datetime.combine(game_date, datetime.min.time(), tzinfo=timezone.utc)
+                    if game_datetime < acquired_datetime:
+                        continue
 
                 stat = game["stat"]
                 pitching = "inningsPitched" in stat
 
                 if pitching:
                     ip = stat.get("inningsPitched", "0.0")
-                    if "." in ip:
-                        outs = int(ip.split(".")[0]) * 3 + int(ip.split(".")[1])
-                    else:
-                        outs = int(ip) * 3
-
+                    outs = int(ip.split(".")[0]) * 3 + int(ip.split(".")[1]) if "." in ip else int(ip) * 3
                     earned_runs = stat.get("earnedRuns", 0)
                     if outs >= 18 and earned_runs <= 3:
                         total_points += SCORING["QS"]
@@ -126,8 +98,7 @@ def get_player_stats_for_range(player_name, acquired_date_str=None):
                         stat.get("stolenBases", 0) * SCORING["SB"]
                     )
             except Exception as e:
-                print(f"⚠️ Skipping one game for {player_name} due to error: {e}")
-                continue
+                print(f"⚠️ Error processing game for {player_name}: {e}")
 
         return round(total_points, 1)
 
@@ -135,55 +106,17 @@ def get_player_stats_for_range(player_name, acquired_date_str=None):
         print(f"❌ Error fetching stats for {player_name}: {e}")
         return 0
 
-
-def get_on_deck_hitters():
-    url = "https://statsapi.mlb.com/api/v1.1/game/feeds/ondeck"
-    try:
-        res = requests.get(url)
-        if res.status_code != 200:
-            return []
-        data = res.json()
-        return [entry.get("batter", {}).get("fullName", "") for entry in data if entry.get("batter")]
-    except Exception:
-        return []
-
-
-def send_discord_alert(players):
-    if not players:
-        return  # Don't send anything if no hitters are on-deck
-
-    names = "\n".join(f"• **{name}** is on deck!" for name in players)
-    timestamp = datetime.now().strftime("%Y-%m-%d %I:%M %p")
-    message = f"🧢 **Fantasy On-Deck Alert** – {timestamp}\n{names}"
-
-    requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
-
-
-@app.route("/on_deck_alert", methods=["GET"])
-def on_deck_alert():
-    on_deck_hitters = get_on_deck_hitters()
-    fantasy_on_deck = [name for name in on_deck_hitters if name in FANTASY_HITTERS]
-
-    if fantasy_on_deck:
-        send_discord_alert(fantasy_on_deck)
-
-    return jsonify({"status": "success", "message": "On-deck alert sent if applicable"})
-
-
 @app.route("/")
 def home():
     return redirect("/fantasy")
-
 
 @app.route("/fantasy")
 def fantasy_page():
     return render_template("fantasy.html")
 
-
 @app.route("/search")
 def search_page():
     return render_template("search.html")
-
 
 @app.route("/api/live_points")
 def live_points():
@@ -199,8 +132,15 @@ def live_points():
             if p.get("status", "").lower() == "bench":
                 continue
 
-            acquired_date = p.get("acquiredDate")
-            points = get_player_stats_for_range(p["name"], acquired_date)
+            acquired_str = p.get("acquiredDateTime")
+            acquired_dt = None
+            if acquired_str:
+                try:
+                    acquired_dt = datetime.fromisoformat(acquired_str.replace("Z", "+00:00"))
+                except:
+                    pass
+
+            points = get_player_stats_for_range(p["name"], acquired_dt)
             players_with_points.append({
                 "name": p["name"],
                 "position": p["position"],
@@ -210,13 +150,12 @@ def live_points():
 
         results.append({
             "team_name": team["team_name"],
-            "owner": team["owner"]["displayName"] if isinstance(team["owner"], dict) else team["owner"],
+            "owner": team["owner"].get("displayName") if isinstance(team["owner"], dict) else team["owner"],
             "total": round(team_total, 1),
             "players": players_with_points
         })
 
     return jsonify(results)
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

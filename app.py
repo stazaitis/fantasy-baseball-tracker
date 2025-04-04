@@ -45,6 +45,7 @@ SCORING = {
 MATCHUP_START = date(2025, 3, 31)
 MATCHUP_END = date(2025, 4, 6)
 
+
 def get_player_id(player_name):
     url = f"https://statsapi.mlb.com/api/v1/people/search?names={player_name}"
     try:
@@ -54,6 +55,7 @@ def get_player_id(player_name):
     except:
         print(f"❌ Error getting ID for {player_name}")
         return None
+
 
 def get_player_stats_for_range(player_name, acquired_date_str=None):
     player_id = get_player_id(player_name)
@@ -133,6 +135,7 @@ def get_player_stats_for_range(player_name, acquired_date_str=None):
         print(f"❌ Error fetching stats for {player_name}: {e}")
         return 0
 
+
 def get_on_deck_hitters():
     url = "https://statsapi.mlb.com/api/v1.1/game/feeds/ondeck"
     try:
@@ -144,6 +147,7 @@ def get_on_deck_hitters():
     except Exception:
         return []
 
+
 def send_discord_alert(players):
     if not players:
         return  # Don't send anything if no hitters are on-deck
@@ -153,6 +157,7 @@ def send_discord_alert(players):
     message = f"🧢 **Fantasy On-Deck Alert** – {timestamp}\n{names}"
 
     requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+
 
 @app.route("/on_deck_alert", methods=["GET"])
 def on_deck_alert():
@@ -164,17 +169,21 @@ def on_deck_alert():
 
     return jsonify({"status": "success", "message": "On-deck alert sent if applicable"})
 
+
 @app.route("/")
 def home():
     return redirect("/fantasy")
+
 
 @app.route("/fantasy")
 def fantasy_page():
     return render_template("fantasy.html")
 
+
 @app.route("/search")
 def search_page():
     return render_template("search.html")
+
 
 @app.route("/api/live_points")
 def live_points():
@@ -207,6 +216,7 @@ def live_points():
         })
 
     return jsonify(results)
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

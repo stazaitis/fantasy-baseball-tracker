@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, redirect
 import json
-from datetime import datetime, date, timezone
+from datetime import datetime, date, timezone, time
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -28,6 +28,21 @@ SCORING = {
 MATCHUP_START = date(2025, 3, 31)
 MATCHUP_END = date(2025, 4, 6)
 
+
+def get_first_game_start_datetime(game_date):
+    url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={game_date.isoformat()}"
+    res = requests.get(url)
+    try:
+        games = res.json().get("dates", [])[0].get("games", [])
+        if not games:
+            return None
+        # Get the earliest game start time
+        start_times = [datetime.fromisoformat(game["gameDate"].replace("Z", "+00:00")) for game in games]
+        return min(start_times) if start_times else None
+    except:
+        return None
+
+
 def get_player_id(player_name):
     url = f"https://statsapi.mlb.com/api/v1/people/search?names={player_name}"
     try:
@@ -36,6 +51,7 @@ def get_player_id(player_name):
     except:
         print(f"❌ Error getting ID for {player_name}")
         return None
+
 
 def get_player_stats_for_range(player_name, acquired_datetime=None):
     player_id = get_player_id(player_name)
@@ -59,8 +75,8 @@ def get_player_stats_for_range(player_name, acquired_datetime=None):
                     continue
 
                 if acquired_datetime:
-                    game_datetime = datetime.combine(game_date, datetime.min.time(), tzinfo=timezone.utc)
-                    if game_datetime < acquired_datetime:
+                    first_game_start = get_first_game_start_datetime(game_date)
+                    if first_game_start and acquired_datetime >= first_game_start:
                         continue
 
                 stat = game["stat"]
@@ -106,17 +122,21 @@ def get_player_stats_for_range(player_name, acquired_datetime=None):
         print(f"❌ Error fetching stats for {player_name}: {e}")
         return 0
 
+
 @app.route("/")
 def home():
     return redirect("/fantasy")
+
 
 @app.route("/fantasy")
 def fantasy_page():
     return render_template("fantasy.html")
 
+
 @app.route("/search")
 def search_page():
     return render_template("search.html")
+
 
 @app.route("/api/live_points")
 def live_points():
@@ -156,6 +176,7 @@ def live_points():
         })
 
     return jsonify(results)
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

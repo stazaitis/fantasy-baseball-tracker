@@ -4,160 +4,186 @@
     "owner": "{0D64EED8-94DE-4490-A4EE-D894DE749028}",
     "players": [
       {
+        "espn_id": 39832,
         "name": "Shohei Ohtani",
-        "position": 10,
+        "position": "CF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36581,
         "name": "Framber Valdez",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33859,
         "name": "Rafael Devers",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32691,
         "name": "Corey Seager",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31662,
         "name": "Jose Altuve",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4781491,
         "name": "Yainer Diaz",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 3107919,
         "name": "Bailey Ober",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33190,
         "name": "Tyler Glasnow",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4918256,
         "name": "James Wood",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4298641,
         "name": "Jordan Westburg",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33837,
         "name": "Jack Flaherty",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4918156,
         "name": "Jared Jones",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36488,
         "name": "Randy Arozarena",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 38904,
         "name": "Bo Bichette",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34230,
         "name": "Willi Castro",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4726080,
         "name": "Spencer Arrighetti",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32655,
         "name": "Byron Buxton",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34940,
         "name": "Ryan Mountcastle",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42433,
         "name": "Nick Lodolo",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36543,
         "name": "Kyle Finnegan",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33711,
         "name": "Michael Conforto",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4414525,
         "name": "Kumar Rocker",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35397,
         "name": "Jeffrey Springs",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-27T10:47:45.142000Z"
+        "acquiredDate": "2025-03-27"
       },
       {
+        "espn_id": 42584,
         "name": "Drew Rasmussen",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-04-01T10:53:48.724000Z"
+        "acquiredDate": "2025-04-01"
       },
       {
+        "espn_id": 37909,
         "name": "Jordan Hicks",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-04-02T11:12:48.441000Z"
+        "acquiredDate": "2025-04-02"
       },
       {
+        "espn_id": 5016968,
         "name": "Ben Rice",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-04-03T00:42:41.627000Z"
+        "acquiredDate": "2025-04-02"
       }
     ]
   },
@@ -166,172 +192,200 @@
     "owner": "{9210985D-BA1F-4FC1-9C4A-81BC3EA5AE63}",
     "players": [
       {
+        "espn_id": 33192,
         "name": "Aaron Judge",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34943,
         "name": "Dylan Cease",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32146,
         "name": "Marcus Semien",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31097,
         "name": "Manny Machado",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32685,
         "name": "Max Fried",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35066,
         "name": "Josh Naylor",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41773,
         "name": "Brendan Donovan",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31127,
         "name": "Salvador Perez",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33912,
         "name": "Cody Bellinger",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4142424,
         "name": "Seiya Suzuki",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42359,
         "name": "Cristopher Sanchez",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33072,
         "name": "Ryan Pressly",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33857,
         "name": "Matt Chapman",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5116851,
         "name": "Justin Martinez",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31187,
         "name": "Nick Castellanos",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42410,
         "name": "JJ Bleday",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34895,
         "name": "Dansby Swanson",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33244,
         "name": "Sean Manaea",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39817,
         "name": "Ranger Suarez",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41172,
         "name": "Brady Singer",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 30280,
         "name": "Carlos Santana",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4345404,
         "name": "Landen Roupp",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4630789,
         "name": "Orion Kerkering",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41085,
         "name": "Clarke Schmidt",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 29155,
         "name": "Charlie Morton",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-18T07:08:42.812000Z"
+        "acquiredDate": "2025-03-18"
       },
       {
+        "espn_id": 31258,
         "name": "Jameson Taillon",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-28T13:35:07.892000Z"
+        "acquiredDate": "2025-03-28"
       },
       {
-        "name": "Jake Irvin",
-        "position": 1,
-        "status": "starter",
-        "acquiredDateTime": "2025-03-28T13:36:19.630000Z"
-      },
-      {
+        "espn_id": 34542,
         "name": "Anthony Banda",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-04-02T13:47:16.689000Z"
+        "acquiredDate": "2025-04-02"
+      },
+      {
+        "espn_id": 34874,
+        "name": "German Marquez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-05"
       }
     ]
   },
@@ -340,154 +394,179 @@
     "owner": "{878A7B95-376F-4648-8A7B-95376F364842}",
     "players": [
       {
+        "espn_id": 42409,
         "name": "Tarik Skubal",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35983,
         "name": "Fernando Tatis Jr.",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 30948,
         "name": "Chris Sale",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41044,
         "name": "Julio Rodriguez",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 37498,
         "name": "Pete Alonso",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5134630,
         "name": "Shota Imanaga",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41433,
         "name": "Jazz Chisholm Jr.",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32796,
         "name": "Jacob deGrom",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42402,
         "name": "CJ Abrams",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39712,
         "name": "Oneil Cruz",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35135,
         "name": "Tanner Scott",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 30836,
         "name": "Mike Trout",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41171,
         "name": "Jonathan India",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5080633,
         "name": "Jackson Holliday",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42401,
         "name": "Jasson Dominguez",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42598,
         "name": "Shea Langeliers",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42180,
         "name": "Pete Fairbanks",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4867667,
         "name": "Matt Shaw",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33770,
         "name": "Luke Weaver",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4987924,
         "name": "Cade Smith",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
-        "name": "Clay Holmes",
-        "position": 11,
-        "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
-      },
-      {
+        "espn_id": 39667,
         "name": "Jesus Luzardo",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41201,
         "name": "Kris Bubic",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-30T21:57:07.302000Z"
+        "acquiredDate": "2025-03-30"
       },
       {
+        "espn_id": 4917927,
         "name": "Kyle Manzardo",
-        "position": 10,
+        "position": "CF",
         "status": "starter",
-        "acquiredDateTime": "2025-04-01T01:24:29.233000Z"
+        "acquiredDate": "2025-03-31"
       },
       {
-        "name": "Tylor Megill",
-        "position": 1,
+        "espn_id": 4414243,
+        "name": "Richard Fitts",
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-04-02T02:21:05.202000Z"
+        "acquiredDate": "2025-04-04"
+      },
+      {
+        "espn_id": 40921,
+        "name": "David Peterson",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-04"
       }
     ]
   },
@@ -496,166 +575,186 @@
     "owner": "{4C6D942C-0765-4741-936B-8906D4408AFF}",
     "players": [
       {
+        "espn_id": 33039,
         "name": "Mookie Betts",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32129,
         "name": "Francisco Lindor",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39572,
         "name": "Luis Arraez",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33709,
         "name": "Aaron Nola",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33224,
         "name": "Devin Williams",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4654313,
         "name": "Bryce Miller",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31261,
         "name": "Nolan Arenado",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32532,
         "name": "Willson Contreras",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31606,
         "name": "Xander Bogaerts",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4721302,
         "name": "Brandon Pfaadt",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31668,
         "name": "Marcell Ozuna",
-        "position": 10,
+        "position": "CF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33696,
         "name": "Carlos Rodon",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39907,
         "name": "Tommy Edman",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35537,
         "name": "Adolis Garcia",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36201,
         "name": "A.J. Puk",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39636,
         "name": "MacKenzie Gore",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36480,
         "name": "Nestor Cortes",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4448736,
         "name": "Lars Nootbaar",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32623,
         "name": "Kirby Yates",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4416990,
         "name": "Colton Cowser",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33341,
         "name": "Mike Yastrzemski",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35291,
         "name": "Rhys Hoskins",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
-        "name": "Jason Foley",
-        "position": 11,
-        "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
-      },
-      {
+        "espn_id": 29630,
         "name": "Kenley Jansen",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33572,
         "name": "Isiah Kiner-Falefa",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-04-01T18:26:55.236000Z"
+        "acquiredDate": "2025-04-01"
       },
       {
+        "espn_id": 41337,
         "name": "Camilo Doval",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-04-01T18:28:15.467000Z"
+        "acquiredDate": "2025-04-01"
       },
       {
+        "espn_id": 33809,
         "name": "Edmundo Sosa",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-04-03T01:19:51.941000Z"
+        "acquiredDate": "2025-04-02"
       }
     ]
   },
@@ -664,166 +763,200 @@
     "owner": "{8A666E5C-6035-4778-8E65-07AD72C38789}",
     "players": [
       {
+        "espn_id": 31267,
         "name": "Zack Wheeler",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39878,
         "name": "Corbin Burnes",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33748,
         "name": "Blake Snell",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32767,
         "name": "Matt Olson",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 38980,
         "name": "Bryan Reynolds",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32758,
         "name": "Christian Walker",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41292,
         "name": "Cal Raleigh",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33675,
         "name": "Willy Adames",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41273,
         "name": "Jeremy Pena",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41109,
         "name": "Jhoan Duran",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4905884,
         "name": "Maikel Garcia",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4722857,
         "name": "Spencer Steer",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4142421,
         "name": "Kodai Senga",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41009,
         "name": "Tanner Houck",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41829,
         "name": "Ronel Blanco",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42714,
         "name": "Kerry Carpenter",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41179,
         "name": "Brice Turang",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33325,
         "name": "Chad Green",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4313442,
         "name": "Garrett Mitchell",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32968,
         "name": "Merrill Kelly",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33263,
         "name": "Luis Severino",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32177,
         "name": "J.T. Realmuto",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41223,
         "name": "Parker Meadows",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40626,
         "name": "Luis Gil",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41636,
         "name": "Matt Vierling",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35042,
         "name": "Victor Robles",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-27T11:02:53.578000Z"
+        "acquiredDate": "2025-03-27"
       },
       {
+        "espn_id": 35020,
         "name": "Ke'Bryan Hayes",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-27T16:20:30.500000Z"
+        "acquiredDate": "2025-03-27"
+      },
+      {
+        "espn_id": 40700,
+        "name": "Gavin Sheets",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-04-05"
       }
     ]
   },
@@ -832,172 +965,200 @@
     "owner": "{F4E5F64D-602C-42E7-9B09-4BB62C22553E}",
     "players": [
       {
+        "espn_id": 36969,
         "name": "Juan Soto",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41221,
         "name": "Logan Gilbert",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 30193,
         "name": "Freddie Freeman",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39671,
         "name": "Pablo Lopez",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41610,
         "name": "Jarren Duran",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39825,
         "name": "Freddy Peralta",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4109109,
         "name": "Vinnie Pasquantino",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39910,
         "name": "Zac Gallen",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4905859,
         "name": "Felix Bautista",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4905921,
         "name": "Junior Caminero",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36364,
         "name": "Jake Cronenworth",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32653,
         "name": "Carlos Correa",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34873,
         "name": "Seth Lugo",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32811,
         "name": "Jose Berrios",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42462,
         "name": "Brenton Doyle",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32145,
         "name": "Jason Adam",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42547,
         "name": "Anthony Volpe",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39642,
         "name": "Heliot Ramos",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 28976,
         "name": "Max Scherzer",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34861,
         "name": "Carlos Estevez",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31027,
         "name": "Paul Goldschmidt",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5201569,
         "name": "Kristian Campbell",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4720856,
         "name": "Brayan Bello",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32675,
         "name": "Eduardo Rodriguez",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-30T13:33:27.576000Z"
+        "acquiredDate": "2025-03-30"
       },
       {
+        "espn_id": 42622,
         "name": "Alex Vesia",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-04-02T02:26:03.692000Z"
+        "acquiredDate": "2025-04-01"
       },
       {
+        "espn_id": 4416591,
         "name": "Hunter Goodman",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-04-02T12:18:29.749000Z"
+        "acquiredDate": "2025-04-02"
       },
       {
-        "name": "Taijuan Walker",
-        "position": 1,
-        "status": "starter",
-        "acquiredDateTime": "2025-04-02T23:48:29.954000Z"
-      },
-      {
+        "espn_id": 4717833,
         "name": "Pete Crow-Armstrong",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-04-04T02:30:17.925000Z"
+        "acquiredDate": "2025-04-03"
+      },
+      {
+        "espn_id": 39818,
+        "name": "JP Sears",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-04"
       }
     ]
   },
@@ -1006,166 +1167,193 @@
     "owner": "{9A595386-026D-4632-BD37-F21E6DEEB9B4}",
     "players": [
       {
+        "espn_id": 42403,
         "name": "Bobby Witt Jr.",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32512,
         "name": "Ketel Marte",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 30951,
         "name": "Bryce Harper",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34982,
         "name": "Austin Riley",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41216,
         "name": "Logan Webb",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33783,
         "name": "Ozzie Albies",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41022,
         "name": "Justin Steele",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4424862,
         "name": "Spencer Schwellenbach",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4307825,
         "name": "Spencer Strider",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5134638,
         "name": "Roki Sasaki",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34923,
         "name": "Taylor Ward",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42406,
         "name": "George Kirby",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41180,
         "name": "Triston Casas",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4719511,
         "name": "Dylan Crews",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32804,
         "name": "Zach Eflin",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31174,
         "name": "Nathan Eovaldi",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36618,
         "name": "Lucas Erceg",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32558,
         "name": "Jorge Soler",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4683349,
         "name": "Austin Wells",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
-        "name": "Erick Fedde",
-        "position": 1,
-        "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
-      },
-      {
-        "name": "Walker Buehler",
-        "position": 1,
-        "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
-      },
-      {
+        "espn_id": 34168,
         "name": "Tyler O'Neill",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4917925,
         "name": "Justin Slaten",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4867388,
         "name": "Ben Joyce",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-18T07:08:42.813000Z"
+        "acquiredDate": "2025-03-18"
       },
       {
+        "espn_id": 36063,
         "name": "Jose Alvarado",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-27T16:37:17.997000Z"
+        "acquiredDate": "2025-03-27"
       },
       {
+        "espn_id": 4686066,
         "name": "Tyler Soderstrom",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-31T05:42:24.847000Z"
+        "acquiredDate": "2025-03-31"
       },
       {
+        "espn_id": 5080767,
         "name": "Roman Anthony",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-31T08:24:19.525000Z"
+        "acquiredDate": "2025-03-31"
+      },
+      {
+        "espn_id": 4917640,
+        "name": "AJ Smith-Shawver",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-05"
+      },
+      {
+        "espn_id": 4683356,
+        "name": "Mitchell Parker",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-05"
       }
     ]
   },
@@ -1174,172 +1362,200 @@
     "owner": "{061FDB07-3B5C-4868-ADC9-A25F5D82B25A}",
     "players": [
       {
+        "espn_id": 42507,
         "name": "Gunnar Henderson",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4719507,
         "name": "Paul Skenes",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41996,
         "name": "Steven Kwan",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4872691,
         "name": "Jackson Merrill",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35124,
         "name": "Luis Castillo",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4730225,
         "name": "Mason Miller",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33804,
         "name": "Gleyber Torres",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4345278,
         "name": "Tanner Bibee",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4148749,
         "name": "Robert Suarez",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40926,
         "name": "Brent Rooker",
-        "position": 10,
+        "position": "CF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42179,
         "name": "Riley Greene",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33377,
         "name": "Teoscar Hernandez",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42464,
         "name": "Gabriel Moreno",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4422899,
         "name": "Matt McLain",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33722,
         "name": "Mitch Keller",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36071,
         "name": "Nick Pivetta",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4417795,
         "name": "Sal Frelick",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33148,
         "name": "Chris Bassitt",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32367,
         "name": "Eugenio Suarez",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4683384,
         "name": "Colt Keith",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4417606,
         "name": "Connor Norby",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4905919,
         "name": "Ezequiel Tovar",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42415,
         "name": "Michael Busch",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4734319,
         "name": "Reese Olson",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5080766,
         "name": "Cam Smith",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-26T17:59:22.587000Z"
+        "acquiredDate": "2025-03-26"
       },
       {
+        "espn_id": 41167,
         "name": "Casey Mize",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-26T18:00:59.542000Z"
+        "acquiredDate": "2025-03-26"
       },
       {
+        "espn_id": 4622181,
         "name": "Jack Leiter",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-26T18:01:56.453000Z"
+        "acquiredDate": "2025-03-26"
       },
       {
+        "espn_id": 41917,
         "name": "Otto Lopez",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-04-01T12:43:55.401000Z"
+        "acquiredDate": "2025-04-01"
       }
     ]
   },
@@ -1348,172 +1564,200 @@
     "owner": "{213A1465-139E-4467-BA14-65139EB467BF}",
     "players": [
       {
+        "espn_id": 35002,
         "name": "Vladimir Guerrero Jr.",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4917694,
         "name": "Elly De La Cruz",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34886,
         "name": "Alex Bregman",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4917869,
         "name": "Jackson Chourio",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4872587,
         "name": "Yoshinobu Yamamoto",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42450,
         "name": "Joe Ryan",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42470,
         "name": "Michael Harris II",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33712,
         "name": "Kyle Schwarber",
-        "position": 10,
+        "position": "CF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4717803,
         "name": "Hunter Brown",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4917919,
         "name": "Lawrence Butler",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4629089,
         "name": "Bryan Woo",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4683365,
         "name": "Masyn Winn",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4208281,
         "name": "Ryan Pepiot",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41199,
         "name": "Shane McClanahan",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39882,
         "name": "Jake Burger",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40459,
         "name": "Luis Garcia Jr.",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4345076,
         "name": "Gavin Williams",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4872647,
         "name": "Jackson Jobe",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39639,
         "name": "Shane Baz",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4987382,
         "name": "Ceddanne Rafaela",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41889,
         "name": "Ivan Herrera",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32903,
         "name": "Chris Martin",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4917854,
         "name": "Eury Perez",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-18T15:20:45.557000Z"
+        "acquiredDate": "2025-03-18"
       },
       {
+        "espn_id": 40912,
         "name": "Shane Bieber",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-18T15:27:37.216000Z"
+        "acquiredDate": "2025-03-18"
       },
       {
+        "espn_id": 40937,
         "name": "Dustin May",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-18T18:36:46.280000Z"
+        "acquiredDate": "2025-03-18"
       },
       {
+        "espn_id": 5134621,
         "name": "Jung Hoo Lee",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-19T07:08:13.855000Z"
+        "acquiredDate": "2025-03-19"
       },
       {
+        "espn_id": 4345164,
         "name": "Max Meyer",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-29T19:33:01.098000Z"
+        "acquiredDate": "2025-03-29"
       },
       {
+        "espn_id": 32185,
         "name": "Blake Treinen",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-31T16:31:00.659000Z"
+        "acquiredDate": "2025-03-31"
       }
     ]
   },
@@ -1522,166 +1766,193 @@
     "owner": "{7A461130-25B5-43BB-B981-011713318A3F}",
     "players": [
       {
+        "espn_id": 34967,
         "name": "Kyle Tucker",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4297835,
         "name": "Garrett Crochet",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42178,
         "name": "Adley Rutschman",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32760,
         "name": "Josh Hader",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40429,
         "name": "Michael King",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4719324,
         "name": "Wyatt Langford",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39706,
         "name": "Isaac Paredes",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39635,
         "name": "Hunter Greene",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34945,
         "name": "Ian Happ",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32159,
         "name": "Brandon Nimmo",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33841,
         "name": "Jeff Hoffman",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41219,
         "name": "Nico Hoerner",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4734325,
         "name": "Bowden Francis",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32078,
         "name": "George Springer",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 34975,
         "name": "Tyler Stephenson",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
-        "name": "Reynaldo Lopez",
-        "position": 1,
-        "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
-      },
-      {
+        "espn_id": 33303,
         "name": "Max Muncy",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41196,
         "name": "Grayson Rodriguez",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42927,
         "name": "Christopher Morel",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42604,
         "name": "Griffin Jax",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4228472,
         "name": "Spencer Horwitz",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33210,
         "name": "J.P. Crawford",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41587,
         "name": "Ryan Jeffers",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40963,
         "name": "Daulton Varsho",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4666100,
         "name": "Zach Neto",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5012106,
         "name": "Christian Encarnacion-Strand",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-27T15:17:24.603000Z"
+        "acquiredDate": "2025-03-27"
       },
       {
+        "espn_id": 42437,
         "name": "Josh Jung",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-27T15:18:23.349000Z"
+        "acquiredDate": "2025-03-27"
+      },
+      {
+        "espn_id": 31098,
+        "name": "Martin Perez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-04"
       }
     ]
   },
@@ -1690,160 +1961,186 @@
     "owner": "{8D4BCAC7-5F85-473D-8BCA-C75F85573DF5}",
     "players": [
       {
+        "espn_id": 32801,
         "name": "Jose Ramirez",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41054,
         "name": "Cole Ragans",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41743,
         "name": "Emmanuel Clase",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35394,
         "name": "Edwin Diaz",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33710,
         "name": "Trea Turner",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 38309,
         "name": "Will Smith",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32082,
         "name": "Sonny Gray",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41169,
         "name": "Alec Bohm",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33481,
         "name": "Yandy Diaz",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 38827,
         "name": "Keibert Ruiz",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41415,
         "name": "Yusei Kikuchi",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 37729,
         "name": "Andres Gimenez",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36040,
         "name": "Lourdes Gurriel Jr.",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4345070,
         "name": "Alec Burleson",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35578,
         "name": "Cedric Mullins",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40080,
         "name": "Trevor Megill",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41197,
         "name": "Jake McCarthy",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 37515,
         "name": "Brandon Woodruff",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32640,
         "name": "Michael Wacha",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39961,
         "name": "Brandon Lowe",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32175,
         "name": "Robbie Ray",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 6341,
         "name": "Justin Verlander",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-18T07:08:42.814000Z"
+        "acquiredDate": "2025-03-18"
       },
       {
+        "espn_id": 33840,
         "name": "Grant Holmes",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-22T14:16:02.833000Z"
+        "acquiredDate": "2025-03-22"
       },
       {
+        "espn_id": 4990055,
         "name": "Wilyer Abreu",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-28T21:16:56.777000Z"
+        "acquiredDate": "2025-03-28"
       },
       {
+        "espn_id": 4743772,
         "name": "Kyle Teel",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-29T15:09:36.994000Z"
+        "acquiredDate": "2025-03-29"
       },
       {
-        "name": "Zack Littell",
-        "position": 1,
+        "espn_id": 34401,
+        "name": "Matthew Boyd",
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-04-02T20:27:30.932000Z"
+        "acquiredDate": "2025-04-05"
       }
     ]
   },
@@ -1852,172 +2149,200 @@
     "owner": "{818F4A61-9B7E-4008-9185-630E6581D8BE}",
     "players": [
       {
+        "espn_id": 36018,
         "name": "Yordan Alvarez",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42404,
         "name": "Corbin Carroll",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39895,
         "name": "William Contreras",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36084,
         "name": "Anthony Santander",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 36185,
         "name": "Ronald Acuna Jr.",
-        "position": 9,
+        "position": "RF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 39909,
         "name": "Ryan Helsley",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33618,
         "name": "Raisel Iglesias",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.430000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 5000950,
         "name": "Ryan Walker",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40939,
         "name": "Andres Munoz",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 32667,
         "name": "Kevin Gausman",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 31283,
         "name": "Christian Yelich",
-        "position": 7,
+        "position": "CI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 35241,
         "name": "Sandy Alcantara",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42417,
         "name": "Bryson Stott",
-        "position": 4,
+        "position": "3B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4905920,
         "name": "Alexis Diaz",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42081,
         "name": "Alejandro Kirk",
-        "position": 2,
+        "position": "1B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 42480,
         "name": "Taj Bradley",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40538,
         "name": "Nathaniel Lowe",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 33372,
         "name": "Nick Martinez",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 40635,
         "name": "Royce Lewis",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 37237,
         "name": "Luis Rengifo",
-        "position": 5,
+        "position": "SS",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 41326,
         "name": "Xavier Edwards",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-17T00:51:19.431000Z"
+        "acquiredDate": "2025-03-16"
       },
       {
+        "espn_id": 4719300,
         "name": "Jacob Wilson",
-        "position": 6,
+        "position": "MI",
         "status": "starter",
-        "acquiredDateTime": "2025-03-24T14:27:18.070000Z"
+        "acquiredDate": "2025-03-24"
       },
       {
+        "espn_id": 4807220,
         "name": "Victor Scott II",
-        "position": 8,
+        "position": "OF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-24T14:31:35.417000Z"
+        "acquiredDate": "2025-03-24"
       },
       {
+        "espn_id": 30442,
         "name": "Aroldis Chapman",
-        "position": 11,
+        "position": "LF",
         "status": "starter",
-        "acquiredDateTime": "2025-03-24T14:34:34.011000Z"
+        "acquiredDate": "2025-03-24"
       },
       {
+        "espn_id": 40973,
         "name": "Jose Soriano",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-03-27T02:43:00.918000Z"
+        "acquiredDate": "2025-03-26"
       },
       {
-        "name": "Kyle Freeland",
-        "position": 1,
-        "status": "starter",
-        "acquiredDateTime": "2025-04-02T01:49:43.493000Z"
-      },
-      {
+        "espn_id": 4424286,
         "name": "Spencer Torkelson",
-        "position": 3,
+        "position": "2B",
         "status": "starter",
-        "acquiredDateTime": "2025-04-02T13:41:21.742000Z"
+        "acquiredDate": "2025-04-02"
       },
       {
+        "espn_id": 32815,
         "name": "Marcus Stroman",
-        "position": 1,
+        "position": "C",
         "status": "starter",
-        "acquiredDateTime": "2025-04-03T02:01:50.546000Z"
+        "acquiredDate": "2025-04-02"
+      },
+      {
+        "espn_id": 5132624,
+        "name": "Osvaldo Bido",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-04"
       }
     ]
   }

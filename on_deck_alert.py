@@ -5,7 +5,6 @@ from datetime import datetime
 from dotenv import load_dotenv
 import statsapi
 
-# Load environment variables
 load_dotenv()
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 TEAMS_FILE = "teams.json"
@@ -110,10 +109,6 @@ def send_discord_alert(players):
         print(f"❌ Failed to send Discord alert: {e}")
 
 def main():
-    # 🔥 Force a test alert every time this runs
-    send_discord_alert(["TEST PLAYER"])
-    return
-
     all_hitters = get_all_fantasy_hitters()
     print(f"🧢 Loaded {len(all_hitters)} fantasy hitters")
 

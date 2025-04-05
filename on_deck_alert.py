@@ -95,6 +95,10 @@ def send_discord_alert(players):
     names = "\n".join(f"• **{name}** is on deck!" for name in players)
     timestamp = datetime.now().strftime("%Y-%m-%d %I:%M %p")
     message = f"🧢 **Fantasy On-Deck Alert** – {timestamp}\n{names}"
+
+    # 👇 Add this line for visibility
+    print(f"📤 Sending to Discord:\n{message}")
+
     requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
 
 def main():
@@ -109,4 +113,10 @@ def main():
         if name in all_hitters:
             if log.get(name) != context:
                 new_alerts.append(name)
-                log[name] = context  # Update log with new game state
+                log[name] = context  # Update log
+
+    # 👇 PLACE THIS RIGHT HERE:
+    print(f"🚨 New alerts to send: {new_alerts}")
+    if new_alerts:
+        send_discord_alert(new_alerts)
+        save_log(log)

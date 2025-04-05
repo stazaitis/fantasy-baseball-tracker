@@ -102,6 +102,8 @@ def send_discord_alert(players):
     requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
 
 def main():
+    send_discord_alert(["TEST PLAYER"])
+    return
     all_hitters = get_all_fantasy_hitters()
     print(f"🧢 Loaded {len(all_hitters)} fantasy hitters")
 

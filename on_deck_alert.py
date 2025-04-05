@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime
 from dotenv import load_dotenv
 import statsapi
 
@@ -27,7 +27,7 @@ def get_all_fantasy_hitters():
     hitters = set()
     for team in teams:
         for player in team["players"]:
-            position = str(player.get("position", ""))  # Safely convert to string
+            position = str(player.get("position", ""))
             if (
                 player.get("status") == "starter"
                 and not position.startswith("SP")
@@ -38,20 +38,10 @@ def get_all_fantasy_hitters():
 
 def get_live_game_ids():
     games = statsapi.schedule(date=datetime.today().strftime('%Y-%m-%d'))
+    return [g["game_id"] for g in games if g.get("status") == "In Progress"]
 
-    print("📅 Games pulled from schedule():")
-    for g in games:
-        away = g["away_name"]
-        home = g["home_name"]
-        status = g["status"]
-        print(f"  → {away} @ {home} – Status: {status}")
-
-    live_game_ids = [g["game_id"] for g in games if g.get("status") == "In Progress"]
-    print(f"🎯 Live game IDs: {live_game_ids}")
-    return live_game_ids
-
-def get_on_deck_players():
-    on_deck = []
+def get_on_deck_players_with_context():
+    players = []
 
     for game_id in get_live_game_ids():
         try:
@@ -62,6 +52,9 @@ def get_on_deck_players():
             offense = data.get("liveData", {}).get("linescore", {}).get("offense", {})
             current_batter = offense.get("batter", {}).get("fullName")
             team_id = offense.get("team", {}).get("id")
+            inning = data["liveData"]["linescore"]["currentInning"]
+            half = data["liveData"]["linescore"]["inningHalf"][0]  # "Top" or "Bottom" → T or B
+            outs = data["liveData"]["outs"]
 
             if not current_batter or not team_id:
                 continue
@@ -87,13 +80,14 @@ def get_on_deck_players():
                         on_deck_name = batters[next_idx]["name"]
 
             if on_deck_name:
-                on_deck.append(on_deck_name)
+                context_id = f"{game_id}-{half}{inning}-O{outs}"
+                players.append((on_deck_name, context_id))
 
         except Exception as e:
-            print(f"⚠️ Error in game {game_id}: {e}")
+            print(f"⚠️ Error processing game {game_id}: {e}")
             continue
 
-    return on_deck
+    return players
 
 def send_discord_alert(players):
     if not players:
@@ -107,32 +101,12 @@ def main():
     all_hitters = get_all_fantasy_hitters()
     print(f"🧢 Loaded {len(all_hitters)} fantasy hitters")
 
-    on_deck_players = get_on_deck_players()
-    print(f"⚾ On-deck players: {on_deck_players}")
-
     log = load_log()
-    now = datetime.utcnow()
-    cooldown = timedelta(minutes=2)  # ALERT AGAIN after 2 minutes
+    now_on_deck = get_on_deck_players_with_context()
 
     new_alerts = []
-
-    for name in on_deck_players:
+    for name, context in now_on_deck:
         if name in all_hitters:
-            last_alert_time = log.get(name)
-            if not last_alert_time:
+            if log.get(name) != context:
                 new_alerts.append(name)
-            else:
-                last_dt = datetime.fromisoformat(last_alert_time)
-                if now - last_dt > cooldown:
-                    new_alerts.append(name)
-
-    print(f"🚨 New alerts to send: {new_alerts}")
-
-    if new_alerts:
-        send_discord_alert(new_alerts)
-        for name in new_alerts:
-            log[name] = now.isoformat()
-        save_log(log)
-
-if __name__ == "__main__":
-    main()
+                log[name] = context  # Update log with new game state

@@ -1,0 +1,177 @@
+{
+  "Chase Dollander, Col SP": [
+    {
+      "action": "add",
+      "team": "NNT Roster",
+      "date": "Sat Apr 5\n2:17 pm"
+    }
+  ],
+  "Gavin Sheets, SD RF": [
+    {
+      "action": "add",
+      "team": "McK Roster",
+      "date": "Sat Apr 5\n11:40 am"
+    }
+  ],
+  "German Marquez, Col SP": [
+    {
+      "action": "add",
+      "team": "GRIF Roster",
+      "date": "Sat Apr 5\n9:41 am"
+    }
+  ],
+  "Matthew Boyd, ChC SP": [
+    {
+      "action": "add",
+      "team": "NNT Roster",
+      "date": "Sat Apr 5\n9:35 am"
+    }
+  ],
+  "Mitchell Parker, Wsh SP": [
+    {
+      "action": "add",
+      "team": "Kuch Roster",
+      "date": "Sat Apr 5\n1:16 am"
+    }
+  ],
+  "AJ Smith-Shawver, Atl SP": [
+    {
+      "action": "add",
+      "team": "Kuch Roster",
+      "date": "Sat Apr 5\n1:16 am"
+    }
+  ],
+  "David Peterson, NYM SP": [
+    {
+      "action": "add",
+      "team": "CONR Roster",
+      "date": "Fri Apr 4\n6:44 pm"
+    }
+  ],
+  "Richard Fitts, Bos SP": [
+    {
+      "action": "add",
+      "team": "CONR Roster",
+      "date": "Fri Apr 4\n6:37 pm"
+    }
+  ],
+  "Jason Foley, Det RP": [
+    {
+      "action": "drop",
+      "team": "WATf Roster",
+      "date": "Fri Apr 4\n11:38 am"
+    }
+  ],
+  "JP Sears, Ath SP": [
+    {
+      "action": "add",
+      "team": "Ben Roster",
+      "date": "Fri Apr 4\n11:38 am"
+    }
+  ],
+  "Martin Perez, ChW SP": [
+    {
+      "action": "add",
+      "team": "MBT Roster",
+      "date": "Fri Apr 4\n9:42 am"
+    }
+  ],
+  "Reynaldo Lopez, Atl SP": [
+    {
+      "action": "drop",
+      "team": "MBT Roster",
+      "date": "Fri Apr 4\n9:41 am"
+    }
+  ],
+  "Osvaldo Bido, Ath SP": [
+    {
+      "action": "add",
+      "team": "HELP Roster",
+      "date": "Fri Apr 4\n8:15 am"
+    }
+  ],
+  "Pete Crow-Armstrong, ChC CF": [
+    {
+      "action": "add",
+      "team": "Ben Roster",
+      "date": "Thu Apr 3\n10:30 pm"
+    }
+  ],
+  "Marcus Stroman, NYY SP": [
+    {
+      "action": "add",
+      "team": "HELP Roster",
+      "date": "Wed Apr 2\n10:01 pm"
+    }
+  ],
+  "Edmundo Sosa, Phi SS": [
+    {
+      "action": "add",
+      "team": "WATf Roster",
+      "date": "Wed Apr 2\n9:19 pm"
+    }
+  ],
+  "Ben Rice, NYY 1B": [
+    {
+      "action": "add",
+      "team": "ALTL Roster",
+      "date": "Wed Apr 2\n8:42 pm"
+    }
+  ],
+  "Taijuan Walker, Phi SP": [
+    {
+      "action": "add",
+      "team": "Ben Roster",
+      "date": "Wed Apr 2\n7:48 pm"
+    }
+  ],
+  "Zack Littell, TB SP": [
+    {
+      "action": "add",
+      "team": "NNT Roster",
+      "date": "Wed Apr 2\n4:27 pm"
+    }
+  ],
+  "Anthony Banda, LAD RP": [
+    {
+      "action": "add",
+      "team": "GRIF Roster",
+      "date": "Wed Apr 2\n9:47 am"
+    }
+  ],
+  "Spencer Torkelson, Det 1B": [
+    {
+      "action": "add",
+      "team": "HELP Roster",
+      "date": "Wed Apr 2\n9:41 am"
+    }
+  ],
+  "Hunter Goodman, Col RF": [
+    {
+      "action": "add",
+      "team": "Ben Roster",
+      "date": "Wed Apr 2\n8:18 am"
+    }
+  ],
+  "Jordan Hicks, SF SP": [
+    {
+      "action": "add",
+      "team": "ALTL Roster",
+      "date": "Wed Apr 2\n7:12 am"
+    }
+  ],
+  "Alex Vesia, LAD RP": [
+    {
+      "action": "add",
+      "team": "Ben Roster",
+      "date": "Tue Apr 1\n10:26 pm"
+    }
+  ],
+  "Tylor Megill, NYM SP": [
+    {
+      "action": "add",
+      "team": "CONR Roster",
+      "date": "Tue Apr 1\n10:21 pm"
+    }
+  ]
+}

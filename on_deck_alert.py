@@ -5,6 +5,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 import statsapi
 
+# Load environment variables
 load_dotenv()
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 TEAMS_FILE = "teams.json"
@@ -53,7 +54,7 @@ def get_on_deck_players_with_context():
             current_batter = offense.get("batter", {}).get("fullName")
             team_id = offense.get("team", {}).get("id")
             inning = data["liveData"]["linescore"]["currentInning"]
-            half = data["liveData"]["linescore"]["inningHalf"][0]  # "Top" or "Bottom" → T or B
+            half = data["liveData"]["linescore"]["inningHalf"][0]  # T or B
             outs = data["liveData"]["outs"]
 
             if not current_batter or not team_id:
@@ -91,19 +92,28 @@ def get_on_deck_players_with_context():
 
 def send_discord_alert(players):
     if not players:
+        print("🔇 No players to alert.")
         return
+
     names = "\n".join(f"• **{name}** is on deck!" for name in players)
     timestamp = datetime.now().strftime("%Y-%m-%d %I:%M %p")
     message = f"🧢 **Fantasy On-Deck Alert** – {timestamp}\n{names}"
 
-    # 👇 Add this line for visibility
     print(f"📤 Sending to Discord:\n{message}")
 
-    requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+    try:
+        res = requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+        print(f"✅ Discord response code: {res.status_code}")
+        if res.status_code != 204:
+            print(f"❌ Discord error: {res.text}")
+    except Exception as e:
+        print(f"❌ Failed to send Discord alert: {e}")
 
 def main():
+    # 🔥 Force a test alert every time this runs
     send_discord_alert(["TEST PLAYER"])
     return
+
     all_hitters = get_all_fantasy_hitters()
     print(f"🧢 Loaded {len(all_hitters)} fantasy hitters")
 
@@ -115,10 +125,12 @@ def main():
         if name in all_hitters:
             if log.get(name) != context:
                 new_alerts.append(name)
-                log[name] = context  # Update log
+                log[name] = context
 
-    # 👇 PLACE THIS RIGHT HERE:
     print(f"🚨 New alerts to send: {new_alerts}")
     if new_alerts:
         send_discord_alert(new_alerts)
         save_log(log)
+
+if __name__ == "__main__":
+    main()

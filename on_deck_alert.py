@@ -27,10 +27,11 @@ def get_all_fantasy_hitters():
     hitters = set()
     for team in teams:
         for player in team["players"]:
+            position = str(player.get("position", ""))  # Safely convert to string
             if (
-                player["status"] == "starter"
-                and not player["position"].startswith("SP")
-                and not player["position"].startswith("RP")
+                player.get("status") == "starter"
+                and not position.startswith("SP")
+                and not position.startswith("RP")
             ):
                 hitters.add(player["name"])
     return list(hitters)

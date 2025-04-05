@@ -49,17 +49,19 @@ def get_on_deck_players_with_context():
             res = requests.get(url)
             data = res.json()
 
+            # Safely extract live game context
             linescore = data.get("liveData", {}).get("linescore", {})
             offense = linescore.get("offense", {})
             current_batter = offense.get("batter", {}).get("fullName")
             team_id = offense.get("team", {}).get("id")
             inning = linescore.get("currentInning")
-            half = linescore.get("inningHalf", "T")[0]  # Default to "T" if missing
+            half = linescore.get("inningHalf", "T")[0]  # Default to "T" if not present
             outs = data.get("liveData", {}).get("outs")
 
             if None in [current_batter, team_id, inning, outs]:
                 raise ValueError("Missing key game data (batter/team/inning/outs)")
 
+            # Find on-deck batter
             box = data.get("liveData", {}).get("boxscore", {})
             on_deck_name = None
 

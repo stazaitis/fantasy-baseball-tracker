@@ -111,7 +111,7 @@ def main():
 
     log = load_log()
     now = datetime.utcnow()
-    cooldown = timedelta(minutes=30)
+    cooldown = timedelta(minutes=2)  # ALERT AGAIN after 2 minutes
 
     new_alerts = []
 

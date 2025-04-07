@@ -1,6 +1,6 @@
 import json
 import os
-from datetime import date
+from datetime import datetime, timedelta
 
 def compare_snapshots(yesterday_file, today_file, log_file='ownership_log.json'):
     with open(yesterday_file) as f:

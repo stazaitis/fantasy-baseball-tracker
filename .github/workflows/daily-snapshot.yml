@@ -30,6 +30,13 @@ jobs:
         run: |
           python ownership_tracker.py
 
+      - name: Verify snapshot was created
+        run: |
+          echo "📁 Current directory contents:"
+          ls -lh
+          echo "🔍 Checking for snapshot files:"
+          ls teams_*.json || echo "❌ No snapshot files found"
+
       - name: Commit and push changes (only if files exist)
         run: |
           git config user.name "github-actions[bot]"

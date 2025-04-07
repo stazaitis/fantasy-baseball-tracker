@@ -142,20 +142,21 @@ def search_page():
 def live_points():
     try:
         with open("teams.json", "r") as f:
-            teams_data = json.load(f)
+            teams = json.load(f)
     except Exception as e:
         return {"error": f"Failed to load teams.json: {str(e)}"}, 500
 
     result = []
-
-    for team in teams_data:
+    for team in teams:
         team_points = 0
-        players = team.get("players", [])
         player_results = []
 
-        for p in players:
-            name = p.get("name")
-            points = 0  # Placeholder for now
+        for player in team.get("players", []):
+            name = player.get("name")
+            acquired = player.get("acquiredDateTime")
+            dropped = player.get("droppedDateTime")
+            points = get_player_stats_for_range(name, acquired, dropped)
+
             player_results.append({
                 "name": name,
                 "points": points
@@ -164,7 +165,7 @@ def live_points():
 
         result.append({
             "team": team.get("team_name", "Unknown"),
-            "total_points": team_points,
+            "total_points": round(team_points, 1),
             "players": player_results
         })
 

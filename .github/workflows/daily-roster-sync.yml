@@ -2,35 +2,7 @@ name: Trigger Daily Roster Sync on Render
 
 on:
   schedule:
-<<<<<<< HEAD
-    - cron: "0 14 * * *"  # This will trigger at 9:00 AM ET every day (adjust as needed)
-  workflow_dispatch:  # Allows manual runs from GitHub UI
-=======
-    - cron: "9 19 * * *"
-  workflow_dispatch:
->>>>>>> 6eb0ac9 (⏰ Update roster sync cron to 1 min before MLB games (auto))
-
-jobs:
-  trigger-render-deploy-hook:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger Render Deploy Hook
-        run: |
-          curl -X POST "$RENDER_DEPLOY_HOOK"
-        env:
-          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 2575b93 (Add GitHub Action to auto-trigger Render daily)
-
-=======
-name: Trigger Daily Roster Sync on Render
-
-on:
-  schedule:
-    - cron: "9 19 * * *"
+    - cron: '19 19 * * *'  # 7:19 PM UTC = 3:19 PM ET
   workflow_dispatch:
 
 jobs:
@@ -42,5 +14,3 @@ jobs:
           curl -X POST "$RENDER_DEPLOY_HOOK"
         env:
           RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
->>>>>>> aeb4b14 (Add GitHub Action to auto-trigger Render daily)
->>>>>>> 6eb0ac9 (⏰ Update roster sync cron to 1 min before MLB games (auto))

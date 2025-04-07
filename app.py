@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, redirect
 import json
 from datetime import datetime, date
+from waitress import serve
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -139,24 +140,30 @@ def search_page():
 
 @app.route("/api/live_points")
 def live_points():
-    import json
-
     try:
         with open("teams.json", "r") as f:
-            teams = json.load(f)
+            data = json.load(f)
     except Exception as e:
         return {"error": f"Failed to load teams.json: {str(e)}"}, 500
 
-    result = []
+    # Fix: Ensure we're dealing with a list of dicts
+    try:
+        teams = json.loads(data) if isinstance(data, str) else data
+    except Exception as e:
+        return {"error": f"Invalid JSON structure in teams.json: {str(e)}"}, 500
 
+    result = []
     for team in teams:
+        if not isinstance(team, dict):
+            continue  # skip bad entries
+
         team_points = 0
         players = team.get("players", [])
         player_results = []
 
         for p in players:
-            name = p.get("name")
-            points = 0  # You’ll replace this with real-time logic later
+            name = p.get("name", "Unknown")
+            points = 0  # Replace with actual scoring later
             player_results.append({
                 "name": name,
                 "points": points
@@ -173,4 +180,4 @@ def live_points():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    serve(app, host="0.0.0.0", port=port)

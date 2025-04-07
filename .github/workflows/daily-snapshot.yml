@@ -3,11 +3,37 @@ name: Daily Fantasy Snapshot & Ownership Tracker
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 16 * * *'
+    - cron: '50 16 * * *'  # 12:50 PM ET daily
 
 jobs:
-  test-job:
+  run-snapshot-and-tracker:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Say hello
-        run: echo "✅ GitHub Actions is working!"
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install python-dotenv requests
+
+      - name: Run daily snapshot
+        run: |
+          python load_teams_from_espn.py --save-snapshot
+
+      - name: Run ownership tracker
+        run: |
+          python ownership_tracker.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add teams_*.json ownership_log.json
+          git commit -m "📸 Auto snapshot + ownership log for $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push

@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, redirect
 import json
-from datetime import datetime, date, timezone
+from datetime import datetime, date
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -37,6 +37,7 @@ def get_first_game_start_datetime(game_date):
         games = res.json().get("dates", [])[0].get("games", [])
         if not games:
             return None
+        # Get the earliest game start time
         start_times = [datetime.fromisoformat(game["gameDate"].replace("Z", "+00:00")) for game in games]
         return min(start_times) if start_times else None
     except:
@@ -51,7 +52,7 @@ def get_player_id(player_name):
         print(f"❌ Error getting ID for {player_name}")
         return None
 
-def get_player_stats_for_range(player_name, acquired_datetime=None):
+def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_datetime=None):
     player_id = get_player_id(player_name)
     if not player_id:
         print(f"⚠️ No ID found for {player_name}")
@@ -72,13 +73,14 @@ def get_player_stats_for_range(player_name, acquired_datetime=None):
                 if not (MATCHUP_START <= game_date <= MATCHUP_END):
                     continue
 
-                if acquired_datetime:
-                    first_game_start = get_first_game_start_datetime(game_date)
-                    if first_game_start:
-                        if acquired_datetime.tzinfo is None:
-                            acquired_datetime = acquired_datetime.replace(tzinfo=timezone.utc)
-                        if acquired_datetime >= first_game_start:
-                            continue  # Skip game if player added after games started
+                first_game_start = get_first_game_start_datetime(game_date)
+                if not first_game_start:
+                    continue
+
+                if acquired_datetime and acquired_datetime.replace(tzinfo=first_game_start.tzinfo) >= first_game_start:
+                    continue
+                if dropped_datetime and dropped_datetime.replace(tzinfo=first_game_start.tzinfo) <= first_game_start:
+                    continue
 
                 stat = game["stat"]
                 pitching = "inningsPitched" in stat
@@ -150,16 +152,24 @@ def live_points():
                 continue
 
             acquired_str = p.get("acquiredDateTime")
+            dropped_str = p.get("droppedDateTime")
+
             acquired_dt = None
+            dropped_dt = None
+
             if acquired_str:
                 try:
                     acquired_dt = datetime.fromisoformat(acquired_str.replace("Z", "+00:00"))
-                    if acquired_dt.tzinfo is None:
-                        acquired_dt = acquired_dt.replace(tzinfo=timezone.utc)
                 except:
                     pass
 
-            points = get_player_stats_for_range(p["name"], acquired_dt)
+            if dropped_str:
+                try:
+                    dropped_dt = datetime.fromisoformat(dropped_str.replace("Z", "+00:00"))
+                except:
+                    pass
+
+            points = get_player_stats_for_range(p["name"], acquired_dt, dropped_dt)
             players_with_points.append({
                 "name": p["name"],
                 "position": POSITION_MAP.get(p["position"], p["position"]),

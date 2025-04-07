@@ -48,7 +48,7 @@ def fetch_teams():
         for player in roster_entries:
             player_data = player.get("playerPoolEntry", {}).get("player", {})
             if not player_data:
-                continue  # skip if no player data
+                continue
 
             player_id = player_data.get("id")
             player_name = player_data.get("fullName", "Unknown")
@@ -58,28 +58,23 @@ def fetch_teams():
             status = "starter" if lineup_slot < 20 else "bench"
 
             acquired_timestamp = player.get("acquisitionDate")
-            acquired_date = (
-                datetime.fromtimestamp(acquired_timestamp / 1000).strftime("%Y-%m-%d")
-                if acquired_timestamp else None
-            )
-            acquired_datetime = (
-                datetime.fromtimestamp(acquired_timestamp / 1000).isoformat()
-                if acquired_timestamp else None
-            )
+            acquired_datetime = datetime.fromtimestamp(acquired_timestamp / 1000).isoformat() if acquired_timestamp else None
+            acquired_date = acquired_datetime.split("T")[0] if acquired_datetime else None
 
-            player_entry = {
+            dropped_timestamp = player.get("droppingDate")
+            dropped_datetime = datetime.fromtimestamp(dropped_timestamp / 1000).isoformat() if dropped_timestamp else None
+            dropped_date = dropped_datetime.split("T")[0] if dropped_datetime else None
+
+            team_info["players"].append({
                 "espn_id": player_id,
                 "name": player_name,
                 "position": position,
-                "status": status
-            }
-
-            if acquired_date:
-                player_entry["acquiredDate"] = acquired_date
-            if acquired_datetime:
-                player_entry["acquiredDateTime"] = acquired_datetime
-
-            team_info["players"].append(player_entry)
+                "status": status,
+                "acquiredDate": acquired_date,
+                "acquiredDateTime": acquired_datetime,
+                "droppedDate": dropped_date,
+                "droppedDateTime": dropped_datetime
+            })
 
         print(f"✅ {team_name}: {len(team_info['players'])} players loaded")
         teams.append(team_info)

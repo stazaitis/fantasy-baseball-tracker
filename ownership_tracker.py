@@ -43,4 +43,16 @@ def compare_snapshots(yesterday_file, today_file, log_file='ownership_log.json')
     print(f"\n✅ ownership_log.json updated for {today_str} with {new_changes} teams having changes.")
 
 if __name__ == "__main__":
-    compare_snapshots("teams_2025-04-06.json", "teams_2025-04-07.json")
+    # Get today and yesterday filenames
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    yesterday = datetime.now() - timedelta(days=1)
+    yesterday_str = yesterday.strftime("%Y-%m-%d")
+
+    today_file = f"teams_{today_str}.json"
+    yesterday_file = f"teams_{yesterday_str}.json"
+
+    # Only run comparison if both files exist
+    if os.path.exists(today_file) and os.path.exists(yesterday_file):
+        compare_snapshots(yesterday_file, today_file)
+    else:
+        print(f"⚠️ Skipping ownership comparison: Missing {yesterday_file} or {today_file}")

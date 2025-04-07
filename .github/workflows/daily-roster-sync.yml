@@ -2,8 +2,8 @@ name: Trigger Daily Roster Sync on Render
 
 on:
   schedule:
-    - cron: '19 19 * * *'  # 7:19 PM UTC = 3:19 PM ET
-  workflow_dispatch:
+    - cron: "9 19 * * *"  # 7:09 PM UTC = 3:09 PM ET (1 min before first MLB game)
+  workflow_dispatch:  # Allows manual runs from GitHub UI
 
 jobs:
   trigger-render-deploy-hook:

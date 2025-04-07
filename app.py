@@ -77,10 +77,9 @@ def get_player_stats_for_range(player_name, acquired_datetime=None):
                 if not (MATCHUP_START <= game_date <= MATCHUP_END):
                     continue
 
-                if acquired_datetime:
-                    first_game_start = get_first_game_start_datetime(game_date)
-                    if first_game_start and acquired_datetime >= first_game_start:
-                        continue
+                if acquired_datetime and game_date < acquired_datetime.date():
+                    continue
+
 
                 stat = game["stat"]
                 pitching = "inningsPitched" in stat

@@ -139,52 +139,37 @@ def search_page():
 
 @app.route("/api/live_points")
 def live_points():
-    with open("teams.json") as f:
-        teams = json.load(f)
+    import json
 
-    results = []
+    try:
+        with open("teams.json", "r") as f:
+            teams = json.load(f)
+    except Exception as e:
+        return {"error": f"Failed to load teams.json: {str(e)}"}, 500
+
+    result = []
+
     for team in teams:
-        team_total = 0
-        players_with_points = []
+        team_points = 0
+        players = team.get("players", [])
+        player_results = []
 
-        for p in team["players"]:
-            if p.get("status", "").lower() == "bench":
-                continue
-
-            acquired_str = p.get("acquiredDateTime")
-            dropped_str = p.get("droppedDateTime")
-
-            acquired_dt = None
-            dropped_dt = None
-
-            if acquired_str:
-                try:
-                    acquired_dt = datetime.fromisoformat(acquired_str.replace("Z", "+00:00"))
-                except:
-                    pass
-
-            if dropped_str:
-                try:
-                    dropped_dt = datetime.fromisoformat(dropped_str.replace("Z", "+00:00"))
-                except:
-                    pass
-
-            points = get_player_stats_for_range(p["name"], acquired_dt, dropped_dt)
-            players_with_points.append({
-                "name": p["name"],
-                "position": POSITION_MAP.get(p["position"], p["position"]),
-                "points": round(points, 1)
+        for p in players:
+            name = p.get("name")
+            points = 0  # You’ll replace this with real-time logic later
+            player_results.append({
+                "name": name,
+                "points": points
             })
-            team_total += points
+            team_points += points
 
-        results.append({
-            "team_name": team["team_name"],
-            "owner": team["owner"].get("displayName") if isinstance(team["owner"], dict) else team["owner"],
-            "total": round(team_total, 1),
-            "players": players_with_points
+        result.append({
+            "team": team.get("team_name", "Unknown"),
+            "total_points": team_points,
+            "players": player_results
         })
 
-    return jsonify(results)
+    return {"live_points": result}, 200
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

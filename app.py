@@ -8,19 +8,15 @@ from waitress import serve
 
 # Initialize Flask app
 app = Flask(__name__)
-
-# Load environment variables
 load_dotenv()
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
-# Position ID to name mapping
 POSITION_MAP = {
     1: "P", 2: "C", 3: "1B", 4: "2B", 5: "3B", 6: "SS", 7: "LF",
     8: "CF", 9: "RF", 10: "DH", 11: "RP", 12: "SP"
 }
 
-# Custom fantasy scoring system
 SCORING = {
     "H": 0.5, "R": 1, "TB": 1, "RBI": 1, "BB": 1, "SO": -1, "SB": 1,
     "OUTS": 1, "H_ALLOWED": -1, "ER": -2, "BB_ISSUED": -1, "K": 1,
@@ -38,7 +34,6 @@ def get_first_game_start_datetime(game_date):
         games = res.json().get("dates", [])[0].get("games", [])
         if not games:
             return None
-        # Get the earliest game start time
         start_times = [datetime.fromisoformat(game["gameDate"].replace("Z", "+00:00")) for game in games]
         return min(start_times) if start_times else None
     except:
@@ -147,15 +142,23 @@ def live_points():
         return {"error": f"Failed to load teams.json: {str(e)}"}, 500
 
     result = []
+
     for team in teams:
+        team_name = team.get("team_name", "Unknown")
         team_points = 0
         player_results = []
 
-        for player in team.get("players", []):
+        players = team.get("players", [])
+        if not players:
+            print(f"⚠️ No players found for team: {team_name}")
+
+        for player in players:
             name = player.get("name")
             acquired = player.get("acquiredDateTime")
             dropped = player.get("droppedDateTime")
             points = get_player_stats_for_range(name, acquired, dropped)
+
+            print(f"📊 {name}: {points} pts")
 
             player_results.append({
                 "name": name,
@@ -164,7 +167,7 @@ def live_points():
             team_points += points
 
         result.append({
-            "team": team.get("team_name", "Unknown"),
+            "team": team_name,
             "total_points": round(team_points, 1),
             "players": player_results
         })

@@ -27,9 +27,9 @@ SCORING = {
     "QS": 3, "CG": 3, "NH": 7, "PG": 10, "W": 5, "L": -5, "SV": 5, "HD": 3
 }
 
-# Matchup 2 (March 31 – April 6)
-MATCHUP_START = date(2025, 3, 31)
-MATCHUP_END = date(2025, 4, 6)
+# Matchup 3 (April 7 – April 13)
+MATCHUP_START = date(2025, 4, 7)
+MATCHUP_END = date(2025, 4, 13)
 
 def get_first_game_start_datetime(game_date):
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={game_date.isoformat()}"

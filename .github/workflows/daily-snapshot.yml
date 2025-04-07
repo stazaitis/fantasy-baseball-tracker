@@ -30,10 +30,17 @@ jobs:
         run: |
           python ownership_tracker.py
 
-      - name: Commit and push changes
+      - name: Commit and push changes (only if files exist)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add teams_*.json ownership_log.json
-          git commit -m "📸 Auto snapshot + ownership log for $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git push
+
+          # Only add snapshot files that exist
+          SNAPSHOTS=$(ls teams_*.json 2>/dev/null || true)
+          if [ -n "$SNAPSHOTS" ] || [ -f "ownership_log.json" ]; then
+            git add $SNAPSHOTS ownership_log.json
+            git commit -m "📸 Auto snapshot + ownership log for $(date +'%Y-%m-%d')" || echo "No changes to commit"
+            git push
+          else
+            echo "⚠️ No snapshot or ownership_log.json found — skipping commit"
+          fi

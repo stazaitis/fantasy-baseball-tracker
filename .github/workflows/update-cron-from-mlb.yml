@@ -2,7 +2,7 @@ name: Update GitHub Action Cron from MLB Schedule
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Runs daily at 8:00 AM ET (12:00 UTC)
+    - cron: '0 12 * * *'  # Runs daily at 8:00 AM ET
   workflow_dispatch:
 
 jobs:
@@ -24,10 +24,11 @@ jobs:
       - name: Run mlbgame_start.py to update cron
         run: python mlbgame_start.py
 
-      - name: Commit and push updated cron
+      - name: Commit and push updated cron using PAT
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "cron-updater"
+          git config user.email "cron@fantasybot.com"
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_FOR_PUSH }}@github.com/${{ github.repository }}
           git add .github/workflows/daily-roster-sync.yml
           git commit -m "⏰ Auto-update Render cron to match MLB schedule" || echo "No cron changes to commit"
           git push

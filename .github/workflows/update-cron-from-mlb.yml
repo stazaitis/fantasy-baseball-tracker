@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout with PAT
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT_FOR_PUSH }}
+
 
       - name: Set up Python
         uses: actions/setup-python@v4

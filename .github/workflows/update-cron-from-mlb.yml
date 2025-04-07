@@ -25,10 +25,13 @@ jobs:
         run: python mlbgame_start.py
 
       - name: Commit and push updated cron using PAT
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_FOR_PUSH }}
         run: |
           git config user.name "cron-updater"
           git config user.email "cron@fantasybot.com"
-          git remote set-url origin https://x-access-token:${{ secrets.PAT_FOR_PUSH }}@github.com/${{ github.repository }}
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
           git add .github/workflows/daily-roster-sync.yml
           git commit -m "⏰ Auto-update Render cron to match MLB schedule" || echo "No cron changes to commit"
-          git push
+          git push origin HEAD:master
+

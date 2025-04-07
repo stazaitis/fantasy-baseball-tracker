@@ -34,7 +34,7 @@ def fetch_teams():
         print("Response text snippet:", res.text[:500])
         raise e
 
-    teams = []
+    teams = {}
     for team in data.get("teams", []):
         location = team.get("location", "")
         nickname = team.get("nickname", "")
@@ -83,14 +83,13 @@ def fetch_teams():
                 print(f"⚠️ Error processing player for {team_name}: {e}")
 
         print(f"✅ {abbrev} ({team_name}): {len(team_info['players'])} players loaded")
-        teams.append(team_info)
+        teams[abbrev] = team_info
 
     return teams
 
 def save_teams_json(data):
     try:
         json_str = json.dumps(data, indent=2)
-        parsed = json.loads(json_str)
         with open("teams.json", "w") as f:
             f.write(json_str)
         print("✅ teams.json saved successfully")

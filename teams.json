@@ -1,8 +1,8 @@
-{
-  "ALTL": {
+[
+  {
     "team_name": "ALTL",
     "owner": "{0D64EED8-94DE-4490-A4EE-D894DE749028}",
-    "starters": [
+    "players": [
       {
         "espn_id": 39832,
         "name": "Shohei Ohtani",
@@ -263,13 +263,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "GRIF": {
+  {
     "team_name": "GRIF",
     "owner": "{9210985D-BA1F-4FC1-9C4A-81BC3EA5AE63}",
-    "starters": [
+    "players": [
       {
         "espn_id": 33192,
         "name": "Aaron Judge",
@@ -550,13 +549,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "CONR": {
+  {
     "team_name": "CONR",
     "owner": "{878A7B95-376F-4648-8A7B-95376F364842}",
-    "starters": [
+    "players": [
       {
         "espn_id": 42409,
         "name": "Tarik Skubal",
@@ -807,13 +805,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "WATf": {
+  {
     "team_name": "WATf",
     "owner": "{4C6D942C-0765-4741-936B-8906D4408AFF}",
-    "starters": [
+    "players": [
       {
         "espn_id": 33039,
         "name": "Mookie Betts",
@@ -1084,13 +1081,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "McK": {
+  {
     "team_name": "McK",
     "owner": "{8A666E5C-6035-4778-8E65-07AD72C38789}",
-    "starters": [
+    "players": [
       {
         "espn_id": 31267,
         "name": "Zack Wheeler",
@@ -1371,13 +1367,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "Ben": {
+  {
     "team_name": "Ben",
     "owner": "{F4E5F64D-602C-42E7-9B09-4BB62C22553E}",
-    "starters": [
+    "players": [
       {
         "espn_id": 36969,
         "name": "Juan Soto",
@@ -1658,13 +1653,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "Kuch": {
+  {
     "team_name": "Kuch",
     "owner": "{9A595386-026D-4632-BD37-F21E6DEEB9B4}",
-    "starters": [
+    "players": [
       {
         "espn_id": 42403,
         "name": "Bobby Witt Jr.",
@@ -1945,13 +1939,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "KBM": {
+  {
     "team_name": "KBM",
     "owner": "{061FDB07-3B5C-4868-ADC9-A25F5D82B25A}",
-    "starters": [
+    "players": [
       {
         "espn_id": 42507,
         "name": "Gunnar Henderson",
@@ -2232,13 +2225,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "STAZ": {
+  {
     "team_name": "STAZ",
     "owner": "{213A1465-139E-4467-BA14-65139EB467BF}",
-    "starters": [
+    "players": [
       {
         "espn_id": 35002,
         "name": "Vladimir Guerrero Jr.",
@@ -2519,13 +2511,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "MBT": {
+  {
     "team_name": "MBT",
     "owner": "{7A461130-25B5-43BB-B981-011713318A3F}",
-    "starters": [
+    "players": [
       {
         "espn_id": 34967,
         "name": "Kyle Tucker",
@@ -2796,13 +2787,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "NNT": {
+  {
     "team_name": "NNT",
     "owner": "{8D4BCAC7-5F85-473D-8BCA-C75F85573DF5}",
-    "starters": [
+    "players": [
       {
         "espn_id": 32801,
         "name": "Jose Ramirez",
@@ -3063,13 +3053,12 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   },
-  "HELP": {
+  {
     "team_name": "HELP",
     "owner": "{818F4A61-9B7E-4008-9185-630E6581D8BE}",
-    "starters": [
+    "players": [
       {
         "espn_id": 36018,
         "name": "Yordan Alvarez",
@@ -3350,7 +3339,6 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ],
-    "bench": []
+    ]
   }
-}
+]

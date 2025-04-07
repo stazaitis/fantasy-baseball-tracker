@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 from flask import Flask, jsonify, render_template, redirect
 import json
-from datetime import datetime, date, timezone, time
+from datetime import datetime, date, timezone
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -12,10 +12,6 @@ app = Flask(__name__)
 load_dotenv()
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
-FANTASY_HITTERS = [
-    "Aaron Judge", "Shohei Ohtani", "Mike Trout", "Juan Soto",
-    "Rafael Devers", "Jose Altuve", "Luis Robert Jr.", "Corey Seager", "Matt McLain"
-]
 
 # Position ID to name mapping
 POSITION_MAP = {
@@ -41,7 +37,6 @@ def get_first_game_start_datetime(game_date):
         games = res.json().get("dates", [])[0].get("games", [])
         if not games:
             return None
-        # Get the earliest game start time
         start_times = [datetime.fromisoformat(game["gameDate"].replace("Z", "+00:00")) for game in games]
         return min(start_times) if start_times else None
     except:
@@ -79,8 +74,11 @@ def get_player_stats_for_range(player_name, acquired_datetime=None):
 
                 if acquired_datetime:
                     first_game_start = get_first_game_start_datetime(game_date)
-                    if first_game_start and acquired_datetime >= first_game_start:
-                        continue  # Player added after games started, skip this game's points
+                    if first_game_start:
+                        if acquired_datetime.tzinfo is None:
+                            acquired_datetime = acquired_datetime.replace(tzinfo=timezone.utc)
+                        if acquired_datetime >= first_game_start:
+                            continue  # Skip game if player added after games started
 
                 stat = game["stat"]
                 pitching = "inningsPitched" in stat
@@ -156,6 +154,8 @@ def live_points():
             if acquired_str:
                 try:
                     acquired_dt = datetime.fromisoformat(acquired_str.replace("Z", "+00:00"))
+                    if acquired_dt.tzinfo is None:
+                        acquired_dt = acquired_dt.replace(tzinfo=timezone.utc)
                 except:
                     pass
 

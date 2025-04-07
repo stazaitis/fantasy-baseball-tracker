@@ -148,14 +148,14 @@ def live_points():
 
     result = []
 
-    for team_id, team in teams_data.items():
+    for team in teams_data:
         team_points = 0
         players = team.get("players", [])
         player_results = []
 
         for p in players:
             name = p.get("name")
-            points = 0  # Replace with real point logic if needed
+            points = 0  # Placeholder for now
             player_results.append({
                 "name": name,
                 "points": points
@@ -163,7 +163,7 @@ def live_points():
             team_points += points
 
         result.append({
-            "team": team.get("team_name", team_id),
+            "team": team.get("team_name", "Unknown"),
             "total_points": team_points,
             "players": player_results
         })

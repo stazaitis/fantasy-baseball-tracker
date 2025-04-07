@@ -142,28 +142,19 @@ def search_page():
 def live_points():
     try:
         with open("teams.json", "r") as f:
-            data = json.load(f)
+            teams = json.load(f)
     except Exception as e:
         return {"error": f"Failed to load teams.json: {str(e)}"}, 500
 
-    # Fix: Ensure we're dealing with a list of dicts
-    try:
-        teams = json.loads(data) if isinstance(data, str) else data
-    except Exception as e:
-        return {"error": f"Invalid JSON structure in teams.json: {str(e)}"}, 500
-
     result = []
-    for team in teams:
-        if not isinstance(team, dict):
-            continue  # skip bad entries
 
+    for team_abbr, team_data in teams.items():
         team_points = 0
-        players = team.get("players", [])
         player_results = []
 
-        for p in players:
-            name = p.get("name", "Unknown")
-            points = 0  # Replace with actual scoring later
+        for player in team_data.get("players", []):
+            name = player.get("name")
+            points = 0  # This will later be replaced with live logic
             player_results.append({
                 "name": name,
                 "points": points
@@ -171,7 +162,7 @@ def live_points():
             team_points += points
 
         result.append({
-            "team": team.get("team_name", "Unknown"),
+            "team": team_data.get("team_name", team_abbr),
             "total_points": team_points,
             "players": player_results
         })

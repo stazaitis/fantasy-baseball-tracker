@@ -360,13 +360,6 @@
         "acquiredDate": "2025-03-16"
       },
       {
-        "espn_id": 29155,
-        "name": "Charlie Morton",
-        "position": "C",
-        "status": "starter",
-        "acquiredDate": "2025-03-18"
-      },
-      {
         "espn_id": 31258,
         "name": "Jameson Taillon",
         "position": "C",
@@ -386,6 +379,13 @@
         "position": "C",
         "status": "starter",
         "acquiredDate": "2025-04-05"
+      },
+      {
+        "espn_id": 5132011,
+        "name": "Will Warren",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06"
       }
     ]
   },
@@ -755,6 +755,13 @@
         "position": "MI",
         "status": "starter",
         "acquiredDate": "2025-04-02"
+      },
+      {
+        "espn_id": 32116,
+        "name": "Miles Mikolas",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06"
       }
     ]
   },
@@ -1342,18 +1349,25 @@
         "acquiredDate": "2025-03-31"
       },
       {
-        "espn_id": 4917640,
-        "name": "AJ Smith-Shawver",
+        "espn_id": 5085743,
+        "name": "Cade Povich",
         "position": "C",
         "status": "starter",
         "acquiredDate": "2025-04-05"
       },
       {
-        "espn_id": 4683356,
-        "name": "Mitchell Parker",
-        "position": "C",
+        "espn_id": 5165292,
+        "name": "Carson Spiers",
+        "position": "LF",
         "status": "starter",
         "acquiredDate": "2025-04-05"
+      },
+      {
+        "espn_id": 32150,
+        "name": "Trevor Story",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-04-06"
       }
     ]
   },
@@ -1697,13 +1711,6 @@
         "acquiredDate": "2025-03-16"
       },
       {
-        "espn_id": 4987382,
-        "name": "Ceddanne Rafaela",
-        "position": "OF",
-        "status": "starter",
-        "acquiredDate": "2025-03-16"
-      },
-      {
         "espn_id": 41889,
         "name": "Ivan Herrera",
         "position": "1B",
@@ -1758,6 +1765,13 @@
         "position": "LF",
         "status": "starter",
         "acquiredDate": "2025-03-31"
+      },
+      {
+        "espn_id": 36020,
+        "name": "TJ Friedl",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06"
       }
     ]
   },
@@ -2031,13 +2045,6 @@
         "acquiredDate": "2025-03-16"
       },
       {
-        "espn_id": 41415,
-        "name": "Yusei Kikuchi",
-        "position": "C",
-        "status": "starter",
-        "acquiredDate": "2025-03-16"
-      },
-      {
         "espn_id": 37729,
         "name": "Andres Gimenez",
         "position": "3B",
@@ -2136,11 +2143,18 @@
         "acquiredDate": "2025-03-29"
       },
       {
-        "espn_id": 34401,
-        "name": "Matthew Boyd",
+        "espn_id": 4719068,
+        "name": "Chase Dollander",
         "position": "C",
         "status": "starter",
         "acquiredDate": "2025-04-05"
+      },
+      {
+        "espn_id": 5131708,
+        "name": "Chad Patrick",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06"
       }
     ]
   },
@@ -2331,18 +2345,18 @@
         "acquiredDate": "2025-04-02"
       },
       {
-        "espn_id": 32815,
-        "name": "Marcus Stroman",
+        "espn_id": 33839,
+        "name": "Kyle Freeland",
         "position": "C",
         "status": "starter",
-        "acquiredDate": "2025-04-02"
+        "acquiredDate": "2025-04-06"
       },
       {
-        "espn_id": 5132624,
-        "name": "Osvaldo Bido",
+        "espn_id": 3332018,
+        "name": "Tylor Megill",
         "position": "C",
         "status": "starter",
-        "acquiredDate": "2025-04-04"
+        "acquiredDate": "2025-04-06"
       }
     ]
   }

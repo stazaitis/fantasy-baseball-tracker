@@ -17,3 +17,6 @@ matchup_data/
 updated_matchups/
 
 .env
+*.html
+*.json
+create_super_team.py

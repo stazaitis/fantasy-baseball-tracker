@@ -1,8 +1,8 @@
-[
-  {
+{
+  "ALTL": {
     "team_name": "ALTL",
     "owner": "{0D64EED8-94DE-4490-A4EE-D894DE749028}",
-    "players": [
+    "starters": [
       {
         "espn_id": 39832,
         "name": "Shohei Ohtani",
@@ -214,16 +214,6 @@
         "droppedDateTime": null
       },
       {
-        "espn_id": 4414525,
-        "name": "Kumar Rocker",
-        "position": "C",
-        "status": "starter",
-        "acquiredDate": "2025-03-16",
-        "acquiredDateTime": "2025-03-16T20:51:19.431000",
-        "droppedDate": null,
-        "droppedDateTime": null
-      },
-      {
         "espn_id": 35397,
         "name": "Jeffrey Springs",
         "position": "C",
@@ -262,13 +252,24 @@
         "acquiredDateTime": "2025-04-02T20:42:41.627000",
         "droppedDate": null,
         "droppedDateTime": null
+      },
+      {
+        "espn_id": 31749,
+        "name": "Luke Jackson",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T23:20:57.069000",
+        "droppedDate": null,
+        "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "GRIF": {
     "team_name": "GRIF",
     "owner": "{9210985D-BA1F-4FC1-9C4A-81BC3EA5AE63}",
-    "players": [
+    "starters": [
       {
         "espn_id": 33192,
         "name": "Aaron Judge",
@@ -549,12 +550,13 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "CONR": {
     "team_name": "CONR",
     "owner": "{878A7B95-376F-4648-8A7B-95376F364842}",
-    "players": [
+    "starters": [
       {
         "espn_id": 42409,
         "name": "Tarik Skubal",
@@ -796,21 +798,22 @@
         "droppedDateTime": null
       },
       {
-        "espn_id": 40921,
-        "name": "David Peterson",
-        "position": "C",
+        "espn_id": 41173,
+        "name": "Matthew Liberatore",
+        "position": "LF",
         "status": "starter",
-        "acquiredDate": "2025-04-04",
-        "acquiredDateTime": "2025-04-04T18:44:09.139000",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T17:07:08.637000",
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "WATf": {
     "team_name": "WATf",
     "owner": "{4C6D942C-0765-4741-936B-8906D4408AFF}",
-    "players": [
+    "starters": [
       {
         "espn_id": 33039,
         "name": "Mookie Betts",
@@ -1081,12 +1084,13 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "McK": {
     "team_name": "McK",
     "owner": "{8A666E5C-6035-4778-8E65-07AD72C38789}",
-    "players": [
+    "starters": [
       {
         "espn_id": 31267,
         "name": "Zack Wheeler",
@@ -1367,12 +1371,13 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "Ben": {
     "team_name": "Ben",
     "owner": "{F4E5F64D-602C-42E7-9B09-4BB62C22553E}",
-    "players": [
+    "starters": [
       {
         "espn_id": 36969,
         "name": "Juan Soto",
@@ -1604,16 +1609,6 @@
         "droppedDateTime": null
       },
       {
-        "espn_id": 32675,
-        "name": "Eduardo Rodriguez",
-        "position": "C",
-        "status": "starter",
-        "acquiredDate": "2025-03-30",
-        "acquiredDateTime": "2025-03-30T09:33:27.576000",
-        "droppedDate": null,
-        "droppedDateTime": null
-      },
-      {
         "espn_id": 42622,
         "name": "Alex Vesia",
         "position": "LF",
@@ -1652,13 +1647,24 @@
         "acquiredDateTime": "2025-04-04T11:38:49.738000",
         "droppedDate": null,
         "droppedDateTime": null
+      },
+      {
+        "espn_id": 41355,
+        "name": "Geraldo Perdomo",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T17:43:43.283000",
+        "droppedDate": null,
+        "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "Kuch": {
     "team_name": "Kuch",
     "owner": "{9A595386-026D-4632-BD37-F21E6DEEB9B4}",
-    "players": [
+    "starters": [
       {
         "espn_id": 42403,
         "name": "Bobby Witt Jr.",
@@ -1910,16 +1916,6 @@
         "droppedDateTime": null
       },
       {
-        "espn_id": 5085743,
-        "name": "Cade Povich",
-        "position": "C",
-        "status": "starter",
-        "acquiredDate": "2025-04-05",
-        "acquiredDateTime": "2025-04-05T19:53:12.471000",
-        "droppedDate": null,
-        "droppedDateTime": null
-      },
-      {
         "espn_id": 5165292,
         "name": "Carson Spiers",
         "position": "LF",
@@ -1938,13 +1934,24 @@
         "acquiredDateTime": "2025-04-06T11:23:52.175000",
         "droppedDate": null,
         "droppedDateTime": null
+      },
+      {
+        "espn_id": 34995,
+        "name": "Trent Grisham",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T23:06:25.831000",
+        "droppedDate": null,
+        "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "KBM": {
     "team_name": "KBM",
     "owner": "{061FDB07-3B5C-4868-ADC9-A25F5D82B25A}",
-    "players": [
+    "starters": [
       {
         "espn_id": 42507,
         "name": "Gunnar Henderson",
@@ -2225,12 +2232,13 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "STAZ": {
     "team_name": "STAZ",
     "owner": "{213A1465-139E-4467-BA14-65139EB467BF}",
-    "players": [
+    "starters": [
       {
         "espn_id": 35002,
         "name": "Vladimir Guerrero Jr.",
@@ -2452,16 +2460,6 @@
         "droppedDateTime": null
       },
       {
-        "espn_id": 40912,
-        "name": "Shane Bieber",
-        "position": "C",
-        "status": "starter",
-        "acquiredDate": "2025-03-18",
-        "acquiredDateTime": "2025-03-18T11:27:37.216000",
-        "droppedDate": null,
-        "droppedDateTime": null
-      },
-      {
         "espn_id": 40937,
         "name": "Dustin May",
         "position": "C",
@@ -2510,13 +2508,24 @@
         "acquiredDateTime": "2025-04-06T10:43:46.527000",
         "droppedDate": null,
         "droppedDateTime": null
+      },
+      {
+        "espn_id": 42047,
+        "name": "Logan O'Hoppe",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-04-07",
+        "acquiredDateTime": "2025-04-07T00:03:40.425000",
+        "droppedDate": null,
+        "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "MBT": {
     "team_name": "MBT",
     "owner": "{7A461130-25B5-43BB-B981-011713318A3F}",
-    "players": [
+    "starters": [
       {
         "espn_id": 34967,
         "name": "Kyle Tucker",
@@ -2787,12 +2796,13 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "NNT": {
     "team_name": "NNT",
     "owner": "{8D4BCAC7-5F85-473D-8BCA-C75F85573DF5}",
-    "players": [
+    "starters": [
       {
         "espn_id": 32801,
         "name": "Jose Ramirez",
@@ -3034,16 +3044,6 @@
         "droppedDateTime": null
       },
       {
-        "espn_id": 4719068,
-        "name": "Chase Dollander",
-        "position": "C",
-        "status": "starter",
-        "acquiredDate": "2025-04-05",
-        "acquiredDateTime": "2025-04-05T14:17:22.640000",
-        "droppedDate": null,
-        "droppedDateTime": null
-      },
-      {
         "espn_id": 5131708,
         "name": "Chad Patrick",
         "position": "C",
@@ -3052,13 +3052,24 @@
         "acquiredDateTime": "2025-04-06T09:36:13.152000",
         "droppedDate": null,
         "droppedDateTime": null
+      },
+      {
+        "espn_id": 42996,
+        "name": "Hayden Wesneski",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T16:50:48.585000",
+        "droppedDate": null,
+        "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   },
-  {
+  "HELP": {
     "team_name": "HELP",
     "owner": "{818F4A61-9B7E-4008-9185-630E6581D8BE}",
-    "players": [
+    "starters": [
       {
         "espn_id": 36018,
         "name": "Yordan Alvarez",
@@ -3339,6 +3350,7 @@
         "droppedDate": null,
         "droppedDateTime": null
       }
-    ]
+    ],
+    "bench": []
   }
-]
+}

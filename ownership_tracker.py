@@ -1,91 +1,46 @@
-import os
 import json
-import requests
-from datetime import datetime
-from dotenv import load_dotenv
+import os
+from datetime import date
 
-# Load secrets
-load_dotenv()
-LEAGUE_ID = 121956
-SWID = os.getenv("SWID")
-ESPN_S2 = os.getenv("ESPN_S2")
+def compare_snapshots(yesterday_file, today_file, log_file='ownership_log.json'):
+    with open(yesterday_file) as f:
+        teams_yesterday = json.load(f)
+    with open(today_file) as f:
+        teams_today = json.load(f)
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0",
-    "x-fantasy-filter": json.dumps({
-        "transactions": {
-            "filterType": {
-                "value": ["ADD", "DROP"]
-            },
-            "limit": 1000,
-            "sortParam": "EXECUTION_DATE",
-            "sortDir": "descending"
-        }
-    }),
-    "Cookie": f"espn_s2={ESPN_S2}; SWID={SWID};"
-}
+    today_str = str(date.today())
+    ownership_log = {}
 
-def fetch_transaction_log():
-    url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{LEAGUE_ID}?view=mTransactions"
-    res = requests.get(url, headers=HEADERS)
+    # Load existing log
+    if os.path.exists(log_file):
+        with open(log_file) as f:
+            ownership_log = json.load(f)
 
-    try:
-        data = res.json()
-    except Exception as e:
-        print("❌ Error parsing response JSON:", e)
-        print("Response text:", res.text[:300])
-        return []
+    if today_str not in ownership_log:
+        ownership_log[today_str] = {}
 
-    txns = data.get("transactions", [])
-    if not txns:
-        print("❌ No transactions found in mTransactions view.")
-        return []
+    new_changes = 0
 
-    return txns
+    for team_name, today_data in teams_today.items():
+        yesterday_data = teams_yesterday.get(team_name, {})
+        today_players = {p['name'] for p in today_data.get("starters", []) + today_data.get("bench", [])}
+        yesterday_players = {p['name'] for p in yesterday_data.get("starters", []) + yesterday_data.get("bench", [])}
 
-def load_log():
-    if os.path.exists("ownership_log.json"):
-        with open("ownership_log.json", "r") as f:
-            return json.load(f)
-    return []
+        added = sorted(list(today_players - yesterday_players))
+        dropped = sorted(list(yesterday_players - today_players))
 
-def save_log(log):
-    with open("ownership_log.json", "w") as f:
-        json.dump(log, f, indent=2)
-
-def main():
-    print("🔄 Fetching ESPN transactions...")
-    txns = fetch_transaction_log()
-    log = load_log()
-    added = 0
-
-    for txn in txns:
-        if txn["type"] not in ["ADD", "DROP"]:
-            continue
-
-        for item in txn.get("items", []):
-            player = item.get("player")
-            if not player:
-                continue
-
-            team_id = item.get("toTeamId") if txn["type"] == "ADD" else item.get("fromTeamId")
-            timestamp = txn.get("executionDate")
-            dt = datetime.fromtimestamp(timestamp / 1000).isoformat()
-
-            log_entry = {
-                "player": player.get("fullName"),
-                "teamId": team_id,
-                "type": txn["type"],
-                "timestamp": dt
+        if added or dropped:
+            ownership_log[today_str][team_name] = {
+                "added": added,
+                "dropped": dropped
             }
+            new_changes += 1
+            print(f"🔁 {team_name}: +{len(added)} added, -{len(dropped)} dropped")
 
-            if log_entry not in log:
-                log.append(log_entry)
-                added += 1
-                print(f"✅ {txn['type']}: {log_entry['player']} at {dt}")
+    with open(log_file, "w") as f:
+        json.dump(ownership_log, f, indent=2)
 
-    save_log(log)
-    print(f"✅ ownership_log.json updated with {added} new entries ({len(log)} total).")
+    print(f"\n✅ ownership_log.json updated for {today_str} with {new_changes} teams having changes.")
 
 if __name__ == "__main__":
-    main()
+    compare_snapshots("teams_2025-04-06.json", "teams_2025-04-07.json")

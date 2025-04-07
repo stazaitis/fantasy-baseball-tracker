@@ -1,6 +1,8 @@
-from datetime import datetime
-import requests
+import os
+import sys
 import json
+import requests
+from datetime import datetime
 
 # ESPN credentials
 ESPN_LEAGUE_ID = 121956
@@ -31,17 +33,18 @@ def fetch_teams():
         print("Response text snippet:", res.text[:500])
         raise e
 
-    teams = []
+    teams = {}
     for team in data["teams"]:
         location = team.get("location", "")
         nickname = team.get("nickname", "")
         abbrev = team.get("abbrev", "Unknown")
-        team_name = f"{location} {nickname}".strip() or abbrev
+        team_name = abbrev  # Short name used as dictionary key
 
         team_info = {
-            "team_name": team_name,
+            "team_name": f"{location} {nickname}".strip() or abbrev,
             "owner": team["owners"][0] if team.get("owners") else None,
-            "players": []
+            "starters": [],
+            "bench": []
         }
 
         roster_entries = team.get("roster", {}).get("entries", [])
@@ -65,7 +68,7 @@ def fetch_teams():
             dropped_datetime = datetime.fromtimestamp(dropped_timestamp / 1000).isoformat() if dropped_timestamp else None
             dropped_date = dropped_datetime.split("T")[0] if dropped_datetime else None
 
-            team_info["players"].append({
+            player_info = {
                 "espn_id": player_id,
                 "name": player_name,
                 "position": position,
@@ -74,15 +77,41 @@ def fetch_teams():
                 "acquiredDateTime": acquired_datetime,
                 "droppedDate": dropped_date,
                 "droppedDateTime": dropped_datetime
-            })
+            }
 
-        print(f"✅ {team_name}: {len(team_info['players'])} players loaded")
-        teams.append(team_info)
+            if status == "starter":
+                team_info["starters"].append(player_info)
+            else:
+                team_info["bench"].append(player_info)
+
+        print(f"✅ {team_info['team_name']} ({team_name}): {len(team_info['starters']) + len(team_info['bench'])} players loaded")
+        teams[team_name] = team_info
 
     return teams
 
 if __name__ == "__main__":
     teams = fetch_teams()
+
+    # Save live data to teams.json
     with open("teams.json", "w") as f:
         json.dump(teams, f, indent=2)
     print("✅ teams.json successfully updated from ESPN")
+
+    # Optional: Save snapshot if flag is passed
+    if '--save-snapshot' in sys.argv:
+        # Check if a custom snapshot date was provided
+        if '--snapshot-date' in sys.argv:
+            try:
+                i = sys.argv.index('--snapshot-date') + 1
+                snapshot_date = sys.argv[i]
+            except IndexError:
+                print("❌ Error: --snapshot-date provided but no date found.")
+                sys.exit(1)
+        else:
+            snapshot_date = datetime.now().strftime("%Y-%m-%d")
+
+        filename = f"teams_{snapshot_date}.json"
+        with open(filename, "w") as f:
+            json.dump(teams, f, indent=2)
+        print(f"📸 Snapshot saved as {filename}")
+

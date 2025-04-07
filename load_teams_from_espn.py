@@ -62,14 +62,24 @@ def fetch_teams():
                 datetime.fromtimestamp(acquired_timestamp / 1000).strftime("%Y-%m-%d")
                 if acquired_timestamp else None
             )
+            acquired_datetime = (
+                datetime.fromtimestamp(acquired_timestamp / 1000).isoformat()
+                if acquired_timestamp else None
+            )
 
-            team_info["players"].append({
+            player_entry = {
                 "espn_id": player_id,
                 "name": player_name,
                 "position": position,
-                "status": status,
-                "acquiredDate": acquired_date
-            })
+                "status": status
+            }
+
+            if acquired_date:
+                player_entry["acquiredDate"] = acquired_date
+            if acquired_datetime:
+                player_entry["acquiredDateTime"] = acquired_datetime
+
+            team_info["players"].append(player_entry)
 
         print(f"✅ {team_name}: {len(team_info['players'])} players loaded")
         teams.append(team_info)

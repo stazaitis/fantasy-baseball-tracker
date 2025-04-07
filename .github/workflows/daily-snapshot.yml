@@ -3,7 +3,7 @@ name: Daily Fantasy Snapshot & Ownership Tracker
 on:
   workflow_dispatch:  # allows manual trigger from GitHub Actions tab
   schedule:
-    - cron: '50 16 * * *'  # runs every day at 12:50 PM ET (adjust as needed)
+    - cron: '50 16 * * *'  # runs every day at 12:50 PM ET
 
 jobs:
   run-snapshot-and-tracker:

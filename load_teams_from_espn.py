@@ -59,7 +59,11 @@ def fetch_teams():
                 position_id = player_data.get("defaultPositionId", 0)
                 position = POSITION_MAP.get(position_id, str(position_id))
                 lineup_slot = player.get("lineupSlotId", 99)
-                status = "starter" if lineup_slot < 20 else "bench"
+                # ESPN slot IDs for starters — adjust to match your exact league setup if needed
+                STARTER_SLOTS = list(range(0, 22))  # Slots 0–21 are all starters in your league
+                status = "starter" if lineup_slot in STARTER_SLOTS else "bench"
+
+
 
                 acquired_timestamp = player.get("acquisitionDate")
                 acquired_datetime = datetime.fromtimestamp(acquired_timestamp / 1000).isoformat() if acquired_timestamp else None

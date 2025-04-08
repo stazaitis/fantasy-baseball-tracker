@@ -358,6 +358,83 @@ def player_stats_api(player_name):
     except Exception as e:
         return {"error": f"Failed to get stats for {player_name}: {str(e)}"}, 500
 
+@app.route("/api/test_player/<player_name>")
+def test_player_api(player_name):
+    """Test endpoint to get detailed stats for a single player"""
+    try:
+        print(f"🔍 TEST: Starting detailed test for player: {player_name}")
+        
+        # Get the raw stats for this player
+        player_id = get_player_id(player_name)
+        if not player_id:
+            return {"error": f"Could not find ID for {player_name}"}, 404
+            
+        current_year = datetime.now().year
+        group = "hitting" if "ohtani" in player_name.lower() else "all"
+        url = f"https://statsapi.mlb.com/api/v1/people/{player_id}/stats?stats=gameLog&group={group}&season={current_year}"
+        
+        print(f"🔍 TEST: Requesting stats from URL: {url}")
+        res = requests.get(url)
+        data = res.json()
+        
+        # Log the raw data structure for diagnosis
+        print(f"🔍 TEST: Raw API response structure: {json.dumps(data)[:200]}...")
+        
+        points = get_player_stats_for_range(player_name)
+        
+        return {
+            "player": player_name,
+            "player_id": player_id, 
+            "points": points,
+            "matchup_range": f"{MATCHUP_START} to {MATCHUP_END}"
+        }, 200
+    except Exception as e:
+        print(f"❌ TEST ERROR: {str(e)}")
+        print(traceback.format_exc())
+        return {"error": f"Test failed: {str(e)}"}, 500
+        
+@app.route("/api/debug")
+def debug_info():
+    """Return debugging information"""
+    try:
+        with open("teams.json", "r") as f:
+            teams_data = json.load(f)
+        
+        # Get the structure and first few items
+        data_type = type(teams_data).__name__
+        
+        if isinstance(teams_data, dict):
+            sample = list(teams_data.keys())[:3]
+            size = len(teams_data)
+            first_team = next(iter(teams_data.values()))
+        elif isinstance(teams_data, list):
+            sample = [t.get("team_name", "Unknown") for t in teams_data[:3]]
+            size = len(teams_data)
+            first_team = teams_data[0] if teams_data else {}
+        else:
+            sample = str(teams_data)[:100]
+            size = len(str(teams_data))
+            first_team = {}
+        
+        # Get a sample player
+        sample_player = None
+        if first_team and "players" in first_team and first_team["players"]:
+            sample_player = first_team["players"][0]
+        
+        return {
+            "teams_data_type": data_type,
+            "teams_count": size,
+            "sample": sample,
+            "sample_player": sample_player,
+            "matchup_dates": {
+                "start": str(MATCHUP_START),
+                "end": str(MATCHUP_END),
+                "current": str(date.today())
+            }
+        }, 200
+    except Exception as e:
+        return {"error": f"Debug failed: {str(e)}"}, 500
+
 # Run the app
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

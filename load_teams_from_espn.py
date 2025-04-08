@@ -22,6 +22,9 @@ POSITION_MAP = {
     16: "BE", 17: "IL", 18: "NA"
 }
 
+# ESPN lineup slot IDs for bench positions - these should not count toward point totals
+BENCH_SLOTS = [16, 17, 18]  # 16=Bench, 17=Injured List, 18=Not Active
+
 def fetch_teams():
     url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{LEAGUE_ID}?view=mMatchup&view=mRoster&view=mTeam&view=mRosterSettings"
     res = requests.get(url, headers=HEADERS)
@@ -33,6 +36,22 @@ def fetch_teams():
         print("Status code:", res.status_code)
         print("Response text snippet:", res.text[:500])
         raise e
+
+    # Get league settings to understand lineup slots better
+    lineup_slots = {}
+    try:
+        slots = data.get("settings", {}).get("rosterSettings", {}).get("lineupSlotCounts", {})
+        for slot_id, count in slots.items():
+            slot_id = int(slot_id)
+            if slot_id in POSITION_MAP:
+                lineup_slots[slot_id] = {
+                    "name": POSITION_MAP[slot_id],
+                    "count": count,
+                    "is_bench": slot_id in BENCH_SLOTS
+                }
+        print(f"📋 League lineup slots configuration: {json.dumps(lineup_slots, indent=2)}")
+    except Exception as e:
+        print(f"⚠️ Couldn't parse league settings: {e}")
 
     teams = {}
     for team in data.get("teams", []):
@@ -48,6 +67,9 @@ def fetch_teams():
         }
 
         roster_entries = team.get("roster", {}).get("entries", [])
+        starter_count = 0
+        bench_count = 0
+        
         for player in roster_entries:
             try:
                 player_data = player.get("playerPoolEntry", {}).get("player", {})
@@ -59,11 +81,15 @@ def fetch_teams():
                 position_id = player_data.get("defaultPositionId", 0)
                 position = POSITION_MAP.get(position_id, str(position_id))
                 lineup_slot = player.get("lineupSlotId", 99)
-                # ESPN slot IDs for starters — adjust to match your exact league setup if needed
-                STARTER_SLOTS = list(range(0, 22))  # Slots 0–21 are all starters in your league
-                status = "starter" if lineup_slot in STARTER_SLOTS else "bench"
-
-
+                
+                # Determine if player is on bench based on lineup slot
+                is_bench = lineup_slot in BENCH_SLOTS
+                status = "bench" if is_bench else "starter"
+                
+                if is_bench:
+                    bench_count += 1
+                else:
+                    starter_count += 1
 
                 acquired_timestamp = player.get("acquisitionDate")
                 acquired_datetime = datetime.fromtimestamp(acquired_timestamp / 1000).isoformat() if acquired_timestamp else None
@@ -73,20 +99,27 @@ def fetch_teams():
                 dropped_datetime = datetime.fromtimestamp(dropped_timestamp / 1000).isoformat() if dropped_timestamp else None
                 dropped_date = dropped_datetime.split("T")[0] if dropped_datetime else None
 
-                team_info["players"].append({
+                player_info = {
                     "espn_id": player_id,
                     "name": player_name,
                     "position": position,
                     "status": status,
+                    "lineup_slot": lineup_slot,
                     "acquiredDate": acquired_date,
                     "acquiredDateTime": acquired_datetime,
                     "droppedDate": dropped_date,
                     "droppedDateTime": dropped_datetime
-                })
+                }
+                
+                team_info["players"].append(player_info)
+                
+                # Detailed debug logging for each player
+                print(f"  → {player_name}: lineup slot {lineup_slot} ({POSITION_MAP.get(lineup_slot, 'Unknown')}) → {status}")
+                
             except Exception as e:
                 print(f"⚠️ Error processing player for {team_name}: {e}")
 
-        print(f"✅ {abbrev} ({team_name}): {len(team_info['players'])} players loaded")
+        print(f"✅ {abbrev} ({team_name}): {starter_count} starters, {bench_count} bench, {len(team_info['players'])} total players loaded")
         teams[abbrev] = team_info
 
     return teams

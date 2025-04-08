@@ -1,0 +1,3344 @@
+{
+  "ALTL": {
+    "team_name": "ALTL",
+    "owner": "{0D64EED8-94DE-4490-A4EE-D894DE749028}",
+    "players": [
+      {
+        "espn_id": 39832,
+        "name": "Shohei Ohtani",
+        "position": "CF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36581,
+        "name": "Framber Valdez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33859,
+        "name": "Rafael Devers",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32691,
+        "name": "Corey Seager",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31662,
+        "name": "Jose Altuve",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4781491,
+        "name": "Yainer Diaz",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 3107919,
+        "name": "Bailey Ober",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33190,
+        "name": "Tyler Glasnow",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4918256,
+        "name": "James Wood",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4298641,
+        "name": "Jordan Westburg",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33837,
+        "name": "Jack Flaherty",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4918156,
+        "name": "Jared Jones",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36488,
+        "name": "Randy Arozarena",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 38904,
+        "name": "Bo Bichette",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34230,
+        "name": "Willi Castro",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4726080,
+        "name": "Spencer Arrighetti",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32655,
+        "name": "Byron Buxton",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34940,
+        "name": "Ryan Mountcastle",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42433,
+        "name": "Nick Lodolo",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36543,
+        "name": "Kyle Finnegan",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33711,
+        "name": "Michael Conforto",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35397,
+        "name": "Jeffrey Springs",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-27",
+        "acquiredDateTime": "2025-03-27T06:47:45.142000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42584,
+        "name": "Drew Rasmussen",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-01",
+        "acquiredDateTime": "2025-04-01T06:53:48.724000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 37909,
+        "name": "Jordan Hicks",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-02",
+        "acquiredDateTime": "2025-04-02T07:12:48.441000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5016968,
+        "name": "Ben Rice",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-04-02",
+        "acquiredDateTime": "2025-04-02T20:42:41.627000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31749,
+        "name": "Luke Jackson",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T23:20:57.069000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "GRIF": {
+    "team_name": "GRIF",
+    "owner": "{9210985D-BA1F-4FC1-9C4A-81BC3EA5AE63}",
+    "players": [
+      {
+        "espn_id": 33192,
+        "name": "Aaron Judge",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34943,
+        "name": "Dylan Cease",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32146,
+        "name": "Marcus Semien",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31097,
+        "name": "Manny Machado",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32685,
+        "name": "Max Fried",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35066,
+        "name": "Josh Naylor",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41773,
+        "name": "Brendan Donovan",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31127,
+        "name": "Salvador Perez",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33912,
+        "name": "Cody Bellinger",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4142424,
+        "name": "Seiya Suzuki",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42359,
+        "name": "Cristopher Sanchez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33072,
+        "name": "Ryan Pressly",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33857,
+        "name": "Matt Chapman",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5116851,
+        "name": "Justin Martinez",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31187,
+        "name": "Nick Castellanos",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42410,
+        "name": "JJ Bleday",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34895,
+        "name": "Dansby Swanson",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33244,
+        "name": "Sean Manaea",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39817,
+        "name": "Ranger Suarez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41172,
+        "name": "Brady Singer",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 30280,
+        "name": "Carlos Santana",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4345404,
+        "name": "Landen Roupp",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4630789,
+        "name": "Orion Kerkering",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41085,
+        "name": "Clarke Schmidt",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31258,
+        "name": "Jameson Taillon",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-28",
+        "acquiredDateTime": "2025-03-28T09:35:07.892000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34542,
+        "name": "Anthony Banda",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-02",
+        "acquiredDateTime": "2025-04-02T09:47:16.689000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34874,
+        "name": "German Marquez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-05",
+        "acquiredDateTime": "2025-04-05T09:41:36.781000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5132011,
+        "name": "Will Warren",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T10:34:27.188000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "CONR": {
+    "team_name": "CONR",
+    "owner": "{878A7B95-376F-4648-8A7B-95376F364842}",
+    "players": [
+      {
+        "espn_id": 42409,
+        "name": "Tarik Skubal",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35983,
+        "name": "Fernando Tatis Jr.",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 30948,
+        "name": "Chris Sale",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41044,
+        "name": "Julio Rodriguez",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 37498,
+        "name": "Pete Alonso",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5134630,
+        "name": "Shota Imanaga",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41433,
+        "name": "Jazz Chisholm Jr.",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32796,
+        "name": "Jacob deGrom",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42402,
+        "name": "CJ Abrams",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39712,
+        "name": "Oneil Cruz",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35135,
+        "name": "Tanner Scott",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 30836,
+        "name": "Mike Trout",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41171,
+        "name": "Jonathan India",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5080633,
+        "name": "Jackson Holliday",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42401,
+        "name": "Jasson Dominguez",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42598,
+        "name": "Shea Langeliers",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42180,
+        "name": "Pete Fairbanks",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4867667,
+        "name": "Matt Shaw",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33770,
+        "name": "Luke Weaver",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4987924,
+        "name": "Cade Smith",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39667,
+        "name": "Jesus Luzardo",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41201,
+        "name": "Kris Bubic",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-30",
+        "acquiredDateTime": "2025-03-30T17:57:07.302000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4917927,
+        "name": "Kyle Manzardo",
+        "position": "CF",
+        "status": "starter",
+        "acquiredDate": "2025-03-31",
+        "acquiredDateTime": "2025-03-31T21:24:29.233000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4414243,
+        "name": "Richard Fitts",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-04",
+        "acquiredDateTime": "2025-04-04T18:37:35.789000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41173,
+        "name": "Matthew Liberatore",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T17:07:08.637000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "WATf": {
+    "team_name": "WATf",
+    "owner": "{4C6D942C-0765-4741-936B-8906D4408AFF}",
+    "players": [
+      {
+        "espn_id": 33039,
+        "name": "Mookie Betts",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32129,
+        "name": "Francisco Lindor",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39572,
+        "name": "Luis Arraez",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33709,
+        "name": "Aaron Nola",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33224,
+        "name": "Devin Williams",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4654313,
+        "name": "Bryce Miller",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31261,
+        "name": "Nolan Arenado",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32532,
+        "name": "Willson Contreras",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31606,
+        "name": "Xander Bogaerts",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4721302,
+        "name": "Brandon Pfaadt",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31668,
+        "name": "Marcell Ozuna",
+        "position": "CF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33696,
+        "name": "Carlos Rodon",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39907,
+        "name": "Tommy Edman",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35537,
+        "name": "Adolis Garcia",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36201,
+        "name": "A.J. Puk",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39636,
+        "name": "MacKenzie Gore",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36480,
+        "name": "Nestor Cortes",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4448736,
+        "name": "Lars Nootbaar",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32623,
+        "name": "Kirby Yates",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4416990,
+        "name": "Colton Cowser",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33341,
+        "name": "Mike Yastrzemski",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35291,
+        "name": "Rhys Hoskins",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 29630,
+        "name": "Kenley Jansen",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33572,
+        "name": "Isiah Kiner-Falefa",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-04-01",
+        "acquiredDateTime": "2025-04-01T14:26:55.236000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41337,
+        "name": "Camilo Doval",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-01",
+        "acquiredDateTime": "2025-04-01T14:28:15.467000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33809,
+        "name": "Edmundo Sosa",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-04-02",
+        "acquiredDateTime": "2025-04-02T21:19:51.941000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32116,
+        "name": "Miles Mikolas",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T12:30:40.259000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "McK": {
+    "team_name": "McK",
+    "owner": "{8A666E5C-6035-4778-8E65-07AD72C38789}",
+    "players": [
+      {
+        "espn_id": 31267,
+        "name": "Zack Wheeler",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39878,
+        "name": "Corbin Burnes",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33748,
+        "name": "Blake Snell",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32767,
+        "name": "Matt Olson",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 38980,
+        "name": "Bryan Reynolds",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32758,
+        "name": "Christian Walker",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41292,
+        "name": "Cal Raleigh",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33675,
+        "name": "Willy Adames",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41273,
+        "name": "Jeremy Pena",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41109,
+        "name": "Jhoan Duran",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4905884,
+        "name": "Maikel Garcia",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4722857,
+        "name": "Spencer Steer",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4142421,
+        "name": "Kodai Senga",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41009,
+        "name": "Tanner Houck",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41829,
+        "name": "Ronel Blanco",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42714,
+        "name": "Kerry Carpenter",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41179,
+        "name": "Brice Turang",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33325,
+        "name": "Chad Green",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4313442,
+        "name": "Garrett Mitchell",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32968,
+        "name": "Merrill Kelly",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33263,
+        "name": "Luis Severino",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32177,
+        "name": "J.T. Realmuto",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41223,
+        "name": "Parker Meadows",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40626,
+        "name": "Luis Gil",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41636,
+        "name": "Matt Vierling",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35042,
+        "name": "Victor Robles",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-27",
+        "acquiredDateTime": "2025-03-27T07:02:53.578000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35020,
+        "name": "Ke'Bryan Hayes",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-27",
+        "acquiredDateTime": "2025-03-27T12:20:30.500000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40700,
+        "name": "Gavin Sheets",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-04-05",
+        "acquiredDateTime": "2025-04-05T11:40:20.342000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "Ben": {
+    "team_name": "Ben",
+    "owner": "{F4E5F64D-602C-42E7-9B09-4BB62C22553E}",
+    "players": [
+      {
+        "espn_id": 36969,
+        "name": "Juan Soto",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41221,
+        "name": "Logan Gilbert",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 30193,
+        "name": "Freddie Freeman",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39671,
+        "name": "Pablo Lopez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41610,
+        "name": "Jarren Duran",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39825,
+        "name": "Freddy Peralta",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4109109,
+        "name": "Vinnie Pasquantino",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39910,
+        "name": "Zac Gallen",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4905859,
+        "name": "Felix Bautista",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4905921,
+        "name": "Junior Caminero",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36364,
+        "name": "Jake Cronenworth",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32653,
+        "name": "Carlos Correa",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34873,
+        "name": "Seth Lugo",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32811,
+        "name": "Jose Berrios",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42462,
+        "name": "Brenton Doyle",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32145,
+        "name": "Jason Adam",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42547,
+        "name": "Anthony Volpe",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39642,
+        "name": "Heliot Ramos",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 28976,
+        "name": "Max Scherzer",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34861,
+        "name": "Carlos Estevez",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31027,
+        "name": "Paul Goldschmidt",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5201569,
+        "name": "Kristian Campbell",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4720856,
+        "name": "Brayan Bello",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42622,
+        "name": "Alex Vesia",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-01",
+        "acquiredDateTime": "2025-04-01T22:26:03.692000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4416591,
+        "name": "Hunter Goodman",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-04-02",
+        "acquiredDateTime": "2025-04-02T08:18:29.749000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4717833,
+        "name": "Pete Crow-Armstrong",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-04-03",
+        "acquiredDateTime": "2025-04-03T22:30:17.925000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39818,
+        "name": "JP Sears",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-04",
+        "acquiredDateTime": "2025-04-04T11:38:49.738000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41355,
+        "name": "Geraldo Perdomo",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T17:43:43.283000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "Kuch": {
+    "team_name": "Kuch",
+    "owner": "{9A595386-026D-4632-BD37-F21E6DEEB9B4}",
+    "players": [
+      {
+        "espn_id": 42403,
+        "name": "Bobby Witt Jr.",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32512,
+        "name": "Ketel Marte",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 30951,
+        "name": "Bryce Harper",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34982,
+        "name": "Austin Riley",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41216,
+        "name": "Logan Webb",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33783,
+        "name": "Ozzie Albies",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41022,
+        "name": "Justin Steele",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4424862,
+        "name": "Spencer Schwellenbach",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4307825,
+        "name": "Spencer Strider",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5134638,
+        "name": "Roki Sasaki",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34923,
+        "name": "Taylor Ward",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42406,
+        "name": "George Kirby",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41180,
+        "name": "Triston Casas",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4719511,
+        "name": "Dylan Crews",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32804,
+        "name": "Zach Eflin",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31174,
+        "name": "Nathan Eovaldi",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36618,
+        "name": "Lucas Erceg",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32558,
+        "name": "Jorge Soler",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4683349,
+        "name": "Austin Wells",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34168,
+        "name": "Tyler O'Neill",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4917925,
+        "name": "Justin Slaten",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4867388,
+        "name": "Ben Joyce",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-18",
+        "acquiredDateTime": "2025-03-18T03:08:42.813000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36063,
+        "name": "Jose Alvarado",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-27",
+        "acquiredDateTime": "2025-03-27T12:37:17.997000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4686066,
+        "name": "Tyler Soderstrom",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-31",
+        "acquiredDateTime": "2025-03-31T01:42:24.847000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5080767,
+        "name": "Roman Anthony",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-31",
+        "acquiredDateTime": "2025-03-31T04:24:19.525000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5165292,
+        "name": "Carson Spiers",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-05",
+        "acquiredDateTime": "2025-04-05T19:53:46.724000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32150,
+        "name": "Trevor Story",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T11:23:52.175000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34995,
+        "name": "Trent Grisham",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T23:06:25.831000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "KBM": {
+    "team_name": "KBM",
+    "owner": "{061FDB07-3B5C-4868-ADC9-A25F5D82B25A}",
+    "players": [
+      {
+        "espn_id": 42507,
+        "name": "Gunnar Henderson",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4719507,
+        "name": "Paul Skenes",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41996,
+        "name": "Steven Kwan",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4872691,
+        "name": "Jackson Merrill",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35124,
+        "name": "Luis Castillo",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4730225,
+        "name": "Mason Miller",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33804,
+        "name": "Gleyber Torres",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4345278,
+        "name": "Tanner Bibee",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4148749,
+        "name": "Robert Suarez",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40926,
+        "name": "Brent Rooker",
+        "position": "CF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42179,
+        "name": "Riley Greene",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33377,
+        "name": "Teoscar Hernandez",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42464,
+        "name": "Gabriel Moreno",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4422899,
+        "name": "Matt McLain",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33722,
+        "name": "Mitch Keller",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36071,
+        "name": "Nick Pivetta",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4417795,
+        "name": "Sal Frelick",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33148,
+        "name": "Chris Bassitt",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32367,
+        "name": "Eugenio Suarez",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4683384,
+        "name": "Colt Keith",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4417606,
+        "name": "Connor Norby",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4905919,
+        "name": "Ezequiel Tovar",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42415,
+        "name": "Michael Busch",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4734319,
+        "name": "Reese Olson",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5080766,
+        "name": "Cam Smith",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-26",
+        "acquiredDateTime": "2025-03-26T13:59:22.587000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41167,
+        "name": "Casey Mize",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-26",
+        "acquiredDateTime": "2025-03-26T14:00:59.542000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4622181,
+        "name": "Jack Leiter",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-26",
+        "acquiredDateTime": "2025-03-26T14:01:56.453000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41917,
+        "name": "Otto Lopez",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-04-01",
+        "acquiredDateTime": "2025-04-01T08:43:55.401000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "STAZ": {
+    "team_name": "STAZ",
+    "owner": "{213A1465-139E-4467-BA14-65139EB467BF}",
+    "players": [
+      {
+        "espn_id": 35002,
+        "name": "Vladimir Guerrero Jr.",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4917694,
+        "name": "Elly De La Cruz",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34886,
+        "name": "Alex Bregman",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4917869,
+        "name": "Jackson Chourio",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4872587,
+        "name": "Yoshinobu Yamamoto",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42450,
+        "name": "Joe Ryan",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42470,
+        "name": "Michael Harris II",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33712,
+        "name": "Kyle Schwarber",
+        "position": "CF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4717803,
+        "name": "Hunter Brown",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4917919,
+        "name": "Lawrence Butler",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4629089,
+        "name": "Bryan Woo",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4683365,
+        "name": "Masyn Winn",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4208281,
+        "name": "Ryan Pepiot",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41199,
+        "name": "Shane McClanahan",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39882,
+        "name": "Jake Burger",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40459,
+        "name": "Luis Garcia Jr.",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4345076,
+        "name": "Gavin Williams",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4872647,
+        "name": "Jackson Jobe",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39639,
+        "name": "Shane Baz",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41889,
+        "name": "Ivan Herrera",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32903,
+        "name": "Chris Martin",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4917854,
+        "name": "Eury Perez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-18",
+        "acquiredDateTime": "2025-03-18T11:20:45.557000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40937,
+        "name": "Dustin May",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-18",
+        "acquiredDateTime": "2025-03-18T14:36:46.280000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5134621,
+        "name": "Jung Hoo Lee",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-19",
+        "acquiredDateTime": "2025-03-19T03:08:13.855000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4345164,
+        "name": "Max Meyer",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-29",
+        "acquiredDateTime": "2025-03-29T15:33:01.098000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32185,
+        "name": "Blake Treinen",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-31",
+        "acquiredDateTime": "2025-03-31T12:31:00.659000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36020,
+        "name": "TJ Friedl",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T10:43:46.527000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42047,
+        "name": "Logan O'Hoppe",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-04-07",
+        "acquiredDateTime": "2025-04-07T00:03:40.425000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "MBT": {
+    "team_name": "MBT",
+    "owner": "{7A461130-25B5-43BB-B981-011713318A3F}",
+    "players": [
+      {
+        "espn_id": 34967,
+        "name": "Kyle Tucker",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4297835,
+        "name": "Garrett Crochet",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42178,
+        "name": "Adley Rutschman",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32760,
+        "name": "Josh Hader",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40429,
+        "name": "Michael King",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4719324,
+        "name": "Wyatt Langford",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39706,
+        "name": "Isaac Paredes",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39635,
+        "name": "Hunter Greene",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34945,
+        "name": "Ian Happ",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32159,
+        "name": "Brandon Nimmo",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33841,
+        "name": "Jeff Hoffman",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41219,
+        "name": "Nico Hoerner",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4734325,
+        "name": "Bowden Francis",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32078,
+        "name": "George Springer",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 34975,
+        "name": "Tyler Stephenson",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33303,
+        "name": "Max Muncy",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41196,
+        "name": "Grayson Rodriguez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42927,
+        "name": "Christopher Morel",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42604,
+        "name": "Griffin Jax",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4228472,
+        "name": "Spencer Horwitz",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33210,
+        "name": "J.P. Crawford",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41587,
+        "name": "Ryan Jeffers",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40963,
+        "name": "Daulton Varsho",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4666100,
+        "name": "Zach Neto",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5012106,
+        "name": "Christian Encarnacion-Strand",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-27",
+        "acquiredDateTime": "2025-03-27T11:17:24.603000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42437,
+        "name": "Josh Jung",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-27",
+        "acquiredDateTime": "2025-03-27T11:18:23.349000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31098,
+        "name": "Martin Perez",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-04",
+        "acquiredDateTime": "2025-04-04T09:42:33.890000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "NNT": {
+    "team_name": "NNT",
+    "owner": "{8D4BCAC7-5F85-473D-8BCA-C75F85573DF5}",
+    "players": [
+      {
+        "espn_id": 32801,
+        "name": "Jose Ramirez",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41054,
+        "name": "Cole Ragans",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41743,
+        "name": "Emmanuel Clase",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35394,
+        "name": "Edwin Diaz",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33710,
+        "name": "Trea Turner",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 38309,
+        "name": "Will Smith",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32082,
+        "name": "Sonny Gray",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41169,
+        "name": "Alec Bohm",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33481,
+        "name": "Yandy Diaz",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 38827,
+        "name": "Keibert Ruiz",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 37729,
+        "name": "Andres Gimenez",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36040,
+        "name": "Lourdes Gurriel Jr.",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4345070,
+        "name": "Alec Burleson",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35578,
+        "name": "Cedric Mullins",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40080,
+        "name": "Trevor Megill",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41197,
+        "name": "Jake McCarthy",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 37515,
+        "name": "Brandon Woodruff",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32640,
+        "name": "Michael Wacha",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39961,
+        "name": "Brandon Lowe",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32175,
+        "name": "Robbie Ray",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 6341,
+        "name": "Justin Verlander",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-18",
+        "acquiredDateTime": "2025-03-18T03:08:42.814000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33840,
+        "name": "Grant Holmes",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-22",
+        "acquiredDateTime": "2025-03-22T10:16:02.833000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4990055,
+        "name": "Wilyer Abreu",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-28",
+        "acquiredDateTime": "2025-03-28T17:16:56.777000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4743772,
+        "name": "Kyle Teel",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-29",
+        "acquiredDateTime": "2025-03-29T11:09:36.994000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5131708,
+        "name": "Chad Patrick",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T09:36:13.152000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42996,
+        "name": "Hayden Wesneski",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T16:50:48.585000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  },
+  "HELP": {
+    "team_name": "HELP",
+    "owner": "{818F4A61-9B7E-4008-9185-630E6581D8BE}",
+    "players": [
+      {
+        "espn_id": 36018,
+        "name": "Yordan Alvarez",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42404,
+        "name": "Corbin Carroll",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39895,
+        "name": "William Contreras",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36084,
+        "name": "Anthony Santander",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 36185,
+        "name": "Ronald Acuna Jr.",
+        "position": "RF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 39909,
+        "name": "Ryan Helsley",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33618,
+        "name": "Raisel Iglesias",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.430000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 5000950,
+        "name": "Ryan Walker",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40939,
+        "name": "Andres Munoz",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 32667,
+        "name": "Kevin Gausman",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 31283,
+        "name": "Christian Yelich",
+        "position": "CI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 35241,
+        "name": "Sandy Alcantara",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42417,
+        "name": "Bryson Stott",
+        "position": "3B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4905920,
+        "name": "Alexis Diaz",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42081,
+        "name": "Alejandro Kirk",
+        "position": "1B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 42480,
+        "name": "Taj Bradley",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40538,
+        "name": "Nathaniel Lowe",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33372,
+        "name": "Nick Martinez",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40635,
+        "name": "Royce Lewis",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 37237,
+        "name": "Luis Rengifo",
+        "position": "SS",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 41326,
+        "name": "Xavier Edwards",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-16",
+        "acquiredDateTime": "2025-03-16T20:51:19.431000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4719300,
+        "name": "Jacob Wilson",
+        "position": "MI",
+        "status": "starter",
+        "acquiredDate": "2025-03-24",
+        "acquiredDateTime": "2025-03-24T10:27:18.070000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4807220,
+        "name": "Victor Scott II",
+        "position": "OF",
+        "status": "starter",
+        "acquiredDate": "2025-03-24",
+        "acquiredDateTime": "2025-03-24T10:31:35.417000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 30442,
+        "name": "Aroldis Chapman",
+        "position": "LF",
+        "status": "starter",
+        "acquiredDate": "2025-03-24",
+        "acquiredDateTime": "2025-03-24T10:34:34.011000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 40973,
+        "name": "Jose Soriano",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-03-26",
+        "acquiredDateTime": "2025-03-26T22:43:00.918000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 4424286,
+        "name": "Spencer Torkelson",
+        "position": "2B",
+        "status": "starter",
+        "acquiredDate": "2025-04-02",
+        "acquiredDateTime": "2025-04-02T09:41:21.742000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 33839,
+        "name": "Kyle Freeland",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T09:31:46.995000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      },
+      {
+        "espn_id": 3332018,
+        "name": "Tylor Megill",
+        "position": "C",
+        "status": "starter",
+        "acquiredDate": "2025-04-06",
+        "acquiredDateTime": "2025-04-06T09:33:21.945000",
+        "droppedDate": null,
+        "droppedDateTime": null
+      }
+    ]
+  }
+}

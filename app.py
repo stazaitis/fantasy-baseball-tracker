@@ -1,31 +1,27 @@
 import os
-import requests
-from dotenv import load_dotenv
-from flask import Flask, jsonify, render_template, redirect
 import json
+import requests
 from datetime import datetime, date
+from flask import Flask, jsonify, render_template, redirect
 from waitress import serve
+from dotenv import load_dotenv
 
-# Initialize Flask app
-app = Flask(__name__)
+# Load environment variables
 load_dotenv()
-
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
-POSITION_MAP = {
-    1: "P", 2: "C", 3: "1B", 4: "2B", 5: "3B", 6: "SS", 7: "LF",
-    8: "CF", 9: "RF", 10: "DH", 11: "RP", 12: "SP"
-}
+app = Flask(__name__)
 
+# Matchup 3 (April 7 – April 13)
+MATCHUP_START = date(2025, 4, 7)
+MATCHUP_END = date(2025, 4, 13)
+
+# Fantasy scoring rules
 SCORING = {
     "H": 0.5, "R": 1, "TB": 1, "RBI": 1, "BB": 1, "SO": -1, "SB": 1,
     "OUTS": 1, "H_ALLOWED": -1, "ER": -2, "BB_ISSUED": -1, "K": 1,
     "QS": 3, "CG": 3, "NH": 7, "PG": 10, "W": 5, "L": -5, "SV": 5, "HD": 3
 }
-
-# Matchup 3 (April 7 – April 13)
-MATCHUP_START = date(2025, 4, 7)
-MATCHUP_END = date(2025, 4, 13)
 
 def get_first_game_start_datetime(game_date):
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={game_date.isoformat()}"
@@ -45,13 +41,12 @@ def get_player_id(player_name):
         res = requests.get(url).json()
         return res.get("people", [{}])[0].get("id")
     except:
-        print(f"❌ Error getting ID for {player_name}")
+        print(f"❌ Could not get ID for {player_name}")
         return None
 
 def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_datetime=None):
     player_id = get_player_id(player_name)
     if not player_id:
-        print(f"⚠️ No ID found for {player_name}")
         return 0
 
     current_year = datetime.now().year
@@ -73,10 +68,16 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
                 if not first_game_start:
                     continue
 
-                if acquired_datetime and acquired_datetime.replace(tzinfo=first_game_start.tzinfo) >= first_game_start:
-                    continue
-                if dropped_datetime and dropped_datetime.replace(tzinfo=first_game_start.tzinfo) <= first_game_start:
-                    continue
+                # Handle acquisition logic
+                if acquired_datetime:
+                    acquired_dt = datetime.fromisoformat(acquired_datetime).replace(tzinfo=first_game_start.tzinfo)
+                    if acquired_dt >= first_game_start:
+                        continue
+
+                if dropped_datetime:
+                    dropped_dt = datetime.fromisoformat(dropped_datetime).replace(tzinfo=first_game_start.tzinfo)
+                    if dropped_dt <= first_game_start:
+                        continue
 
                 stat = game["stat"]
                 pitching = "inningsPitched" in stat
@@ -113,12 +114,11 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
                         stat.get("stolenBases", 0) * SCORING["SB"]
                     )
             except Exception as e:
-                print(f"⚠️ Error processing game for {player_name}: {e}")
+                print(f"⚠️ Error processing {player_name}: {e}")
 
         return round(total_points, 1)
-
     except Exception as e:
-        print(f"❌ Error fetching stats for {player_name}: {e}")
+        print(f"❌ Failed to fetch stats for {player_name}: {e}")
         return 0
 
 @app.route("/")
@@ -129,36 +129,26 @@ def home():
 def fantasy_page():
     return render_template("fantasy.html")
 
-@app.route("/search")
-def search_page():
-    return render_template("search.html")
-
 @app.route("/api/live_points")
 def live_points():
     try:
         with open("teams.json", "r") as f:
-            teams = json.load(f)
+            teams_data = json.load(f)
     except Exception as e:
         return {"error": f"Failed to load teams.json: {str(e)}"}, 500
 
-    result = []
+    results = []
 
-    for team in teams:
-        team_name = team.get("team_name", "Unknown")
+    for team_id, team in teams_data.items():
+        team_name = team.get("team_name", team_id)
         team_points = 0
         player_results = []
 
-        players = team.get("players", [])
-        if not players:
-            print(f"⚠️ No players found for team: {team_name}")
-
-        for player in players:
+        for player in team.get("players", []):
             name = player.get("name")
             acquired = player.get("acquiredDateTime")
             dropped = player.get("droppedDateTime")
             points = get_player_stats_for_range(name, acquired, dropped)
-
-            print(f"📊 {name}: {points} pts")
 
             player_results.append({
                 "name": name,
@@ -166,13 +156,13 @@ def live_points():
             })
             team_points += points
 
-        result.append({
+        results.append({
             "team": team_name,
             "total_points": round(team_points, 1),
             "players": player_results
         })
 
-    return {"live_points": result}, 200
+    return {"live_points": results}, 200
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

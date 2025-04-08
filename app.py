@@ -331,7 +331,7 @@ def teams_api():
     try:
         with open("teams.json", "r") as f:
             teams = json.load(f)
-        return {"teams": teams}, 200
+        return teams, 200  # Just return the teams data directly
     except Exception as e:
         return {"error": f"Failed to load teams.json: {str(e)}"}, 500
 

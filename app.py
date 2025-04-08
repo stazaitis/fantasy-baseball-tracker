@@ -329,10 +329,21 @@ def trigger_update():
 def teams_api():
     """Just return the teams without calculating points"""
     try:
+        print(f"🔍 DEBUG: Attempting to load teams.json from current directory")
+        import os
+        print(f"🔍 DEBUG: Current directory: {os.getcwd()}")
+        print(f"🔍 DEBUG: Directory contents: {os.listdir()}")
+        
         with open("teams.json", "r") as f:
-            teams = json.load(f)
-        return teams, 200  # Just return the teams data directly
+            content = f.read()
+            print(f"🔍 DEBUG: File content length: {len(content)}")
+            teams = json.loads(content)
+            print(f"🔍 DEBUG: Loaded teams count: {len(teams)}")
+        
+        return teams, 200
     except Exception as e:
+        print(f"❌ DEBUG: Error loading teams.json: {str(e)}")
+        print(f"❌ DEBUG: Error details: {traceback.format_exc()}")
         return {"error": f"Failed to load teams.json: {str(e)}"}, 500
 
 @app.route("/api/player_stats/<player_name>")

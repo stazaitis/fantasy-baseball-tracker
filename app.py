@@ -194,63 +194,55 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
 def update_stats_background():
     """Run the stats update in a background thread"""
     global stats_cache
-    
+
     if stats_cache["is_updating"]:
         return "Already updating"
-    
+
     stats_cache["is_updating"] = True
     print("🚀 Starting background stats calculation process...")
-    
+
     def background_task():
         try:
             print("📊 Starting background stats calculation...")
-            
+
             with open("teams.json", "r") as f:
                 teams_data = json.load(f)
-                
+
             print(f"📊 Loaded teams.json with type: {type(teams_data)}")
-            
-            # Check if teams_data is a dictionary with team_id keys or a list of teams
+
+            # ✅ Normalize into list once — no need to do it twice
             if isinstance(teams_data, dict):
                 print(f"📊 teams.json is a dictionary with {len(teams_data)} keys")
                 teams = list(teams_data.values())
             else:
                 print(f"📊 teams.json is a list with {len(teams_data)} items")
                 teams = teams_data
-            
+
             result = []
-            
+
             for team in teams:
                 team_name = team.get("team_name", "Unknown")
                 print(f"📊 Processing team: {team_name}")
                 team_points = 0
                 player_results = []
-                
+
                 players = team.get("players", [])
                 if not players:
                     print(f"⚠️ No players found for team: {team_name}")
                     continue
-                
+
                 print(f"📊 Found {len(players)} players for team: {team_name}")
-                
-                # Process only the first player for testing
-                # Remove this limit for the final version
-                player_limit = 99999  # Set to a high number to process all players
-                
+
                 for idx, player in enumerate(players):
-                    if idx >= player_limit:
-                        break
-                        
                     name = player.get("name")
                     if not name:
                         print(f"⚠️ Player without name found in team {team_name}")
                         continue
-                        
+
                     acquired = player.get("acquiredDateTime")
                     dropped = player.get("droppedDateTime")
-                    
+
                     print(f"📊 Processing player {idx+1}/{len(players)}: {name}")
-                    # Process player stats
                     try:
                         points = get_player_stats_for_range(name, acquired, dropped)
                         print(f"📊 {name}: {points} pts")
@@ -258,49 +250,46 @@ def update_stats_background():
                         print(f"❌ Error processing {name}: {str(e)}")
                         print(f"❌ Error details: {traceback.format_exc()}")
                         points = 0
-                    
+
                     player_results.append({
                         "name": name,
                         "points": points
                     })
                     team_points += points
-                
+
                 result.append({
                     "team": team_name,
                     "total_points": round(team_points, 1),
                     "players": player_results
                 })
-            
-            # Update the cache with new data
+
             stats_cache["data"] = result
             stats_cache["last_updated"] = datetime.now().isoformat()
             print("📊 Stats calculation completed successfully!")
-            
-            # Send Discord notification if webhook is configured
+
             if DISCORD_WEBHOOK_URL:
                 try:
                     teams_sorted = sorted(result, key=lambda x: x["total_points"], reverse=True)
                     message = "📊 **Fantasy Baseball Live Points Update**\n\n"
                     for i, team in enumerate(teams_sorted):
                         message += f"**{i+1}. {team['team']}**: {team['total_points']} pts\n"
-                    
+
                     requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
                     print("📊 Discord notification sent!")
                 except Exception as e:
                     print(f"❌ Discord notification failed: {str(e)}")
-                    
+
         except Exception as e:
             print(f"❌ Background stats update failed: {str(e)}")
             print(f"❌ Error details: {traceback.format_exc()}")
         finally:
             stats_cache["is_updating"] = False
             print("📊 Background process complete, updating status set to false")
-    
-    # Start the background thread
+
     thread = threading.Thread(target=background_task)
     thread.daemon = True
     thread.start()
-    
+
     return "Started stats update"
 
 @app.route("/")
@@ -392,7 +381,7 @@ def test_player_api(player_name):
         print(f"❌ TEST ERROR: {str(e)}")
         print(traceback.format_exc())
         return {"error": f"Test failed: {str(e)}"}, 500
-        
+
 @app.route("/api/debug")
 def debug_info():
     """Return debugging information"""

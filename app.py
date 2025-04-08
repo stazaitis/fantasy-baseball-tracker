@@ -2,6 +2,7 @@ import os
 import json
 import requests
 import threading
+import traceback
 from datetime import datetime, date, timedelta
 from flask import Flask, jsonify, render_template, redirect
 from waitress import serve
@@ -33,28 +34,57 @@ stats_cache = {
 
 def get_first_game_start_datetime(game_date):
     url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={game_date.isoformat()}"
-    res = requests.get(url)
     try:
-        games = res.json().get("dates", [])[0].get("games", [])
-        if not games:
+        res = requests.get(url)
+        data = res.json()
+        dates = data.get("dates", [])
+        if not dates:
+            print(f"No games found for date: {game_date}")
             return None
-        start_times = [datetime.fromisoformat(game["gameDate"].replace("Z", "+00:00")) for game in games]
-        return min(start_times) if start_times else None
-    except:
+            
+        games = dates[0].get("games", [])
+        if not games:
+            print(f"No games found in dates for: {game_date}")
+            return None
+            
+        start_times = []
+        for game in games:
+            if "gameDate" in game:
+                start_times.append(datetime.fromisoformat(game["gameDate"].replace("Z", "+00:00")))
+            
+        if not start_times:
+            print(f"No start times found for games on: {game_date}")
+            return None
+            
+        return min(start_times)
+    except Exception as e:
+        print(f"Error getting game start time for {game_date}: {str(e)}")
         return None
 
 def get_player_id(player_name):
+    print(f"Looking up player ID for: {player_name}")
     url = f"https://statsapi.mlb.com/api/v1/people/search?names={player_name}"
     try:
-        res = requests.get(url).json()
-        return res.get("people", [{}])[0].get("id")
-    except:
-        print(f"❌ Could not get ID for {player_name}")
+        res = requests.get(url)
+        data = res.json()
+        people = data.get("people", [])
+        
+        if not people:
+            print(f"❌ No player found with name: {player_name}")
+            return None
+            
+        player_id = people[0].get("id")
+        print(f"✅ Found player ID {player_id} for {player_name}")
+        return player_id
+    except Exception as e:
+        print(f"❌ Error getting ID for {player_name}: {str(e)}")
         return None
 
 def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_datetime=None):
+    print(f"Getting stats for player: {player_name}")
     player_id = get_player_id(player_name)
     if not player_id:
+        print(f"⚠️ No ID found for {player_name}")
         return 0
 
     current_year = datetime.now().year
@@ -62,18 +92,33 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
     url = f"https://statsapi.mlb.com/api/v1/people/{player_id}/stats?stats=gameLog&group={group}&season={current_year}"
 
     try:
-        res = requests.get(url).json()
-        game_logs = res.get("stats", [{}])[0].get("splits", [])
+        res = requests.get(url)
+        data = res.json()
+        stats = data.get("stats", [])
+        
+        if not stats:
+            print(f"⚠️ No stats found for {player_name}")
+            return 0
+            
+        game_logs = stats[0].get("splits", [])
+        print(f"📊 Found {len(game_logs)} game logs for {player_name}")
+        
         total_points = 0
+        counted_games = 0
 
         for game in game_logs:
             try:
                 game_date = datetime.strptime(game["date"], "%Y-%m-%d").date()
+                
+                # Check if game is in matchup range
                 if not (MATCHUP_START <= game_date <= MATCHUP_END):
+                    print(f"📅 Game on {game_date} for {player_name} is outside matchup range")
                     continue
 
+                print(f"📅 Processing game on {game_date} for {player_name}")
                 first_game_start = get_first_game_start_datetime(game_date)
                 if not first_game_start:
+                    print(f"⚠️ Could not determine first game start time for {game_date}")
                     continue
 
                 # Handle acquisition logic
@@ -81,19 +126,22 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
                     try:
                         acquired_dt = datetime.fromisoformat(acquired_datetime).replace(tzinfo=first_game_start.tzinfo)
                         if acquired_dt >= first_game_start:
+                            print(f"⏱️ Player {player_name} was acquired after game start on {game_date}")
                             continue
-                    except:
-                        print(f"⚠️ Error parsing acquired date for {player_name}")
+                    except Exception as e:
+                        print(f"⚠️ Error parsing acquired date for {player_name}: {str(e)}")
 
                 if dropped_datetime:
                     try:
                         dropped_dt = datetime.fromisoformat(dropped_datetime).replace(tzinfo=first_game_start.tzinfo)
                         if dropped_dt <= first_game_start:
+                            print(f"⏱️ Player {player_name} was dropped before game start on {game_date}")
                             continue
-                    except:
-                        print(f"⚠️ Error parsing dropped date for {player_name}")
+                    except Exception as e:
+                        print(f"⚠️ Error parsing dropped date for {player_name}: {str(e)}")
 
                 stat = game["stat"]
+                game_points = 0
                 pitching = "inningsPitched" in stat
 
                 if pitching:
@@ -101,9 +149,9 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
                     outs = int(ip.split(".")[0]) * 3 + int(ip.split(".")[1]) if "." in ip else int(ip) * 3
                     earned_runs = stat.get("earnedRuns", 0)
                     if outs >= 18 and earned_runs <= 3:
-                        total_points += SCORING["QS"]
+                        game_points += SCORING["QS"]
 
-                    total_points += (
+                    game_points += (
                         outs * SCORING["OUTS"] +
                         stat.get("hits", 0) * SCORING["H_ALLOWED"] +
                         earned_runs * SCORING["ER"] +
@@ -118,7 +166,7 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
                         stat.get("perfectGames", 0) * SCORING["PG"]
                     )
                 else:
-                    total_points += (
+                    game_points += (
                         stat.get("hits", 0) * SCORING["H"] +
                         stat.get("runs", 0) * SCORING["R"] +
                         stat.get("totalBases", 0) * SCORING["TB"] +
@@ -127,12 +175,20 @@ def get_player_stats_for_range(player_name, acquired_datetime=None, dropped_date
                         stat.get("strikeOuts", 0) * SCORING["SO"] +
                         stat.get("stolenBases", 0) * SCORING["SB"]
                     )
+                
+                total_points += game_points
+                counted_games += 1
+                print(f"⚾ {player_name} scored {game_points} points on {game_date}")
+                
             except Exception as e:
-                print(f"⚠️ Error processing {player_name}: {e}")
+                print(f"⚠️ Error processing game for {player_name}: {str(e)}")
 
+        print(f"📊 Total: {player_name} scored {total_points} points in {counted_games} games")
         return round(total_points, 1)
+
     except Exception as e:
-        print(f"❌ Failed to fetch stats for {player_name}: {e}")
+        print(f"❌ Failed to fetch stats for {player_name}: {str(e)}")
+        print(f"❌ Error details: {traceback.format_exc()}")
         return 0
 
 def update_stats_background():
@@ -143,16 +199,30 @@ def update_stats_background():
         return "Already updating"
     
     stats_cache["is_updating"] = True
+    print("🚀 Starting background stats calculation process...")
     
     def background_task():
         try:
+            print("📊 Starting background stats calculation...")
+            
             with open("teams.json", "r") as f:
-                teams = json.load(f)
+                teams_data = json.load(f)
+                
+            print(f"📊 Loaded teams.json with type: {type(teams_data)}")
+            
+            # Check if teams_data is a dictionary with team_id keys or a list of teams
+            if isinstance(teams_data, dict):
+                print(f"📊 teams.json is a dictionary with {len(teams_data)} keys")
+                teams = list(teams_data.values())
+            else:
+                print(f"📊 teams.json is a list with {len(teams_data)} items")
+                teams = teams_data
             
             result = []
             
             for team in teams:
                 team_name = team.get("team_name", "Unknown")
+                print(f"📊 Processing team: {team_name}")
                 team_points = 0
                 player_results = []
                 
@@ -161,17 +231,32 @@ def update_stats_background():
                     print(f"⚠️ No players found for team: {team_name}")
                     continue
                 
-                for player in players:
+                print(f"📊 Found {len(players)} players for team: {team_name}")
+                
+                # Process only the first player for testing
+                # Remove this limit for the final version
+                player_limit = 99999  # Set to a high number to process all players
+                
+                for idx, player in enumerate(players):
+                    if idx >= player_limit:
+                        break
+                        
                     name = player.get("name")
+                    if not name:
+                        print(f"⚠️ Player without name found in team {team_name}")
+                        continue
+                        
                     acquired = player.get("acquiredDateTime")
                     dropped = player.get("droppedDateTime")
                     
+                    print(f"📊 Processing player {idx+1}/{len(players)}: {name}")
                     # Process player stats
                     try:
                         points = get_player_stats_for_range(name, acquired, dropped)
                         print(f"📊 {name}: {points} pts")
                     except Exception as e:
-                        print(f"❌ Error processing {name}: {e}")
+                        print(f"❌ Error processing {name}: {str(e)}")
+                        print(f"❌ Error details: {traceback.format_exc()}")
                         points = 0
                     
                     player_results.append({
@@ -189,6 +274,7 @@ def update_stats_background():
             # Update the cache with new data
             stats_cache["data"] = result
             stats_cache["last_updated"] = datetime.now().isoformat()
+            print("📊 Stats calculation completed successfully!")
             
             # Send Discord notification if webhook is configured
             if DISCORD_WEBHOOK_URL:
@@ -199,13 +285,16 @@ def update_stats_background():
                         message += f"**{i+1}. {team['team']}**: {team['total_points']} pts\n"
                     
                     requests.post(DISCORD_WEBHOOK_URL, json={"content": message})
+                    print("📊 Discord notification sent!")
                 except Exception as e:
-                    print(f"❌ Discord notification failed: {e}")
+                    print(f"❌ Discord notification failed: {str(e)}")
                     
         except Exception as e:
-            print(f"❌ Background stats update failed: {e}")
+            print(f"❌ Background stats update failed: {str(e)}")
+            print(f"❌ Error details: {traceback.format_exc()}")
         finally:
             stats_cache["is_updating"] = False
+            print("📊 Background process complete, updating status set to false")
     
     # Start the background thread
     thread = threading.Thread(target=background_task)
@@ -221,10 +310,6 @@ def home():
 @app.route("/fantasy")
 def fantasy_page():
     return render_template("fantasy.html")
-
-@app.route("/search")
-def search_page():
-    return render_template("search.html")
 
 @app.route("/api/live_points")
 def live_points():
@@ -245,7 +330,7 @@ def live_points():
         "updating": stats_cache["is_updating"]
     }, 200
 
-@app.route("/api/update_stats", methods=["GET"])
+@app.route("/api/update_stats")
 def trigger_update():
     """Manually trigger a stats update"""
     result = update_stats_background()
@@ -276,9 +361,7 @@ def player_stats_api(player_name):
 # Run the app
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    
-    # Start initial stats calculation in background
-    update_stats_background()
+    print(f"🚀 Starting server on port {port}")
     
     # Run the server
     serve(app, host="0.0.0.0", port=port)

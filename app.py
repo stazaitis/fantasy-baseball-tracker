@@ -224,7 +224,8 @@ def update_stats_background():
                 team_name = team.get("team_name", "Unknown")
                 print(f"📊 Processing team: {team_name}")
                 team_points = 0
-                player_results = []
+                starters = []
+                bench = []
 
                 players = team.get("players", [])
                 if not players:
@@ -241,6 +242,7 @@ def update_stats_background():
 
                     acquired = player.get("acquiredDateTime")
                     dropped = player.get("droppedDateTime")
+                    is_bench = player.get("status") == "bench"
 
                     print(f"📊 Processing player {idx+1}/{len(players)}: {name}")
                     try:
@@ -251,16 +253,22 @@ def update_stats_background():
                         print(f"❌ Error details: {traceback.format_exc()}")
                         points = 0
 
-                    player_results.append({
+                    player_info = {
                         "name": name,
                         "points": points
-                    })
-                    team_points += points
+                    }
+
+                    if is_bench:
+                        bench.append(player_info)
+                    else:
+                        starters.append(player_info)
+                        team_points += points
 
                 result.append({
                     "team": team_name,
                     "total_points": round(team_points, 1),
-                    "players": player_results
+                    "starters": starters,
+                    "bench": bench
                 })
 
             stats_cache["data"] = result

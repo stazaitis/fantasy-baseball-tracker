@@ -2,7 +2,7 @@ name: Trigger Daily Roster Sync on Render
 
 on:
   schedule:
-    - cron: "14 16 * * *"
+    - cron: "9 17 * * *"
   workflow_dispatch:  # Allows manual runs from GitHub UI
 
 jobs:
